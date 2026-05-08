@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+
+# Editor / IDE
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Node (in case anything ever installs)
+node_modules/
+
+# Vercel CLI artifacts
+.vercel/
