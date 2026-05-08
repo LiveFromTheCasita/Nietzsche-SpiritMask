@@ -6,6 +6,118 @@
 <title>Reading Nietzsche</title>
 <meta name="description" content="A study guide to the philosophy of Friedrich Nietzsche — themed reading paths across the corpus.">
 <link rel="stylesheet" href="styles.css">
+<style>
+/* ---- Index-only frontispiece treatment ----
+   Friedrich's Wanderer above the Sea of Fog (1818) as visual key,
+   with serif italic typography lifted from the wanderer experiment.
+   Scoped to index.html only; theme/corpus/glossary pages remain on
+   the standard styles.css typography. */
+
+.frontispiece {
+  max-width: 1100px;
+  margin: 0 auto 4rem;
+  text-align: center;
+}
+
+.frontispiece .eyebrow {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 0.95rem;
+  color: var(--fg-faint);
+  letter-spacing: 0.02em;
+  text-transform: none;
+  margin: 0 0 2rem;
+}
+
+.painting {
+  display: block;
+  margin: 0 auto 2.5rem;
+  max-width: 560px;
+  padding: 0;
+}
+.painting img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 82vh;
+  object-fit: contain;
+  /* Subtle ground-shadow to seat the painting in the page */
+  box-shadow:
+    0 1px 2px rgba(28, 36, 50, 0.08),
+    0 18px 40px -12px rgba(28, 36, 50, 0.18);
+}
+.painting figcaption {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 0.85rem;
+  color: var(--fg-faint);
+  margin: 1rem auto 0;
+  letter-spacing: 0.01em;
+  max-width: 480px;
+  line-height: 1.5;
+}
+
+h1.frontispiece-title {
+  font-family: var(--serif);
+  font-weight: 400;
+  font-style: italic;
+  font-size: 2.5rem;
+  letter-spacing: -0.012em;
+  line-height: 1.2;
+  text-align: center;
+  margin: 0 auto 1.6rem;
+  max-width: var(--max);
+  color: var(--fg);
+  text-transform: none;
+}
+
+/* Index-only h2: serif italic, replacing the standard uppercase-sans h2.
+   Scoped via .home-body so it doesn't bleed elsewhere. */
+.home-body h2 {
+  font-family: var(--serif);
+  font-weight: 400;
+  font-style: italic;
+  font-size: 1.45rem;
+  letter-spacing: -0.005em;
+  text-transform: none;
+  color: var(--fg);
+  margin: 3.5rem 0 1.1rem;
+  line-height: 1.25;
+}
+
+/* Index-only blockquote framing: wider, more breathing room. */
+.home-body blockquote {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 1.5rem;
+  line-height: 1.4;
+  color: var(--fg);
+  margin: 3.5rem auto 2.5rem;
+  padding: 0 1.2rem;
+  border-left: 1px solid var(--accent-soft);
+  max-width: 540px;
+}
+.home-body blockquote cite {
+  display: block;
+  font-size: 0.92rem;
+  color: var(--fg-muted);
+  margin-top: 0.8rem;
+  font-style: italic;
+}
+
+.home-body .closing {
+  color: var(--fg-muted);
+  font-size: 0.96rem;
+  line-height: 1.7;
+  font-family: var(--serif);
+}
+
+@media (max-width: 720px) {
+  .painting { max-width: 100%; }
+  h1.frontispiece-title { font-size: 1.95rem; }
+  .home-body blockquote { font-size: 1.25rem; }
+}
+</style>
 </head>
 <body>
 
@@ -19,103 +131,117 @@
   </nav>
 </header>
 
-<main class="wrap hero">
-  <p class="glyph">A study guide</p>
-  <h1>The philosophy of Friedrich Nietzsche, read theme by theme.</h1>
-  <p class="lede">
-    Twenty-five themes drawn from across the corpus — the death of God, the
-    revaluation of values, eternal recurrence, the will to power — each with
-    a sequenced reading path through the books that develop it. The aim is
-    not summary but study: to give you a way in, and a route through.
-  </p>
+<main>
+  <section class="frontispiece">
+    <p class="eyebrow">A study guide</p>
 
-  <hr class="rule">
+    <figure class="painting">
+      <img src="images/wanderer.jpg" alt="Caspar David Friedrich, Wanderer above the Sea of Fog (Der Wanderer über dem Nebelmeer), 1818, oil on canvas. Hamburger Kunsthalle.">
+      <figcaption>
+        Caspar David Friedrich, <em>Wanderer above the Sea of Fog</em>, 1818.
+        Hamburger Kunsthalle.
+      </figcaption>
+    </figure>
 
-  <h2 style="margin-top: 0;">Start here</h2>
-  <p style="color: var(--fg-muted);">
-    If you are coming to Nietzsche fresh and want a shape for your first
-    weeks, this four-theme arc gives you the spine of the late work — the
-    diagnosis, the project, and the personal formula that answers them.
-  </p>
+    <h1 class="frontispiece-title">The philosophy of Friedrich Nietzsche, read theme by theme.</h1>
+  </section>
 
-  <ol class="passage-list" style="margin-top: 1.5rem;">
-    <li>
-      <span class="citation"><a class="title" href="themes/death-of-god.html">The Death of God</a></span>
-      <p class="gloss">The diagnosis. Begin here, with the cultural event whose consequences the rest of the late work tries to draw out.</p>
-    </li>
-    <li>
-      <span class="citation"><a class="title" href="themes/nihilism.html">Nihilism</a></span>
-      <p class="gloss">The threat the diagnosis activates — and the typology that lets us tell varieties of it apart.</p>
-    </li>
-    <li>
-      <span class="citation"><a class="title" href="themes/revaluation.html">The Revaluation of Values</a></span>
-      <p class="gloss">Nietzsche's constructive program: the only honest response, on his view, to what the diagnosis names.</p>
-    </li>
-    <li>
-      <span class="citation"><a class="title" href="themes/amor-fati.html">Amor Fati</a></span>
-      <p class="gloss">The personal counter-formula. To love what is necessary is the disposition that would let one pass beyond nihilism rather than collapsing under it.</p>
-    </li>
-  </ol>
+  <div class="wrap home-body">
+    <p class="lede">
+      Twenty-five themes drawn from across the corpus &mdash; the death of God, the
+      revaluation of values, eternal recurrence, the will to power &mdash; each with
+      a sequenced reading path through the books that develop it. The aim is not
+      summary but study: to give you a way in, and a route through.
+    </p>
 
-  <p style="color: var(--fg-muted); font-size: 0.92rem;">
-    From there, follow the cross-references each theme gives you, or
-    pick a thread of your own from the <a href="themes.html">themes index</a>.
-  </p>
+    <hr class="rule">
 
-  <hr class="rule">
+    <h2>Start here</h2>
+    <p style="color: var(--fg-muted);">
+      If you are coming to Nietzsche fresh and want a shape for your first
+      weeks, this four-theme arc gives you the spine of the late work &mdash; the
+      diagnosis, the project, and the personal formula that answers them.
+    </p>
 
-  <h2 style="margin-top: 0;">Other entrances</h2>
+    <ol class="passage-list">
+      <li>
+        <span class="citation"><a class="title" href="themes/death-of-god.html">The Death of God</a></span>
+        <p class="gloss">The diagnosis. Begin here, with the cultural event whose consequences the rest of the late work tries to draw out.</p>
+      </li>
+      <li>
+        <span class="citation"><a class="title" href="themes/nihilism.html">Nihilism</a></span>
+        <p class="gloss">The threat the diagnosis activates &mdash; and the typology that lets us tell varieties of it apart.</p>
+      </li>
+      <li>
+        <span class="citation"><a class="title" href="themes/revaluation.html">The Revaluation of Values</a></span>
+        <p class="gloss">Nietzsche's constructive program: the only honest response, on his view, to what the diagnosis names.</p>
+      </li>
+      <li>
+        <span class="citation"><a class="title" href="themes/amor-fati.html">Amor Fati</a></span>
+        <p class="gloss">The personal counter-formula. To love what is necessary is the disposition that would let one pass beyond nihilism rather than collapsing under it.</p>
+      </li>
+    </ol>
 
-  <ul class="entrances">
-    <li>
-      <div>
-        <a href="themes.html">All twenty-five themes</a>
-        <p class="gloss">Clustered and filterable — by theme, by period, alphabetically.</p>
-      </div>
-      <span class="arrow">→</span>
-    </li>
-    <li>
-      <div>
-        <a href="corpus.html">The corpus, book by book</a>
-        <p class="gloss">From <em>The Birth of Tragedy</em> through <em>Ecce Homo</em>, with every theme that draws on each.</p>
-      </div>
-      <span class="arrow">→</span>
-    </li>
-    <li>
-      <div>
-        <a href="glossary.html">Glossary of terms</a>
-        <p class="gloss">Brief glosses on the recurring vocabulary — ressentiment, Übermensch, amor fati, will to power.</p>
-      </div>
-      <span class="arrow">→</span>
-    </li>
-    <li>
-      <div>
-        <a href="about.html">About this guide</a>
-        <p class="gloss">Interpretive stance, what is in and out of scope, how the reading paths are built.</p>
-      </div>
-      <span class="arrow">→</span>
-    </li>
-  </ul>
+    <p style="color: var(--fg-muted); font-size: 0.92rem;">
+      From there, follow the cross-references each theme gives you, or
+      pick a thread of your own from the <a href="themes.html">themes index</a>.
+    </p>
 
-  <hr class="rule">
+    <hr class="rule">
 
-  <blockquote>
-    How one becomes what one is.
-    <cite>The subtitle of <em>Ecce Homo</em>, after Pindar's <em>Pythian</em> 2.72</cite>
-  </blockquote>
+    <h2>Other entrances</h2>
 
-  <p style="color: var(--fg-muted); font-size: 0.95rem;">
-    Nietzsche is a philosopher you read with care or not at all. He writes in
-    aphorisms; he contradicts himself; he changes his mind across periods and
-    expects you to notice. A reading path matters because the order in which
-    you encounter the passages is part of the argument. This site gives you
-    paths — short, deliberate sequences, with brief notes on why each one
-    runs the way it does.
-  </p>
+    <ul class="entrances">
+      <li>
+        <div>
+          <a href="themes.html">All twenty-five themes</a>
+          <p class="gloss">Clustered and filterable &mdash; by theme, by period, alphabetically.</p>
+        </div>
+        <span class="arrow">&rarr;</span>
+      </li>
+      <li>
+        <div>
+          <a href="corpus.html">The corpus, book by book</a>
+          <p class="gloss">From <em>The Birth of Tragedy</em> through <em>Ecce Homo</em>, with every theme that draws on each.</p>
+        </div>
+        <span class="arrow">&rarr;</span>
+      </li>
+      <li>
+        <div>
+          <a href="glossary.html">Glossary of terms</a>
+          <p class="gloss">Brief glosses on the recurring vocabulary &mdash; ressentiment, &Uuml;bermensch, amor fati, will to power.</p>
+        </div>
+        <span class="arrow">&rarr;</span>
+      </li>
+      <li>
+        <div>
+          <a href="about.html">About this guide</a>
+          <p class="gloss">Interpretive stance, what is in and out of scope, how the reading paths are built.</p>
+        </div>
+        <span class="arrow">&rarr;</span>
+      </li>
+    </ul>
+
+    <hr class="rule">
+
+    <blockquote>
+      How one becomes what one is.
+      <cite>The subtitle of <em>Ecce Homo</em>, after Pindar's <em>Pythian</em> 2.72</cite>
+    </blockquote>
+
+    <p class="closing">
+      Nietzsche is a philosopher you read with care or not at all. He writes in
+      aphorisms; he contradicts himself; he changes his mind across periods and
+      expects you to notice. A reading path matters because the order in which
+      you encounter the passages is part of the argument. This site gives you
+      paths &mdash; short, deliberate sequences, with brief notes on why each one
+      runs the way it does.
+    </p>
+  </div>
 </main>
 
 <footer class="site-foot">
-  <span><em>Reading Nietzsche</em> · a study framework</span>
+  <span><em>Reading Nietzsche</em> &middot; a study framework</span>
   <span>Citations by book and section number</span>
 </footer>
 
