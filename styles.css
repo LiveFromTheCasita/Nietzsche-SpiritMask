@@ -793,3 +793,7 @@ details p:first-of-type { margin-top: 1rem; }
   a { color: black; }
   .wrap, .wrap-wide { max-width: none; }
 }
+
+/* Source text is distinguished from the compilation's editorial framing. */
+.submission-excerpt { font-style: normal; margin: 1rem 0 2rem; }
+.submission .submission-source { font-family: var(--sans); font-size: .9rem; color: var(--fg-muted); }
