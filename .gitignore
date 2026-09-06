@@ -12,3 +12,7 @@ node_modules/
 
 # Vercel CLI artifacts
 .vercel/
+
+# Python index-builder cache
+__pycache__/
+*.pyc
