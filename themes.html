@@ -13,25 +13,43 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="canonical" href="https://thespiritmask.com/themes.html">
-<title>Themes — Reading Nietzsche</title>
+<title>Twenty-five threads through the corpus. | Reading Nietzsche</title>
 <link rel="stylesheet" href="styles.css">
+<meta name="description" content="Explore 25 themes in Nietzsche’s philosophy. Browse by topic, period, or name, and follow reading paths through his major works.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Twenty-five threads through the corpus. | Reading Nietzsche">
+<meta name="twitter:description" content="Explore 25 themes in Nietzsche’s philosophy. Browse by topic, period, or name, and follow reading paths through his major works.">
+<meta name="twitter:image" content="https://thespiritmask.com/images/wanderer.jpg">
+<meta name="twitter:image:alt" content="Wanderer above the Sea of Fog by Caspar David Friedrich, 1818.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Reading Nietzsche">
+<meta property="og:title" content="Twenty-five threads through the corpus. | Reading Nietzsche">
+<meta property="og:description" content="Explore 25 themes in Nietzsche’s philosophy. Browse by topic, period, or name, and follow reading paths through his major works.">
+<meta property="og:url" content="https://thespiritmask.com/themes.html">
+<meta property="og:image" content="https://thespiritmask.com/images/wanderer.jpg">
+<meta property="og:image:width" content="1600">
+<meta property="og:image:height" content="2052">
+<meta property="og:image:alt" content="Wanderer above the Sea of Fog by Caspar David Friedrich, 1818.">
+<meta property="og:locale" content="en_US">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "Twenty-five threads through the corpus. | Reading Nietzsche", "description": "Explore 25 themes in Nietzsche’s philosophy. Browse by topic, period, or name, and follow reading paths through his major works.", "url": "https://thespiritmask.com/themes.html", "inLanguage": "en", "isPartOf": {"@type": "WebSite", "name": "Reading Nietzsche", "url": "https://thespiritmask.com/"}}</script>
+<script src="site.js" defer></script>
 </head>
 <body>
 
-<header class="site-head">
-  <a class="site-title" href="index.html">Reading Nietzsche</a>
-  <nav class="site-nav">
-    <a href="themes.html" class="is-current">Themes</a>
+<a class="skip-link" href="#main">Skip to content</a><header class="site-head">
+  <a class="site-title" href="./">Reading Nietzsche</a>
+  <nav class="site-nav" aria-label="Main navigation">
+    <a href="themes.html" class="is-current" aria-current="page">Themes</a>
     <a href="corpus.html">Corpus</a>
     <a href="glossary.html">Glossary</a>
     <a href="about.html">About</a>
-  </nav>
+  <a href="search.html">Search</a></nav>
 </header>
 
-<main class="wrap-wide">
+<main class="wrap-wide" id="main" tabindex="-1">
   <p class="eyebrow">The Themes</p>
   <h1 class="serif">Twenty-five threads through the corpus.</h1>
-  <p class="dek">
+  <p><a href="start.html">New to Nietzsche? Start with a guided session.</a> <a href="search.html">Search themes and terms.</a></p><p class="dek">
     Each theme has a framing question, a short reading path of three to six
     canonical passages, and links to the themes that bear on it most.
     Clusters group themes that share a problem — the diagnosis of nihilism,
@@ -40,14 +58,14 @@
 
   <div class="filter-bar">
     <span class="label">View</span>
-    <button data-view="cluster" class="is-active">By cluster</button>
-    <button data-view="period">By period</button>
-    <button data-view="alpha">A–Z</button>
+    <button data-view="cluster" class="is-active" type="button" aria-pressed="true" aria-controls="view-cluster">By cluster</button>
+    <button data-view="period" type="button" aria-pressed="false" aria-controls="view-period">By period</button>
+    <button data-view="alpha" type="button" aria-pressed="false" aria-controls="view-alpha">A–Z</button>
   </div>
 
   <!-- ============== BY CLUSTER ============== -->
 
-  <div data-pane="cluster">
+  <div data-pane="cluster" id="view-cluster">
 
     <section class="cluster">
       <h2>Diagnosis</h2>
@@ -270,7 +288,7 @@
 
   <!-- ============== BY PERIOD ============== -->
 
-  <div data-pane="period" hidden>
+  <div data-pane="period" hidden id="view-period">
     <section class="cluster">
       <h2>Early — 1872 to 1876</h2>
       <p class="cluster-note"><em>The Birth of Tragedy</em>; the <em>Untimely Meditations</em>. Schopenhauerian metaphysics, Wagner, the Greeks.</p>
@@ -320,7 +338,7 @@
 
   <!-- ============== ALPHABETICAL ============== -->
 
-  <div data-pane="alpha" hidden>
+  <div data-pane="alpha" hidden id="view-alpha">
     <ul class="theme-index" id="alpha-list">
       <li><div><a href="themes/amor-fati.html">Amor Fati</a><span class="gloss">The highest formula of affirmation.</span></div></li>
       <li><div><a href="themes/aphorism-and-style.html">Aphorism, Style, and Philosophical Form</a><span class="gloss">Why he writes the way he does.</span></div></li>
@@ -354,21 +372,8 @@
 
 <footer class="site-foot">
   <span><em>Reading Nietzsche</em> · twenty-five themes</span>
-  <span><a href="index.html">Home</a></span>
-</footer>
-
-<script>
-  const buttons = document.querySelectorAll('.filter-bar button');
-  const panes = document.querySelectorAll('[data-pane]');
-  buttons.forEach(btn => {
-    btn.addEventListener('click', () => {
-      buttons.forEach(b => b.classList.remove('is-active'));
-      btn.classList.add('is-active');
-      const view = btn.dataset.view;
-      panes.forEach(p => p.hidden = (p.dataset.pane !== view));
-    });
-  });
-</script>
+  <span><a href="./">Home</a></span>
+<span><a href="sources.html">Texts &amp; translations</a> · <a href="privacy.html">Privacy</a></span></footer>
 
 </body>
 </html>
