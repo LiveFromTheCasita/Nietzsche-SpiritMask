@@ -804,6 +804,25 @@ details p:first-of-type { margin-top: 1rem; }
 /* Book guides keep the reading column centered, with navigation beside it. */
 .book-guide { max-width: var(--max); margin: 0 auto; }
 .book-guide-header, .book-guide-content { min-width: 0; }
+.book-guide-header .meta-row { margin-bottom: 1.25rem; letter-spacing: .06em; }
+.book-shortcut { font-size: .9rem; margin-top: -.4rem; }
+.book-shortcut a { display: inline-block; min-height: 44px; padding: .45rem 0; }
+.book-reading-list > li::before { content: attr(data-reading-number); font-size: .85rem; }
+.book-reading-list .citation { font-size: 1.12rem; line-height: 1.4; }
+.book-reading-list .citation a { display: inline-block; padding: .25rem 0; }
+.book-reading-list .gloss + .gloss { margin-top: .4rem; }
+.reading-status { display: block; font-size: .82rem; font-weight: 600; color: var(--accent); margin-bottom: .2rem; }
+.book-coming-next, .book-editions { padding: .35rem 1rem; margin: 1.25rem 0 2rem; }
+.book-coming-next summary, .book-editions summary { min-height: 44px; padding: .65rem 0; }
+.book-coming-next .book-reading-list { margin-top: 1rem; margin-bottom: .5rem; }
+.book-coming-next .citation { font-size: 1rem; }
+.book-coming-next .citation strong { font-weight: 500; }
+.book-editions p { font-size: .94rem; }
+.book-reference-index { margin: 1.2rem 0 2rem; border-block: 1px solid var(--bg-rule); padding: .6rem 0; }
+.book-reference-index ul { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 1.5rem; }
+.book-reference-index a { display: block; padding: .65rem 0; min-height: 44px; font-size: .9rem; line-height: 1.5; }
+.book-editorial-note { border-top: 1px solid var(--bg-rule); margin-top: 2.5rem; padding-top: 1rem; font-size: .85rem; color: var(--fg-muted); }
+.book-guide { overflow-wrap: anywhere; }
 .book-contents { margin: 1.5rem 0 2.5rem; font-size: .9rem; }
 .book-contents-menu { margin: 0; padding: .7rem 0; border-inline: 0; }
 .book-contents-menu summary { min-height: 44px; padding: .5rem 0; }
@@ -830,6 +849,12 @@ details p:first-of-type { margin-top: 1rem; }
 .book-references .corpus-bullets { margin-bottom: .5rem; }
 .book-passage-link { display: block; width: fit-content; max-width: 100%; padding: .65rem 0 .2rem; min-height: 44px; font-size: .88rem; }
 .book-guide [id] { scroll-margin-top: 1.5rem; }
+@media (max-width: 640px) {
+  .book-reference-index ul { grid-template-columns: 1fr; }
+  .book-guide-header .primary-link { max-width: 100%; text-align: center; }
+  .book-coming-next, .book-editions { padding-inline: .75rem; }
+  .book-reading-list > li { padding-left: 2rem; }
+}
 @media (min-width: 1200px) {
   .book-guide {
     max-width: 1100px;
@@ -859,4 +884,6 @@ details p:first-of-type { margin-top: 1rem; }
   .book-guide { display: block; max-width: none; }
   .book-contents { display: none; }
   .book-references { border-inline: 0; padding-inline: 0; }
+  .book-reference-index, .book-shortcut { display: none; }
+  .book-coming-next, .book-editions { border-inline: 0; padding-inline: 0; }
 }
