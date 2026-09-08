@@ -763,21 +763,8 @@ main a:not(.primary-link) { text-decoration: underline; text-underline-offset: .
 .page-contents ul { display: flex; flex-wrap: wrap; gap: .4rem 1.2rem; list-style: none; margin: 0; padding: 0; }
 .reading-help, .edition-link, .progress-note { font-size: .88rem; color: var(--fg-muted); }
 
-/* Assigned primary passages stay in the reading column and use native links. */
-.reading-primary { margin-block: 2.5rem; padding-block: 1rem; border-block: 1px solid var(--bg-rule); }
-.reading-primary-section + .reading-primary-section { margin-top: 2.5rem; padding-top: 1rem; border-top: 1px solid var(--bg-rule); }
-.primary-passage { font-family: var(--serif); font-size: 1.06rem; line-height: 1.8; overflow-wrap: break-word; }
-.primary-passage blockquote { font-size: inherit; font-style: normal; margin-block: 1.5rem; }
-.primary-passage .primary-verse { margin-left: 1rem; }
-.primary-passage .fnanchor { font-size: .75em; vertical-align: super; }
-.primary-return { font-family: var(--sans); font-size: .85rem; line-height: 1.65; color: var(--fg-muted); }
-.primary-return a { display: inline-block; padding-block: .4rem; }
-.primary-sections ul { display: flex; flex-wrap: wrap; gap: .25rem 1.2rem; padding: 0; list-style: none; }
-.primary-sections a { display: inline-block; padding-block: .6rem; }
-.primary-notes { margin-block: 1.5rem; padding-top: .5rem; border-top: 1px solid var(--bg-rule); font-size: .9rem; }
-.primary-footnote p { margin-block: .6rem; }
-.reading-primary [id], [id^="commentary-"] { scroll-margin-top: 1.5rem; }
-.primary-passage [id]:target, [id^="commentary-"]:target { background: rgba(110, 125, 144, .12); }
+[id^="commentary-"] { scroll-margin-top: 1.5rem; }
+[id^="commentary-"]:target { background: rgba(110, 125, 144, .12); }
 .reading-comparison { width: 100%; table-layout: fixed; border-collapse: collapse; margin: 1.5rem 0; }
 .reading-comparison th, .reading-comparison td { padding: .75rem .65rem; border: 1px solid var(--bg-rule); text-align: left; vertical-align: top; overflow-wrap: anywhere; }
 .reading-comparison th { font-weight: 600; }

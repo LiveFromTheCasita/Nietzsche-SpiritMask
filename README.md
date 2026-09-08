@@ -17,6 +17,8 @@ Commit the regenerated `search-index.json` and `sitemap.xml` with the content. T
 
 ## Reading features
 
+- Guided lessons are companions to the preferred edition. Give precise reading assignments and unobtrusive links to free alternatives; retain short quotations used in analysis, but do not reproduce complete assigned passages on lesson pages. Preserve each book’s existing translation recommendation.
+
 - Primary-text links identify an online edition and translator. Some open at a nearby page or chapter; the assignment provides the exact section to locate with contents or Find.
 - Reading checkboxes store only completed step numbers in local storage, separately for each theme. Progress is device-local; changing the order of a theme's primary reading path requires considering existing saved step numbers.
 - Search downloads a static index and matches locally. Search text is not sent in the custom analytics events.
