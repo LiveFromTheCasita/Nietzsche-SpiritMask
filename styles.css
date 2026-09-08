@@ -762,6 +762,9 @@ main a:not(.primary-link) { text-decoration: underline; text-underline-offset: .
 .page-contents p { font-weight: 600; margin: 0 0 .5rem; }
 .page-contents ul { display: flex; flex-wrap: wrap; gap: .4rem 1.2rem; list-style: none; margin: 0; padding: 0; }
 .reading-help, .edition-link, .progress-note { font-size: .88rem; color: var(--fg-muted); }
+.reading-comparison { width: 100%; table-layout: fixed; border-collapse: collapse; margin: 1.5rem 0; }
+.reading-comparison th, .reading-comparison td { padding: .75rem .65rem; border: 1px solid var(--bg-rule); text-align: left; vertical-align: top; overflow-wrap: anywhere; }
+.reading-comparison th { font-weight: 600; }
 .edition-link { margin: .65rem 0 0; }
 .reading-check { display: flex; align-items: center; gap: .5rem; min-height: 44px; font-size: .9rem; cursor: pointer; margin-top: .4rem; }
 input[type="checkbox"] { width: 20px; height: 20px; accent-color: var(--accent); }
