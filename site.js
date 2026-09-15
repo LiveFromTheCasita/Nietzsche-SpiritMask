@@ -23,8 +23,18 @@
     let saved = [];
     let storageWorks = true;
     try {
-      const value = JSON.parse(localStorage.getItem(key) || '[]');
-      saved = Array.isArray(value) ? value.filter(x => typeof x === 'string') : [];
+      const stored = localStorage.getItem(key);
+      if (stored === null && path.dataset.previousReadingPath) {
+        const previousKey = 'reading-nietzsche:' + path.dataset.previousReadingPath;
+        const value = JSON.parse(localStorage.getItem(previousKey) || '[]');
+        const previous = Array.isArray(value) ? value.filter(x => typeof x === 'string') : [];
+        saved = steps.filter(step => previous.includes(step.dataset.previousReadingStep))
+          .map(step => step.dataset.readingStep);
+        localStorage.setItem(key, JSON.stringify(saved));
+      } else {
+        const value = JSON.parse(stored || '[]');
+        saved = Array.isArray(value) ? value.filter(x => typeof x === 'string') : [];
+      }
     } catch { storageWorks = false; }
     const panel = document.createElement('div');
     panel.className = 'reading-progress';

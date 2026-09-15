@@ -892,37 +892,37 @@ details p:first-of-type { margin-top: 1rem; }
 }
 
 
-/* Master/slave theme: a short route followed by an optional work survey. */
-.morality-guide .reading-entry { border: 1px solid var(--bg-rule); padding: 1rem 1.2rem; margin: 1.5rem 0 2rem; }
-.morality-guide .reading-entry p:first-child { margin-top: 0; }
-.morality-guide .reading-entry p:last-child { margin-bottom: 0; }
-.morality-guide .passage-role { font-size: .83rem; color: var(--accent); font-weight: 600; margin: 0 0 .3rem; }
-.morality-guide .passage-heading { font-family: var(--serif); font-size: 1.12rem; color: var(--fg); margin: .2rem 0 .55rem; }
-.morality-guide .passage-question, .morality-guide .read-alongside { font-size: .94rem; margin: .5rem 0; }
-.morality-guide .reading-options { font-size: .85rem; line-height: 1.7; margin: .75rem 0 0; }
-.morality-guide .title-variant { font-size: .85rem; color: var(--fg-muted); margin: .2rem 0 .65rem; }
-.morality-guide .reading-options a, .morality-guide .read-alongside a { text-decoration: underline; text-underline-offset: .18em; }
-.morality-guide .concept-distinctions { margin: 1.3rem 0 2rem; }
-.morality-guide .concept-distinctions dt { font-weight: 600; margin-top: 1rem; }
-.morality-guide .concept-distinctions dd { margin: .2rem 0 0; color: var(--fg-muted); }
-.morality-guide .work-survey { border-top: 1px solid var(--bg-rule); margin: 0; }
-.morality-guide .work-survey:last-of-type { border-bottom: 1px solid var(--bg-rule); }
-.morality-guide .work-survey summary { padding: 1rem .2rem; cursor: pointer; font-family: var(--serif); font-size: 1.18rem; }
-.morality-guide .survey-role { display: block; font-family: var(--sans); font-size: .83rem; color: var(--fg-muted); padding-left: 1.2rem; margin-top: .2rem; }
-.morality-guide .corpus-bullets .citation { display: block; font-family: var(--serif); font-size: 1rem; }
-.morality-guide .corpus-bullets li { padding: 1.15rem 0; }
-.morality-guide .corpus-bullets .gloss { margin: .5rem 0; }
-.morality-guide .survey-return { font-size: .85rem; margin-bottom: 1.5rem; }
-.morality-guide .discussion-question { border-left: 3px solid var(--accent-soft); }
+/* Theme guides: a short route followed by an optional work survey. */
+:is(.morality-guide, .theme-guide) .reading-entry { border: 1px solid var(--bg-rule); padding: 1rem 1.2rem; margin: 1.5rem 0 2rem; }
+:is(.morality-guide, .theme-guide) .reading-entry p:first-child { margin-top: 0; }
+:is(.morality-guide, .theme-guide) .reading-entry p:last-child { margin-bottom: 0; }
+:is(.morality-guide, .theme-guide) .passage-role { font-size: .83rem; color: var(--accent); font-weight: 600; margin: 0 0 .3rem; }
+:is(.morality-guide, .theme-guide) .passage-heading { font-family: var(--serif); font-size: 1.12rem; color: var(--fg); margin: .2rem 0 .55rem; }
+:is(.morality-guide, .theme-guide) .passage-question, :is(.morality-guide, .theme-guide) .read-alongside { font-size: .94rem; margin: .5rem 0; }
+:is(.morality-guide, .theme-guide) .reading-options { font-size: .85rem; line-height: 1.7; margin: .75rem 0 0; }
+:is(.morality-guide, .theme-guide) .title-variant { font-size: .85rem; color: var(--fg-muted); margin: .2rem 0 .65rem; }
+:is(.morality-guide, .theme-guide) .reading-options a, :is(.morality-guide, .theme-guide) .read-alongside a { text-decoration: underline; text-underline-offset: .18em; }
+:is(.morality-guide, .theme-guide) .concept-distinctions { margin: 1.3rem 0 2rem; }
+:is(.morality-guide, .theme-guide) .concept-distinctions dt { font-weight: 600; margin-top: 1rem; }
+:is(.morality-guide, .theme-guide) .concept-distinctions dd { margin: .2rem 0 0; color: var(--fg-muted); }
+:is(.morality-guide, .theme-guide) .work-survey { border-top: 1px solid var(--bg-rule); margin: 0; }
+:is(.morality-guide, .theme-guide) .work-survey:last-of-type { border-bottom: 1px solid var(--bg-rule); }
+:is(.morality-guide, .theme-guide) .work-survey summary { padding: 1rem .2rem; cursor: pointer; font-family: var(--serif); font-size: 1.18rem; }
+:is(.morality-guide, .theme-guide) .survey-role { display: block; font-family: var(--sans); font-size: .83rem; color: var(--fg-muted); padding-left: 1.2rem; margin-top: .2rem; }
+:is(.morality-guide, .theme-guide) .corpus-bullets .citation { display: block; font-family: var(--serif); font-size: 1rem; }
+:is(.morality-guide, .theme-guide) .corpus-bullets li { padding: 1.15rem 0; }
+:is(.morality-guide, .theme-guide) .corpus-bullets .gloss { margin: .5rem 0; }
+:is(.morality-guide, .theme-guide) .survey-return { font-size: .85rem; margin-bottom: 1.5rem; }
+:is(.morality-guide, .theme-guide) .discussion-question { border-left: 3px solid var(--accent-soft); }
 .reading-note { border: 1px solid var(--bg-rule); padding: 1rem 1.2rem; margin: 1.5rem 0 2.5rem; }
 .reading-note summary { cursor: pointer; font-weight: 600; }
 .reading-note p { font-size: .95rem; }
-.morality-guide [id], .reading-note[id] { scroll-margin-top: 1rem; }
-.morality-guide a, .reading-note { overflow-wrap: anywhere; }
+:is(.morality-guide, .theme-guide) [id], .reading-note[id] { scroll-margin-top: 1rem; }
+:is(.morality-guide, .theme-guide) a, .reading-note { overflow-wrap: anywhere; }
 @media (max-width: 520px) {
-  .morality-guide .reading-entry, .reading-note { padding: .85rem; }
-  .morality-guide .passage-list > li { padding-left: 2rem; }
+  :is(.morality-guide, .theme-guide) .reading-entry, .reading-note { padding: .85rem; }
+  :is(.morality-guide, .theme-guide) .passage-list > li { padding-left: 2rem; }
 }
 @media print {
-  .morality-guide .work-survey::details-content { content-visibility: visible; }
+  :is(.morality-guide, .theme-guide) .work-survey::details-content { content-visibility: visible; }
 }

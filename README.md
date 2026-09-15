@@ -21,6 +21,8 @@ Commit the regenerated `search-index.json` and `sitemap.xml` with the content. T
 
 - Primary-text links identify an online edition and translator. Some open at a nearby page or chapter; the assignment provides the exact section to locate with contents or Find.
 - Reading checkboxes store only completed step numbers in local storage, separately for each theme. Progress is device-local; changing the order of a theme's primary reading path requires considering existing saved step numbers.
+- Revised routes can opt into progress migration with `data-previous-reading-path` on the reading list and `data-previous-reading-step` on matching assignments. Only map a completed old assignment when it covers the entire new reading. Existing progress for the new route takes precedence, and the old saved route is retained.
+- Theme guides can use the shared `theme-guide` layout: a short first encounter, a fuller route, key distinctions, expandable work surveys, and separately framed notebook readings. Give each assignment a question, an explanation of its relevance, and precise companion references; distinguish complications and extensions from the starting route.
 - Search downloads a static index and matches locally. Search text is not sent in the custom analytics events.
 - Theme filters expose their selection with `aria-pressed`; contents and edition links work without JavaScript.
 
