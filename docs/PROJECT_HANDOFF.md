@@ -13,7 +13,7 @@ This file is the canonical project-state handoff for any human or AI contributor
 - Search/sitemap generation: `python3 scripts/build-index.py`
 - JS syntax check: `node --check site.js`
 - Generated artifacts that must be committed when content changes: `search-index.json` and `sitemap.xml`
-- Current handoff baseline: main at commit `428113609a793a156c1e750c04979ed67469c43b` (Revaluation of Values guided-format merge)
+- Content baseline used to create this handoff: `main` at commit `428113609a793a156c1e750c04979ed67469c43b` (Revaluation of Values guided-format merge)
 
 ## Current content architecture
 The repository currently contains:
@@ -44,6 +44,8 @@ When uncertain about structure or editorial depth, treat these as primary refere
 - `themes/revaluation.html`
 
 These pages establish the current shared guided-theme format: framing, first encounter, fuller route, key distinctions, work-by-work survey, notebook material where relevant, related essays, and cross-theme connections.
+
+For themes with substantial `The Will to Power` notebook material, the recent canonical pages also establish a separate short notebook entry route: a seven-entry starting route before the fuller notebook survey. Preserve that pattern when it genuinely fits the material rather than inventing a seven-item quota for themes that do not need a notebook guide.
 
 ## Canonical book-guide exemplars
 Use these as references for book-guide/course architecture:
