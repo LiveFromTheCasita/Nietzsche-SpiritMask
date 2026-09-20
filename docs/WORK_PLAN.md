@@ -8,13 +8,14 @@ Status values: READY / IN PROGRESS / BLOCKED / REVIEW / COMPLETE.
 ## Phase 0 — Protect the baseline
 
 ### WP-00 — Canonical handoff package
-- Status: IN PROGRESS
+- Status: COMPLETE
 - Priority: P0
 - Risk: Low
 - Recommended environment: ChatGPT/Astra integration
-- Scope: `docs/` only
+- Scope: `docs/` plus the root README startup pointer
 - Goal: establish model-independent project rules and current-state documentation.
-- Acceptance: five canonical docs exist, agree with current repo, and do not alter production content.
+- Acceptance: the five canonical handoff documents plus `docs/README.md` exist, agree with the current repository, the root README points contributors to them, and no production content or behavior is altered.
+- Completion note: final consistency review confirmed the canonical theme exemplars, translation policy, seven-entry Will to Power starting-route pattern, and current repository inventory before merge.
 
 ## Phase 1 — Theme consistency program
 
