@@ -47,6 +47,12 @@ Use only what analysis requires. A quotation must earn its place by being interp
 ## Notebook material
 Notebook routes must be labeled as notebook material / posthumous compilation. Treat numbering in The Will to Power as editorial numbering, not original notebook identifiers.
 
+Where a theme has a substantial Will to Power notebook guide, preserve the canonical two-level pattern already used on the recent theme pages:
+- a clearly labeled seven-entry starting route for readers who want the shorter notebook path;
+- a fuller notebook survey for readers who want the broader set of entries.
+
+The seven-entry route is an editorial navigation device, not evidence that Nietzsche organized the notes into that sequence. Do not force this pattern onto a theme with too little relevant notebook material.
+
 ## Cross-links
 Cross-links should serve a conceptual relation. Prefer links that show:
 - a prerequisite distinction;
