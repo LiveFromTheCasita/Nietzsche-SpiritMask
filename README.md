@@ -2,6 +2,10 @@
 
 A static HTML study guide hosted on Vercel at https://thespiritmask.com/.
 
+## Project documentation
+
+Before making changes, read the canonical project documentation in `/docs/`, beginning with `docs/PROJECT_HANDOFF.md` and following the startup sequence in `docs/README.md`. The documentation defines the established editorial voice, content standards, agent rules, and work-package plan for human and AI contributors.
+
 ## Editing
 
 Keep the HTML pages, `styles.css`, and `site.js` as the source of truth. There is no application framework or build dependency.
