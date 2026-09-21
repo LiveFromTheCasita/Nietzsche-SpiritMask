@@ -18,7 +18,9 @@ These documents are authoritative unless the owner explicitly changes the standa
 - Do not normalize away tensions, chronological differences, translation differences, or troubling claims.
 - Do not invent credentials, author identity, scholarly consensus, citations, or source checks.
 - Do not silently change preferred translations.
-- Do not treat The Will to Power as a finished Nietzsche book.
+- Do not silently quote preferred-edition wording as though it were the wording of a linked free translation; identify the variant or paraphrase.
+- Do not treat The Will to Power as a finished Nietzsche book. Treat WTP section numbers as editorial compilation numbers, not original notebook identifiers.
+- For notebook-heavy themes, establish the published-text argument first and keep notebook material secondary unless the assigned package explicitly requires another structure.
 - Do not deploy broad changes directly to `main`.
 
 ## Branch discipline
