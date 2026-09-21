@@ -17,7 +17,7 @@ python3 scripts/build-index.py
 node --check site.js
 ```
 
-Commit the regenerated `search-index.json` and `sitemap.xml` with the content. The search page is intentionally `noindex,follow` and excluded from the sitemap. Modification dates are omitted rather than inferred from deployment times.
+Commit regenerated `search-index.json`, and commit `sitemap.xml` only when the generator actually changes it. The search page is intentionally `noindex,follow` and excluded from the sitemap. Modification dates are omitted rather than inferred from deployment times.
 
 ## Reading features
 
@@ -38,10 +38,10 @@ An administrator still needs to verify receipt in GA4 Realtime/DebugView, choose
 
 ## Editorial review
 
-The improvement branch corrects the reversed WP §§1–2 references, expands the Zarathustra Prologue reading to include §5, corrects the description of Daybreak §189, and corrects the date attached to Gay Science Book IV on the gender page. “Common” is expanded to “Thomas Common” for clarity; the original was a translator surname, not a grammatical error.
+The 25-theme conversion program is complete. All theme pages now use the shared guided-reading architecture, with deliberate variation for special cases and notebook-heavy topics. Citation/translation audits of all themes and the sitewide Will to Power / Nachlass integrity review are also complete; their findings were folded into the converted pages and independently reviewed before merge.
 
-These are verified, bounded corrections, not certification of every existing quotation or interpretation. The repository contains extensive inherited material that still warrants a full citation-by-citation scholarly review. Author identity and biography must be supplied by the owner; no credentials or named editorial responsibility have been invented.
+This does not amount to final scholarly certification of every historical or interpretive claim. Historical-claim review, companion-essay review, technical/link auditing, and final sitewide integration remain separate work packages. Author identity and biography must be supplied by the owner; no credentials or named editorial responsibility have been invented.
 
 ## Publication
 
-Review changes on the improvement branch before merging to `main`, which is connected to the existing Vercel project. No replacement hosting project is needed.
+Review substantial changes on a scoped branch/PR before merging to `main`, which is connected to the existing Vercel project. No replacement hosting project is needed.
