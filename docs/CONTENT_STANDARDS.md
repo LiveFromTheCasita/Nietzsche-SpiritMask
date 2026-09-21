@@ -45,13 +45,18 @@ Use `sources.html` as the edition authority.
 Use only what analysis requires. A quotation must earn its place by being interpreted; do not decorate pages with Nietzsche aphorisms.
 
 ## Notebook material
-Notebook routes must be labeled as notebook material / posthumous compilation. Treat numbering in The Will to Power as editorial numbering, not original notebook identifiers.
+Notebook routes must be labeled as notebook material / posthumous compilation. Treat numbering in The Will to Power as editorial compilation numbering, not original notebook identifiers. When a secure KSA manuscript reference is known, it may be given alongside the WTP number; do not invent manuscript references.
 
-Where a theme has a substantial Will to Power notebook guide, preserve the canonical two-level pattern already used on the recent theme pages:
-- a clearly labeled seven-entry starting route for readers who want the shorter notebook path;
-- a fuller notebook survey for readers who want the broader set of entries.
+The governing hierarchy is published text first, notebook material afterward. Notebook material may sharpen, preview, complicate, or overstate a published claim, but it may not settle a question the published works leave open or become the sole evidence for a major thematic claim when published evidence is available.
 
-The seven-entry route is an editorial navigation device, not evidence that Nietzsche organized the notes into that sequence. Do not force this pattern onto a theme with too little relevant notebook material.
+Several notebook architectures are now established and acceptable:
+- a seven-entry starting route plus a fuller survey where the notebook corpus is genuinely substantial;
+- a shorter bounded appendix where only a few entries materially improve the theme;
+- no notebook route where the published works are sufficient.
+
+Any short notebook route is an editorial navigation device, not evidence that Nietzsche organized the notes into that sequence. Do not impose a fixed number of entries for visual consistency.
+
+When a page quotes preferred-edition wording while linking a different free translator, identify the preferred wording or paraphrase. Do not silently normalize Kaufmann/Hollingdale into Common, Zimmern, Mencken, Ludovici, Kennedy, Samuel, Haussmann, or another free translator.
 
 ## Cross-links
 Cross-links should serve a conceptual relation. Prefer links that show:
@@ -71,7 +76,7 @@ After content additions/edits:
 python3 scripts/build-index.py
 node --check site.js
 ```
-Commit regenerated `search-index.json` and `sitemap.xml`.
+Commit regenerated `search-index.json`, and commit `sitemap.xml` only when the generator actually changes it.
 
 ## Accessibility and metadata
 Preserve:
