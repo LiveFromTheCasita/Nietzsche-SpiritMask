@@ -13,7 +13,7 @@ This file is the canonical project-state handoff for any human or AI contributor
 - Search/sitemap generation: `python3 scripts/build-index.py`
 - JS syntax check: `node --check site.js`
 - Generated artifacts that must be committed when content changes: `search-index.json` and `sitemap.xml`
-- Current production content baseline reviewed for this handoff: `main` at commit `7c29d44a8cb332f2ec59a4a9d0ec0b3eeaccf0c3` (WP-02 Batch A merge)
+- Current production content baseline reviewed for this handoff: `main` at commit `c2c7dec2644b70645b3483949e3e19342ef75a65` (WP-03 B3 / PR #40 merge; all 25 theme conversions complete)
 
 ## Current content architecture
 The repository currently contains:
@@ -43,9 +43,9 @@ When uncertain about structure or editorial depth, treat these as primary refere
 - `themes/herd-and-last-man.html`
 - `themes/revaluation.html`
 
-These pages establish the current shared guided-theme format: framing, first encounter, fuller route, key distinctions, work-by-work survey, notebook material where relevant, related essays, and cross-theme connections.
+These pages establish the current shared guided-theme format: framing, first encounter, fuller route, key distinctions, work-by-work survey, notebook material where relevant, related essays, and cross-theme connections. All 25 theme pages now use this architecture, but the exemplars are references rather than templates: section counts, route lengths, and notebook treatment should vary when the subject requires it.
 
-For themes with substantial `The Will to Power` notebook material, the recent canonical pages also establish a separate short notebook entry route: a seven-entry starting route before the fuller notebook survey. Preserve that pattern when it genuinely fits the material rather than inventing a seven-item quota for themes that do not need a notebook guide.
+Notebook-heavy themes now use several accepted patterns: seven-entry starter plus full survey where the material is genuinely substantial; shorter bounded appendices where fewer notes do the work; and no notebook route where published texts are sufficient. WP-12 established the governing hierarchy: published text first, notebook material afterward; WTP numbering is editorial compilation numbering; KSA references are given only when securely known; and notebook material may sharpen, preview, complicate, or overstate but may not settle a question the published works leave open.
 
 ## Canonical book-guide exemplars
 Use these as references for book-guide/course architecture:
@@ -88,10 +88,10 @@ The README already records:
 - prior bounded citation corrections are not sitewide scholarly certification.
 
 ## What is complete
-The site has a mature architecture and complete public coverage of all 25 themes. Twelve theme pages now use the shared guided-reading architecture: the seven pages identified as format-complete by WP-01 plus the five Batch A conversions merged in WP-02. Multiple book pages already contain substantial guided courses.
+The site has a mature architecture and complete public coverage of all 25 themes. The entire theme corpus now uses the shared guided-reading architecture after WP-02 and the three WP-03 sub-batches (PRs #38–#40). The five canonical theme citation audit, the remaining-theme citation audit, and the sitewide Will to Power / Nachlass integrity review are complete. WP-05 has also classified all ten book guides/courses, and WP-06 confirmed the Beyond Good and Evil introductory course architecture.
 
 ## What remains
-The main remaining editorial program is consistency: bringing the rest of the theme corpus to the same guided-reading standard without erasing legitimate differences among topics; continuing/finishing book-guide coverage; performing source/citation audits; harmonizing cross-links and terminology; and verifying analytics/search/publication behavior. See `WORK_PLAN.md`.
+The next theme task is WP-04: review all 25 converted themes together for terminology, architecture, chronology, cross-links, translation practice, and purposeful variation without homogenizing them. Remaining parallel programs include Twilight course QA and the book-expansion roadmap, historical-claim review, companion-essay audit/revision, technical/link/accessibility/analytics checks, release-workflow documentation, and final sitewide integration. See `WORK_PLAN.md`.
 
 ## Publication rule
 Do not make broad editorial or structural changes directly on `main`. Use a scoped branch/PR. Content changes require search/sitemap regeneration and verification. High-risk changes require a second-pass review before merge.
