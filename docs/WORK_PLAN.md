@@ -43,15 +43,16 @@ Status values: READY / IN PROGRESS / BLOCKED / REVIEW / COMPLETE.
 - Completion note: five audited legacy themes were converted on PR #36, independently reviewed by Grok, corrected, and merged. Reading-progress migration and generated search data were verified before merge.
 
 ### WP-03 — Convert remaining legacy themes, batch B
-- Status: READY
+- Status: COMPLETE
 - Priority: P1
 - Risk: Medium
 - Recommended agent: Claude
 - Depends on: WP-01, WP-02 review
 - Acceptance: same as WP-02.
+- Completion note: the remaining 13 legacy themes were converted in three reviewed sub-batches: B1 (six themes, PR #38), B2 (five aesthetics/style themes, PR #39), and B3 (the two special-case pages `will-to-power.html` and `eternal-return-time.html`, PR #40). Each batch received independent Grok adversarial review, bounded corrections where needed, reading-progress migration checks, browser validation, and regenerated search data. All 25 theme pages now use the guided-theme architecture, with purposeful variation for notebook-heavy and special-case topics.
 
 ### WP-04 — Sitewide theme editorial consistency review
-- Status: BLOCKED
+- Status: READY
 - Priority: P1
 - Risk: Medium
 - Recommended agent: Astra/ChatGPT
@@ -62,13 +63,14 @@ Status values: READY / IN PROGRESS / BLOCKED / REVIEW / COMPLETE.
 ## Phase 2 — Book/course program
 
 ### WP-05 — Inventory the 10 book guides/courses
-- Status: READY
+- Status: COMPLETE
 - Priority: P0
 - Risk: Low
 - Recommended agent: Grok
 - Depends on: WP-00
 - Goal: identify completion level, lesson counts, edition guidance, missing sections, and duplication.
 - Acceptance: all 10 work pages classified with concrete next actions.
+- Completion note: Grok audited all ten work hubs and their lesson chains. The Antichrist, Twilight of the Idols, and Genealogy courses cover the whole published text; Beyond Good and Evil is a complete introductory course by design; five other guides are substantial selected introductions; Untimely Meditations remains a beginning path. The Gay Science lesson-4 content exists at `start.html` but its filename/URL pattern is inconsistent. Twilight was confirmed structurally complete and suitable for bounded WP-07 QA rather than a rebuild.
 
 ### WP-06 — Beyond Good and Evil course completion/QA
 - Status: COMPLETE
@@ -90,7 +92,7 @@ Status values: READY / IN PROGRESS / BLOCKED / REVIEW / COMPLETE.
 - Acceptance: no chapter-boundary or translation-title ambiguity remains.
 
 ### WP-08 — Remaining book-guide expansion plan
-- Status: BLOCKED
+- Status: READY
 - Priority: P2
 - Risk: Medium
 - Recommended agent: Astra/ChatGPT
@@ -101,7 +103,7 @@ Status values: READY / IN PROGRESS / BLOCKED / REVIEW / COMPLETE.
 ## Phase 3 — Scholarly/source integrity
 
 ### WP-09 — Citation and translation audit: canonical theme pages
-- Status: READY
+- Status: COMPLETE
 - Priority: P0
 - Risk: Medium
 - Recommended agent: Grok
@@ -109,14 +111,16 @@ Status values: READY / IN PROGRESS / BLOCKED / REVIEW / COMPLETE.
 - Scope: the five canonical themes
 - Goal: verify section references, translator labels, source links, and notebook status labels.
 - Acceptance: each cited assignment checked; discrepancies documented, not silently rewritten.
+- Completion note: Grok audited the five canonical theme pages against sources.html and the named free editions. Essential assignments and translation stacks were sound; the audit identified bounded link-precision and wording issues without requiring route reconstruction. The pages remained valid structural exemplars.
 
 ### WP-10 — Citation and translation audit: remaining themes
-- Status: BLOCKED
+- Status: COMPLETE
 - Priority: P1
 - Risk: High
 - Recommended agent: Grok
 - Depends on: WP-01, WP-09
 - Acceptance: complete audit log across all remaining themes.
+- Completion note: Grok audited all twenty non-WP-09 theme pages at the then-current baseline. The strongest defects were concentrated in legacy pages: preferred-translation wording beside free-edition labels, compound cards pointing multiple works/parts to one source, and special-case Will to Power/recurrence issues. Findings were carried into WP-03 B1/B2/B3 conversions and independently rechecked during PR review.
 
 ### WP-11 — Historical-claim review
 - Status: READY
@@ -127,12 +131,13 @@ Status values: READY / IN PROGRESS / BLOCKED / REVIEW / COMPLETE.
 - Acceptance: actionable list with source need and exact file/claim location.
 
 ### WP-12 — The Will to Power / Nachlass integrity review
-- Status: READY
+- Status: COMPLETE
 - Priority: P0
 - Risk: High
 - Recommended agent: Grok + Astra final review
 - Goal: ensure notebook compilation status, numbering caveats, and published/notebook distinctions are consistent sitewide.
 - Acceptance: no page represents WTP as a finished Nietzsche-authored book; all routes remain explicitly notebook material.
+- Completion note: sitewide review found no blocker and confirmed that no page treats The Will to Power as a finished Nietzsche-authored book. The accepted convention is published text first, notebooks afterward; WTP numbers are editorial compilation numbers; KSA references are supplied only when known; notebook material may sharpen, preview, complicate, or overstate but may not settle a question the published books leave open. The review explicitly approved different notebook-route sizes rather than a fixed seven-entry quota and supplied the architecture used in WP-03 B3.
 
 ## Phase 4 — Essays/submissions
 
@@ -207,9 +212,9 @@ Status values: READY / IN PROGRESS / BLOCKED / REVIEW / COMPLETE.
 
 ## Parallelization guidance
 Safe current parallel work:
-- Grok: WP-05, WP-09/WP-11
-- Claude: WP-03 or WP-07
-- ChatGPT/Astra: integration plus WP-15/WP-18 coordination
+- Grok: WP-11, WP-13, WP-15, or WP-16
+- Claude: WP-07 or later bounded implementation packages after audit
+- ChatGPT/Astra: WP-04, WP-08, integration, and WP-18 coordination
 
 Do not run two agents editing the same theme or shared files simultaneously.
 
