@@ -13,7 +13,7 @@ This file is the canonical project-state handoff for any human or AI contributor
 - Search/sitemap generation: `python3 scripts/build-index.py`
 - JS syntax check: `node --check site.js`
 - Generated artifacts that must be committed when content changes: `search-index.json` and `sitemap.xml`
-- Content baseline used to create this handoff: `main` at commit `428113609a793a156c1e750c04979ed67469c43b` (Revaluation of Values guided-format merge)
+- Current production content baseline reviewed for this handoff: `main` at commit `7c29d44a8cb332f2ec59a4a9d0ec0b3eeaccf0c3` (WP-02 Batch A merge)
 
 ## Current content architecture
 The repository currently contains:
@@ -88,7 +88,7 @@ The README already records:
 - prior bounded citation corrections are not sitewide scholarly certification.
 
 ## What is complete
-The site has a mature architecture and complete public coverage of all 25 themes. Several themes have already been rebuilt into the shared guided-reading format, including the canonical exemplars above. Multiple book pages already contain substantial guided courses.
+The site has a mature architecture and complete public coverage of all 25 themes. Twelve theme pages now use the shared guided-reading architecture: the seven pages identified as format-complete by WP-01 plus the five Batch A conversions merged in WP-02. Multiple book pages already contain substantial guided courses.
 
 ## What remains
 The main remaining editorial program is consistency: bringing the rest of the theme corpus to the same guided-reading standard without erasing legitimate differences among topics; continuing/finishing book-guide coverage; performing source/citation audits; harmonizing cross-links and terminology; and verifying analytics/search/publication behavior. See `WORK_PLAN.md`.

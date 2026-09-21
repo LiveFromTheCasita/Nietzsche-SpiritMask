@@ -20,7 +20,7 @@ Status values: READY / IN PROGRESS / BLOCKED / REVIEW / COMPLETE.
 ## Phase 1 — Theme consistency program
 
 ### WP-01 — Audit all 25 theme pages against the shared guided format
-- Status: READY
+- Status: COMPLETE
 - Priority: P0
 - Risk: Low
 - Recommended agent: Grok
@@ -29,9 +29,10 @@ Status values: READY / IN PROGRESS / BLOCKED / REVIEW / COMPLETE.
 - Goal: classify each theme as canonical-format complete, partial, legacy, or special-case.
 - Deliverable: matrix with structural gaps, citation-risk flags, and recommended conversion order.
 - Acceptance: every theme listed once; no content changes.
+- Completion note: Grok completed the read-only audit of all 25 themes; the integrator accepted the classification, conversion order, special-case handling, and risk flags. No repository content was changed.
 
 ### WP-02 — Convert highest-priority legacy themes, batch A
-- Status: BLOCKED
+- Status: COMPLETE
 - Priority: P1
 - Risk: Medium
 - Recommended agent: Claude
@@ -39,9 +40,10 @@ Status values: READY / IN PROGRESS / BLOCKED / REVIEW / COMPLETE.
 - Scope: theme files explicitly assigned after audit
 - Goal: apply the shared theme-guide method without flattening topic-specific structure.
 - Acceptance: structure, voice, citations, links, search/sitemap, and progress behavior pass.
+- Completion note: five audited legacy themes were converted on PR #36, independently reviewed by Grok, corrected, and merged. Reading-progress migration and generated search data were verified before merge.
 
 ### WP-03 — Convert remaining legacy themes, batch B
-- Status: BLOCKED
+- Status: READY
 - Priority: P1
 - Risk: Medium
 - Recommended agent: Claude
@@ -69,13 +71,14 @@ Status values: READY / IN PROGRESS / BLOCKED / REVIEW / COMPLETE.
 - Acceptance: all 10 work pages classified with concrete next actions.
 
 ### WP-06 — Beyond Good and Evil course completion/QA
-- Status: READY
+- Status: COMPLETE
 - Priority: P1
 - Risk: Medium
 - Recommended agent: Claude
 - Depends on: WP-00
 - Goal: preserve the existing full-book architecture and verify all nine parts are represented coherently.
 - Acceptance: course continuity, section anchors, translation labels, links, search/sitemap pass.
+- Completion note: QA confirmed the ten-lesson course already covered all nine parts coherently. Two bounded factual corrections and regenerated search data were merged on PR #35.
 
 ### WP-07 — Twilight of the Idols course QA
 - Status: READY
@@ -203,10 +206,10 @@ Status values: READY / IN PROGRESS / BLOCKED / REVIEW / COMPLETE.
 - Acceptance: tests pass, generated files current, preview inspected, critical audit findings resolved, production deployment verified.
 
 ## Parallelization guidance
-Safe early parallel work:
-- Grok: WP-01, WP-05, WP-09/WP-11
-- Claude: WP-06 or WP-07
-- ChatGPT/Astra: WP-15/WP-18 coordination
+Safe current parallel work:
+- Grok: WP-05, WP-09/WP-11
+- Claude: WP-03 or WP-07
+- ChatGPT/Astra: integration plus WP-15/WP-18 coordination
 
 Do not run two agents editing the same theme or shared files simultaneously.
 

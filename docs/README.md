@@ -11,4 +11,4 @@ Read in this order before contributing:
 
 These files are model-independent. Claude, Grok, ChatGPT/Astra, and future agents should work from the same project rules and receive different work packages rather than different versions of the project's editorial identity.
 
-Current documentation baseline: production `main` at `428113609a793a156c1e750c04979ed67469c43b`.
+Current production content baseline reviewed by this documentation package: `main` at `7c29d44a8cb332f2ec59a4a9d0ec0b3eeaccf0c3` (WP-02 merge).
