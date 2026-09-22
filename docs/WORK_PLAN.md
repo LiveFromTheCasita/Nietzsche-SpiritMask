@@ -174,12 +174,13 @@ Status values: READY / IN PROGRESS / BLOCKED / REVIEW / COMPLETE.
 - Completion note: Grok completed a read-only audit of all 155 public HTML pages. Search-index generation reproduced exactly at 178 entries, sitemap generation reproduced exactly at 154 URLs, and the audit found zero broken internal file links, zero missing same-page or cross-page fragments, zero duplicate IDs, and no canonical/og:url mismatches. All course navigation chains passed. The Gay Science reading-4 `start.html` path is intentionally wired and should remain canonical; no implementation package was required.
 
 ### WP-16 — Accessibility audit
-- Status: READY
+- Status: COMPLETE
 - Priority: P2
 - Risk: Medium
 - Recommended agent: Grok
 - Goal: keyboard navigation, heading order, link labels, filter state, details/summary use, contrast issues.
 - Acceptance: prioritized issue list and bounded remediations.
+- Completion note: Grok completed a read-only accessibility audit across all 155 public pages, with representative browser testing of the major page families and static inspection of shared CSS/JS. No blocker or important WCAG 2.2 AA failure was found. Keyboard access, skip links, focus visibility, filter state, search labeling/status, reading checkboxes, native details/summary, contrast, landmarks, heading structure, and mobile reflow all passed. Remaining observations (search button, filter-group naming, richer checkbox captions) are optional polish only; no implementation package was required.
 
 ### WP-17 — Analytics/privacy verification
 - Status: READY
@@ -218,7 +219,7 @@ Status values: READY / IN PROGRESS / BLOCKED / REVIEW / COMPLETE.
 
 ## Parallelization guidance
 Safe current parallel work:
-- Grok: WP-16
+- Grok: available for targeted verification or final review
 - Claude: later bounded implementation packages after audit
 - ChatGPT/Astra: WP-08, WP-17, WP-18, integration, and final release coordination
 
