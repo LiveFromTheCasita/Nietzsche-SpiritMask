@@ -40,7 +40,7 @@ An administrator still needs to verify receipt in GA4 Realtime/DebugView, choose
 
 The 25-theme program is complete. All theme pages now use the shared guided-reading architecture, with deliberate variation for special cases and notebook-heavy topics. Citation/translation audits, the sitewide Will to Power / Nachlass integrity review, the final theme-consistency review, Twilight of the Idols course QA, the historical-claim review, and the six-page companion-essay audit/revision program are also complete and independently reviewed.
 
-This does not amount to final scholarly certification of every claim. Remaining defined work is concentrated in technical/link and accessibility auditing, analytics/privacy verification, release workflow, the future book-expansion roadmap, and final sitewide integration/release review. Author identity and biography must be supplied by the owner; no credentials or named editorial responsibility have been invented.
+This does not amount to final scholarly certification of every claim. The sitewide search/sitemap/internal-link/canonical audit is complete with no required fixes. Remaining defined work is concentrated in accessibility auditing, analytics/privacy verification, release workflow, the future book-expansion roadmap, and final sitewide integration/release review. Author identity and biography must be supplied by the owner; no credentials or named editorial responsibility have been invented.
 
 ## Publication
 

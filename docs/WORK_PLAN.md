@@ -165,12 +165,13 @@ Status values: READY / IN PROGRESS / BLOCKED / REVIEW / COMPLETE.
 ## Phase 5 — Technical/publication integrity
 
 ### WP-15 — Search, sitemap, internal-link audit
-- Status: READY
+- Status: COMPLETE
 - Priority: P1
 - Risk: Low
 - Recommended agent: Grok or ChatGPT
 - Goal: verify search-index coverage, sitemap coverage, broken internal anchors, canonical URLs.
 - Acceptance: reproducible report plus bounded fixes.
+- Completion note: Grok completed a read-only audit of all 155 public HTML pages. Search-index generation reproduced exactly at 178 entries, sitemap generation reproduced exactly at 154 URLs, and the audit found zero broken internal file links, zero missing same-page or cross-page fragments, zero duplicate IDs, and no canonical/og:url mismatches. All course navigation chains passed. The Gay Science reading-4 `start.html` path is intentionally wired and should remain canonical; no implementation package was required.
 
 ### WP-16 — Accessibility audit
 - Status: READY
@@ -217,7 +218,7 @@ Status values: READY / IN PROGRESS / BLOCKED / REVIEW / COMPLETE.
 
 ## Parallelization guidance
 Safe current parallel work:
-- Grok: WP-15 or WP-16
+- Grok: WP-16
 - Claude: later bounded implementation packages after audit
 - ChatGPT/Astra: WP-08, WP-17, WP-18, integration, and final release coordination
 
