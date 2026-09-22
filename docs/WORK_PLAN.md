@@ -52,13 +52,14 @@ Status values: READY / IN PROGRESS / BLOCKED / REVIEW / COMPLETE.
 - Completion note: the remaining 13 legacy themes were converted in three reviewed sub-batches: B1 (six themes, PR #38), B2 (five aesthetics/style themes, PR #39), and B3 (the two special-case pages `will-to-power.html` and `eternal-return-time.html`, PR #40). Each batch received independent Grok adversarial review, bounded corrections where needed, reading-progress migration checks, browser validation, and regenerated search data. All 25 theme pages now use the guided-theme architecture, with purposeful variation for notebook-heavy and special-case topics.
 
 ### WP-04 — Sitewide theme editorial consistency review
-- Status: READY
+- Status: COMPLETE
 - Priority: P1
 - Risk: Medium
 - Recommended agent: Astra/ChatGPT
 - Depends on: WP-02, WP-03
 - Goal: harmonize terminology and architecture without homogenizing interpretation.
 - Acceptance: all 25 themes reviewed against canonical exemplars.
+- Completion note: ChatGPT/Astra reviewed all 25 converted themes together, implemented a bounded consistency cleanup, and Grok independently adversarially reviewed the result. PR #42 merged the final metadata, wording, source-location, and cross-link corrections without homogenizing route lengths, notebook structures, or special-case architecture.
 
 ## Phase 2 — Book/course program
 
@@ -83,13 +84,14 @@ Status values: READY / IN PROGRESS / BLOCKED / REVIEW / COMPLETE.
 - Completion note: QA confirmed the ten-lesson course already covered all nine parts coherently. Two bounded factual corrections and regenerated search data were merged on PR #35.
 
 ### WP-07 — Twilight of the Idols course QA
-- Status: READY
+- Status: COMPLETE
 - Priority: P1
 - Risk: Medium
 - Recommended agent: Claude
 - Depends on: WP-00
 - Goal: verify all chapter/title translation guidance and lesson coverage.
 - Acceptance: no chapter-boundary or translation-title ambiguity remains.
+- Completion note: Claude audited the full 14-lesson course and found complete chapter coverage in book order. Ten free-edition link labels were corrected to Anthony M. Ludovici's own chapter titles; Grok independently verified the titles and course boundaries. PR #43 merged the bounded QA with no course rebuild or generated-file churn.
 
 ### WP-08 — Remaining book-guide expansion plan
 - Status: READY
@@ -123,12 +125,13 @@ Status values: READY / IN PROGRESS / BLOCKED / REVIEW / COMPLETE.
 - Completion note: Grok audited all twenty non-WP-09 theme pages at the then-current baseline. The strongest defects were concentrated in legacy pages: preferred-translation wording beside free-edition labels, compound cards pointing multiple works/parts to one source, and special-case Will to Power/recurrence issues. Findings were carried into WP-03 B1/B2/B3 conversions and independently rechecked during PR review.
 
 ### WP-11 — Historical-claim review
-- Status: READY
+- Status: COMPLETE
 - Priority: P1
 - Risk: High
 - Recommended agent: Grok
 - Goal: flag claims that are Nietzsche's polemics versus independent historical assertions requiring outside support.
 - Acceptance: actionable list with source need and exact file/claim location.
+- Completion note: Grok's sitewide read-only audit found no blockers and confirmed that most pages already distinguish Nietzsche's polemics from independent history. The bounded implementation corrected the Jacolliot/Manu source description, qualified Archive/Nachlass editorial-history claims, and tightened a few glossary/About attributions. PR #44 merged after independent verification.
 
 ### WP-12 — The Will to Power / Nachlass integrity review
 - Status: COMPLETE
@@ -142,20 +145,22 @@ Status values: READY / IN PROGRESS / BLOCKED / REVIEW / COMPLETE.
 ## Phase 4 — Essays/submissions
 
 ### WP-13 — Audit six companion essays
-- Status: READY
+- Status: COMPLETE
 - Priority: P1
 - Risk: Medium
 - Recommended agent: Grok
 - Goal: check sourcing, relation to theme pages, publication status, and voice.
 - Acceptance: every submission page has a clear role and no unsupported claim masquerades as sitewide consensus.
+- Completion note: Grok audited all six public submission pages, treating the 29-selection Master/Slave reader as a reference resource rather than forcing essay criteria onto it. Three pieces passed as-is; two overman essays needed bounded claim-status/role qualification and the passages reader needed four source-anchor corrections.
 
 ### WP-14 — Editorial revision of flagged essays
-- Status: BLOCKED
+- Status: COMPLETE
 - Priority: P2
 - Risk: Medium
 - Recommended agent: Claude
 - Depends on: WP-13
 - Acceptance: revised essays remain distinct from guide prose while following the site's source discipline.
+- Completion note: ChatGPT/Astra implemented only the WP-13 handoff: the two overman essays retained their disagreement while explicitly owning their theses as interpretations and facing the relevant counterevidence; the passages reader received only its four wrong source-anchor fixes. PR #45 merged, and Grok's post-merge verification returned PASS with no follow-up required.
 
 ## Phase 5 — Technical/publication integrity
 
@@ -212,9 +217,9 @@ Status values: READY / IN PROGRESS / BLOCKED / REVIEW / COMPLETE.
 
 ## Parallelization guidance
 Safe current parallel work:
-- Grok: WP-11, WP-13, WP-15, or WP-16
-- Claude: WP-07 or later bounded implementation packages after audit
-- ChatGPT/Astra: WP-04, WP-08, integration, and WP-18 coordination
+- Grok: WP-15 or WP-16
+- Claude: later bounded implementation packages after audit
+- ChatGPT/Astra: WP-08, WP-17, WP-18, integration, and final release coordination
 
 Do not run two agents editing the same theme or shared files simultaneously.
 

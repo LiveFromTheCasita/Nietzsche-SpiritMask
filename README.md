@@ -38,9 +38,9 @@ An administrator still needs to verify receipt in GA4 Realtime/DebugView, choose
 
 ## Editorial review
 
-The 25-theme conversion program is complete. All theme pages now use the shared guided-reading architecture, with deliberate variation for special cases and notebook-heavy topics. Citation/translation audits of all themes and the sitewide Will to Power / Nachlass integrity review are also complete; their findings were folded into the converted pages and independently reviewed before merge.
+The 25-theme program is complete. All theme pages now use the shared guided-reading architecture, with deliberate variation for special cases and notebook-heavy topics. Citation/translation audits, the sitewide Will to Power / Nachlass integrity review, the final theme-consistency review, Twilight of the Idols course QA, the historical-claim review, and the six-page companion-essay audit/revision program are also complete and independently reviewed.
 
-This does not amount to final scholarly certification of every historical or interpretive claim. Historical-claim review, companion-essay review, technical/link auditing, and final sitewide integration remain separate work packages. Author identity and biography must be supplied by the owner; no credentials or named editorial responsibility have been invented.
+This does not amount to final scholarly certification of every claim. Remaining defined work is concentrated in technical/link and accessibility auditing, analytics/privacy verification, release workflow, the future book-expansion roadmap, and final sitewide integration/release review. Author identity and biography must be supplied by the owner; no credentials or named editorial responsibility have been invented.
 
 ## Publication
 
