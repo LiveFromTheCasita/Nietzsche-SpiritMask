@@ -11,4 +11,4 @@ Read in this order before contributing:
 
 These files are model-independent. Claude, Grok, ChatGPT/Astra, and future agents should work from the same project rules and receive different work packages rather than different versions of the project's editorial identity.
 
-Current production content baseline reviewed by this documentation package: `main` at `1c3022504f8a7fe18e4f357682b2bc929d99f306` (WP-14 / PR #45 merge; theme, Twilight QA, historical-claim, and companion-essay programs complete).
+Current production content baseline reviewed by this documentation package: `main` at `f138ee099761f3eb31f34fea5ab7f3d7b7596558` (docs reconciliation after WP-14; WP-15 technical audit complete with no implementation required).
