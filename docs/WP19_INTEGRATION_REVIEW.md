@@ -65,7 +65,9 @@ Checks are bounded to the corrected claims; this is not sitewide scholarly certi
 - `git diff --check`: passes.
 - Static DOM check across 155 HTML files: all 10,446 local links and fragments resolve; no duplicate IDs.
 - Baseline comparison: all IDs and primary-text links on changed pages preserved. Reading files, submissions, `start.html`, and `sources.html` are byte-identical. No route migration is needed.
-- Browser/preview inspection: pending branch preview; will be recorded before handoff for independent review.
+- Browser/preview inspection: completed on the Vercel branch preview for content commit `87007d4def9b811aa9a8b4f33a3b050af1b874e4`. Inspected the homepage, theme-index period view, BT comparison section, and the Christianity/suffering distinctions. Followed the overman next-theme link to Recurrence, Time, and Becoming. The period filter exposes the revised chronology note and sets `aria-pressed=true`. Screenshots showed readable text without clipping in the inspected desktop viewport. This was a representative desktop check, not a repeat of WP-16 accessibility or a mobile audit.
+- Preview: https://nietzsche-spirit-mask-git-in-cd69c9-livefromthecasitas-projects.vercel.app/ (Vercel check successful).
+- Draft review PR: https://github.com/LiveFromTheCasita/Nietzsche-SpiritMask/pull/52. The subsequent verification-record commit changes only this document; public-file bytes remain those inspected above.
 
 ## Remaining gate
 
