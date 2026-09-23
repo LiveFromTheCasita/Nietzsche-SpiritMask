@@ -1,6 +1,6 @@
 # WP-20 release verification
 
-Date: 2026-09-23. Status: **BLOCKED — Vercel account access**. The WP-19 release is live and its public production checks passed; the remaining account-side checks prevent closing the full release gate.
+Date: 2026-09-23. Status: **COMPLETE**. The WP-19 release and its public production checks passed. Vercel account-side identity, settings, and recovery controls were verified read-only; the Hobby-plan rollback limit is recorded below.
 
 ## Release identity
 
@@ -37,19 +37,27 @@ The following checks were performed on the public custom domain after GitHub rep
 
 These were representative desktop production checks, not a new mobile or full accessibility audit. No regression was observed in the exercised flows. No rollback was needed.
 
-## Account-access blocker
+## Account-side release checks (2026-09-23)
 
-The Vercel connector returned HTTP 403 when reading the known project under team scope `livefromthecasitas-projects`:
+| Check | Verified result |
+| --- | --- |
+| Project and repository | Vercel project `nietzsche-spirit-mask` (`prj_P9sAJP90yj41vk60gmJ2YRLauiaf`) belongs to `livefromthecasitas-projects` (`team_v3JaFLhXdPxFYoTvbHUPnxyP`). Project Settings → Git shows the connected `LiveFromTheCasita/Nietzsche-SpiritMask` GitHub repository. Deployment metadata independently names the same owner and repository. |
+| Production branch | Project Settings → Environments shows **Production → Branch Tracking: `main`**; Preview tracks other unassigned branches. The repository default branch is also `main`. |
+| WP-19 release | Deployment [`dpl_38uK9ZY2XxVjLdsBHm2hbJtTCTFP`](https://vercel.com/livefromthecasitas-projects/nietzsche-spirit-mask/38uK9ZY2XxVjLdsBHm2hbJtTCTFP) is **READY**, target **production**, source **git**, branch `main`, commit `3a72aec45e82ef9dde455240c87f4a843948a892` (PR #52). Vercel reported no alias error. This is the public-content release verified above. |
+| Current deployment and domain | Documentation PR #53 advanced `main` to `6bbb7c7d19e88fa86071dc3861c6f39e2debd28d`. Deployment [`dpl_Fp88BBHZadDvRE9K5dkiBuPfR4pG`](https://vercel.com/livefromthecasitas-projects/nietzsche-spirit-mask/Fp88BBHZadDvRE9K5dkiBuPfR4pG) is **READY**, target **production**, source **git**, branch `main`. Vercel lists `thespiritmask.com` among its aliases with `aliasError: null`; the Environments page calls it the primary production domain. The PR #53 change is documentation only, so the WP-19 public-content baseline remains `3a72aec`. |
+| Retention | Project Settings → Build and Deployment shows **30 days** each for canceled, errored, pre-production, and production deployments. The pre-WP-19 production deployment is currently retained and READY. Vercel [documents exceptions](https://vercel.com/docs/deployment-retention#exceptions-to-the-retention-policy), including retention of the last 20 ready production deployments; future availability must still be checked before a recovery action. |
+| Protection | Project Settings → Deployment Protection: **Vercel Authentication enabled, Standard Protection**; password protection and Trusted IPs disabled. The custom production domain remains public. Project Settings → Security: **Build Logs and Source Protection enabled; Git Fork Protection enabled**. No bypass secret or protection exception was added during this verification. |
 
-> Not authorized: Trying to access resource under scope "livefromthecasitas-projects". You must re-authenticate to this scope or use a token with access to this scope.
+### Rollback target and account controls
 
-The project ID `prj_P9sAJP90yj41vk60gmJ2YRLauiaf` and team ID `team_v3JaFLhXdPxFYoTvbHUPnxyP` came from Vercel's GitHub integration metadata. They were not independently confirmed through an authorized Vercel account read. GitHub's successful deployment status and the working public site establish the observed release outcome; they do not establish every account setting or independently confirm the production alias's deployment identity.
+- **Immediate previous production deployment:** WP-19 content release `dpl_38uK9ZY2XxVjLdsBHm2hbJtTCTFP` at `3a72aec`. Vercel marks it as a rollback candidate and shows an enabled **Instant Rollback** action. Returning from the current docs-only deployment to it would not undo the WP-19 public-content changes.
+- **Previous public-content baseline:** [`dpl_9HZhgFWNaXvGnYEeZWp9qVd2bypU`](https://vercel.com/livefromthecasitas-projects/nietzsche-spirit-mask/9HZhgFWNaXvGnYEeZWp9qVd2bypU) at `07e0416ea66f9e0fb103fa8ee2ea0b00d4256672` is retained and **READY**. It is the appropriate known-good deployment **if WP-19 content itself must be undone**. Its **Instant Rollback** menu item is disabled in this Hobby account. Vercel's [rollback guide](https://vercel.com/docs/deployments/rollback-production-deployment) says Hobby supports only the immediately previous production deployment, while choosing an older one requires Pro or Enterprise. A visible Promote menu entry was not tested and is not counted as a confirmed recovery action.
+- **Available recovery path for WP-19 content:** follow `DEPLOYMENT_RUNBOOK.md` and revert the WP-19 release in Git through review, including correction of any now-inaccurate release documentation; allow the `main`-connected project to produce a new deployment, then repeat the public production checks. This is the runbook's preferred rollback path. The account's instant rollback is available for the immediately previous production deployment, with the older-content limitation above.
 
-As required by `DEPLOYMENT_RUNBOOK.md`, finish these read-only checks after reconnecting Vercel with access to that team:
+No deployment, rollback, promotion, setting change, or rollback rehearsal was performed. The scoped Vercel connector calls still returned HTTP 403 for the team, but the connector's unscoped project/deployment reads succeeded and the authenticated project dashboard independently confirmed the repository, branch, retention, protection, and rollback control state. The prior account-access blocker is resolved for this release gate; the scoped-call quirk remains an operational tooling limitation.
 
-1. Confirm the project, repository connection, `main` production branch, and production deployment/alias association.
-2. Record deployment retention and protection settings.
-3. Confirm the available rollback target and the account's rollback controls.
-4. Add the results to this record, then mark WP-20 complete if the release gate is satisfied.
+## Gate disposition
 
-The previous Git baseline remains identified above, and the runbook documents Git-revert rollback. Availability of a retained Vercel deployment or account-side rollback action has not been verified. No access settings, protections, or retention policies were changed to work around the denial.
+**PASS — WP-20 complete.** WP-19's independent review, generated-file checks, JavaScript checks, link checks, preview inspection, merge, Vercel production deployment identity, domain association, and representative public production checks are documented here and in `WP19_INTEGRATION_REVIEW.md`. The account settings and recovery controls have now been inspected. The Hobby rollback constraint is an explicit operating limit, with a verified retained prior content deployment and the preferred Git-revert recovery path; it does not alter the passing production release.
+
+Closure documentation is prepared on `integrator/wp-20-account-verification` from `6bbb7c7d19e88fa86071dc3861c6f39e2debd28d`. Only documentation is changed; no public HTML, assets, Vercel configuration, search index, or sitemap is changed. Source/translation checks and a new public preview are not applicable to this documentation-only closeout. The prior representative production browser checks remain the release verification.
