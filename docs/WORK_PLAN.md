@@ -94,13 +94,14 @@ Status values: READY / IN PROGRESS / BLOCKED / REVIEW / COMPLETE.
 - Completion note: Claude audited the full 14-lesson course and found complete chapter coverage in book order. Ten free-edition link labels were corrected to Anthony M. Ludovici's own chapter titles; Grok independently verified the titles and course boundaries. PR #43 merged the bounded QA with no course rebuild or generated-file churn.
 
 ### WP-08 — Remaining book-guide expansion plan
-- Status: READY
+- Status: REVIEW
 - Priority: P2
 - Risk: Medium
 - Recommended agent: Astra/ChatGPT
 - Depends on: WP-05
 - Goal: sequence future complete courses based on current coverage and dependencies.
 - Acceptance: approved book-by-book roadmap.
+- Review note: a [book-by-book proposal](WP08_BOOK_EXPANSION_ROADMAP.md) inventories all ten current guides and sequences seven optional full-text expansions. Await owner approval of the scope and order before marking this package COMPLETE; each future course would receive its own scoped implementation review.
 
 ## Phase 3 — Scholarly/source integrity
 
