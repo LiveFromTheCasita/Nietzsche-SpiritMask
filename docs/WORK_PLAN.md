@@ -203,14 +203,14 @@ Status values: READY / IN PROGRESS / BLOCKED / REVIEW / COMPLETE.
 ## Phase 6 — Final integration
 
 ### WP-19 — Sitewide editorial integration review
-- Status: REVIEW
+- Status: COMPLETE
 - Priority: P0
 - Risk: High
 - Recommended environment: Astra/ChatGPT
 - Depends on: major theme, book, and source-audit packages
 - Goal: ensure the site reads as one publication.
 - Acceptance: voice, terminology, cross-links, chronology, translation practice, and source discipline are consistent.
-- Review note (2026-09-23): bounded corrections are prepared on `integrator/wp-19-editorial-integration`, based on `07e0416ea66f9e0fb103fa8ee2ea0b00d4256672`. See `WP19_INTEGRATION_REVIEW.md` for scope, audit reconciliation, source checks, and verification. Claude independently reviewed `9ede7a5` and returned PASS WITH MINOR ISSUES, with no merge blockers. The useful minor clarifications are incorporated; the package awaits merge and release verification.
+- Completion note (2026-09-23): bounded corrections from `integrator/wp-19-editorial-integration`, based on `07e0416ea66f9e0fb103fa8ee2ea0b00d4256672`, merged through PR #52 at `3a72aec45e82ef9dde455240c87f4a843948a892`. Claude independently reviewed `9ede7a5` and returned PASS WITH MINOR ISSUES, with no merge blockers; the useful minor clarifications were incorporated before merge. Vercel reported a successful deployment, and representative production checks passed. See `WP19_INTEGRATION_REVIEW.md` for editorial reconciliation and `WP20_RELEASE_VERIFICATION.md` for release evidence and the remaining account-access limitation.
 
 ### WP-20 — Release gate
 - Status: BLOCKED
@@ -219,6 +219,7 @@ Status values: READY / IN PROGRESS / BLOCKED / REVIEW / COMPLETE.
 - Recommended environment: Astra/ChatGPT
 - Depends on: WP-19
 - Acceptance: tests pass, generated files current, preview inspected, critical audit findings resolved, production deployment verified.
+- Gate note (2026-09-23): WP-19 is complete and its changes are live. GitHub reports Vercel deployment success; the production homepage, search, changed reading-continuation link, theme navigation, and homepage canonical passed browser checks. The gate remains BLOCKED because Vercel returned HTTP 403 for the project team's scope. The account-side project/deployment identity, retention, protection settings, and rollback availability required by `DEPLOYMENT_RUNBOOK.md` remain unverified. See `WP20_RELEASE_VERIFICATION.md`; reconnect Vercel with access to `livefromthecasitas-projects` to finish these read-only checks.
 
 ## Parallelization guidance
 Safe current parallel work:

@@ -1,12 +1,12 @@
 # WP-19 editorial integration: correction and review record
 
-Date: 2026-09-23. Status: **REVIEW**, independent review passed; minor follow-up complete, awaiting merge.
+Date: 2026-09-23. Status: **COMPLETE**, independently reviewed, minor follow-up incorporated, merged and verified in production.
 
 - Repository: `LiveFromTheCasita/Nietzsche-SpiritMask`
 - Branch: `integrator/wp-19-editorial-integration`
 - Baseline: `07e0416ea66f9e0fb103fa8ee2ea0b00d4256672` (main, merge of PR #51)
 - Inputs: the WP-19 integration audit and the owner's supplied **WP-19 Claude Editorial Integration Audit**, both against this baseline. This record documents the reconciled correction scope, not blanket acceptance of either report.
-- Production has not been changed by this work. WP-20 remains blocked pending WP-19 completion and the release gate.
+- Production release: PR #52 merged at `3a72aec45e82ef9dde455240c87f4a843948a892`; Vercel reported deployment success and representative production checks passed. WP-20 remains blocked only on the account-side checks detailed in `WP20_RELEASE_VERIFICATION.md`.
 
 ## What changed
 
@@ -69,9 +69,9 @@ Checks are bounded to the corrected claims; this is not sitewide scholarly certi
 - Preview: https://nietzsche-spirit-mask-git-in-cd69c9-livefromthecasitas-projects.vercel.app/ (Vercel check successful).
 - Draft review PR: https://github.com/LiveFromTheCasita/Nietzsche-SpiritMask/pull/52. Commit `9ede7a5` added only the initial verification record. The separately recorded follow-up below adds minor public-text clarifications.
 
-## Remaining gate
+## Completion and separate release gate
 
-Independent review is reconciled; there are no substantive editorial blockers. The branch awaits the production release action. Merge is the production trigger, and WP-20 must verify release conditions, deployment identity, and production afterward. Mark WP-19 complete and update the production-state wording when the changes reach main.
+Independent review is reconciled; there are no substantive editorial blockers. The owner authorized publication, PR #52 merged, and its changes were verified on the public site. WP-19 is complete. WP-20's public checks passed, but the separate gate remains blocked because the Vercel connector denied access to the project team's scope. See `WP20_RELEASE_VERIFICATION.md` for the merge/deployment association, production checks, and required account-side follow-up.
 
 
 ## Independent PR review and follow-up
