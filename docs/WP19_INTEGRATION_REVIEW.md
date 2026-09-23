@@ -89,4 +89,4 @@ The owner supplied **WP-19 Claude PR Review**, against baseline `07e0416` and ex
 
 The follow-up adds no quotation or primary-source assertion and changes no route, external link, ID, preferred edition, or byline. The independent review applies to `9ede7a5`; these small follow-up edits are the integrator's response and are not represented as a second Claude-approved commit.
 
-Follow-up validation: pending final build, focused integrity/link checks, and preview inspection.
+Follow-up validation: `build-index.py` passes (178 search entries, 154 sitemap URLs); both JavaScript syntax checks and `git diff --check` pass. All 2,279 local links/fragments on the seven touched theme pages resolve, and their IDs, progress attributes, and external links match the reviewed head. The search index is regenerated; sitemap bytes are unchanged. Vercel reports success for content commit `c75f0ca07b74cb85c8427410e2bb3d6cc6d9d6c9`. On its refreshed desktop preview, the new first-encounter continuation link was followed to `#full-bad-conscience`, and the destination visibly begins with GM II §§16–18. The final follow-up record changes only this document.
