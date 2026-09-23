@@ -6,7 +6,7 @@ Date: 2026-09-23. Status: **COMPLETE**, independently reviewed, minor follow-up 
 - Branch: `integrator/wp-19-editorial-integration`
 - Baseline: `07e0416ea66f9e0fb103fa8ee2ea0b00d4256672` (main, merge of PR #51)
 - Inputs: the WP-19 integration audit and the owner's supplied **WP-19 Claude Editorial Integration Audit**, both against this baseline. This record documents the reconciled correction scope, not blanket acceptance of either report.
-- Production release: PR #52 merged at `3a72aec45e82ef9dde455240c87f4a843948a892`; Vercel reported deployment success and representative production checks passed. WP-20 remains blocked only on the account-side checks detailed in `WP20_RELEASE_VERIFICATION.md`.
+- Production release: PR #52 merged at `3a72aec45e82ef9dde455240c87f4a843948a892`; Vercel reported deployment success and representative production checks passed. WP-20 subsequently completed the account-side checks and documented the Hobby rollback constraint in `WP20_RELEASE_VERIFICATION.md`.
 
 ## What changed
 
@@ -71,7 +71,7 @@ Checks are bounded to the corrected claims; this is not sitewide scholarly certi
 
 ## Completion and separate release gate
 
-Independent review is reconciled; there are no substantive editorial blockers. The owner authorized publication, PR #52 merged, and its changes were verified on the public site. WP-19 is complete. WP-20's public checks passed, but the separate gate remains blocked because the Vercel connector denied access to the project team's scope. See `WP20_RELEASE_VERIFICATION.md` for the merge/deployment association, production checks, and required account-side follow-up.
+Independent review is reconciled; there are no substantive editorial blockers. The owner authorized publication, PR #52 merged, and its changes were verified on the public site. WP-19 is complete. WP-20 subsequently confirmed the Vercel project, Git connection, production branch, alias, retention, protection, and rollback controls. The release gate is complete; see `WP20_RELEASE_VERIFICATION.md` for the deployment association, production checks, and the Hobby rollback constraint.
 
 
 ## Independent PR review and follow-up
