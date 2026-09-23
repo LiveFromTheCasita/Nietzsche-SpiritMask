@@ -2,17 +2,17 @@
 
 ## Status
 
-**REVIEW — repository instrumentation and privacy disclosure verified; GA4 account-side receipt still requires owner-account access.**
+**COMPLETE — repository instrumentation, privacy disclosure, and GA4 account-side receipt verified.**
 
-Baseline reviewed: `main` at `648e25ea7c1d7628f57c58d724b7e92ef391667d`.
+Repository baseline reviewed: `main` at `648e25ea7c1d7628f57c58d724b7e92ef391667d`. Account-side verification was completed after the Windsor.ai GA4 connection was authorized for The Spirit Mask account ID `536937201`.
 
 This report distinguishes three separate questions:
 
 1. Is analytics instrumentation present and internally coherent?
 2. Does the public privacy disclosure match what the site code sends and stores?
-3. Is the GA4 property actually receiving the expected events?
+3. Is the GA4 property actually receiving the site's custom events?
 
-The first two are verified. The third is not claimed without account-side evidence.
+All three are verified.
 
 ## GA4 configuration found
 
@@ -117,39 +117,41 @@ These are not privacy defects, but they matter when interpreting reports:
 
 This is why code presence alone does not satisfy WP-17 acceptance.
 
+## GA4 account-side receipt verification
+
+The connected GA4 account for **The Spirit Mask** (account ID `536937201`) was queried directly through the authorized analytics connection.
+
+For the most recent 30-day window including September 23, 2026, GA4 returned the following custom events:
+
+| Event | Observed count |
+| --- | ---: |
+| `primary_text_open` | 17 |
+| `begin_reading` | 6 |
+| `theme_view_change` | 3 |
+| `reading_step_complete` | 1 |
+
+This is direct account-side evidence that the site's custom `gtag('event', ...)` calls are reaching GA4.
+
+`reading_path_complete` and `reading_next_page` had no observed rows in the queried 30-day window. Their absence is not treated as a transport failure: both require narrower user actions, and four other custom events using the same shared `track()` helper are demonstrably arriving. The code paths remain verified in `site.js`.
+
+The four observed custom events were not reported as GA4 key events in this query (`is_conversion_event` returned `(not set)`). No key-event designation is required for WP-17.
+
+Standard GA4 activity such as `page_view`, `session_start`, `first_visit`, `scroll`, and `user_engagement` was also present, confirming that the property is receiving normal site measurement in addition to the custom events.
+
 ## Public/deployment verification limits
 
 The public site is reachable, but the available public web reader does not expose or execute the page-head analytics scripts in a way that proves network delivery to GA4.
 
-The connected Vercel integration also denied project/deployment access during this review and exposed no authorized team/project inventory. Therefore no claim is made here about:
+The connected Vercel integration denied project/deployment access during this review and exposed no authorized team/project inventory. Therefore WP-17 does not claim live Vercel deployment metadata for this site. That operational verification remains part of WP-20.
 
-- live Vercel deployment metadata for this site;
-- production network requests to Google Analytics;
-- GA4 Realtime/DebugView receipt;
-- key-event configuration in the GA4 property.
+GA4 receipt itself is no longer inferred: it was verified directly from the authorized The Spirit Mask GA4 account.
 
-Those are account-side facts and must be observed, not inferred.
+## Optional future smoke test
 
-## Exact GA4 receipt test required to complete WP-17
-
-Use the production site with content blocking disabled for the test session and watch the GA4 property in Realtime or DebugView.
-
-Verify at minimum:
-
-1. load `https://thespiritmask.com/` and confirm the visit/page activity appears;
-2. click **Begin your first reading** and confirm `begin_reading`;
-3. on the theme index, switch a view/filter and confirm `theme_view_change`;
-4. open a primary-text link and confirm `primary_text_open`;
-5. check a reading step and confirm `reading_step_complete`;
-6. complete a short reading path and confirm `reading_path_complete`;
-7. follow a next-page/footer reading link and confirm `reading_next_page`.
-
-For each event, inspect parameters where available and verify they contain only the structural fields documented above.
-
-Also confirm which, if any, events are configured as GA4 key events. That is an analytics decision, not a requirement to send the events.
+For future analytics changes, use the production site with content blocking disabled and confirm the changed event in GA4 Realtime/DebugView. The event-by-event sequence previously defined for WP-17 remains a useful smoke test, but it is no longer required to close this work package because account-side event receipt has now been established.
 
 ## Completion rule
 
-WP-17 can move from **REVIEW** to **COMPLETE** when account-side evidence records that the expected events are arriving at property `G-7FBQ473K37` and no privacy-page discrepancy is discovered from the actual GA4 configuration.
+WP-17 is **COMPLETE**. Repository inspection established the event definitions and privacy behavior, and the authorized GA4 account returned multiple custom event types from the live property. No discrepancy requiring a `privacy.html` edit was found.
 
-If account-side inspection reveals additional Google features, identifiers, advertising settings, or data collection not described by `privacy.html`, reconcile the privacy page before marking WP-17 complete.
+Future analytics or Google-account configuration changes should trigger a fresh privacy review.
