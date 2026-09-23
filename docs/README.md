@@ -12,4 +12,4 @@ Read in this order before contributing:
 
 These files are model-independent. Claude, Grok, ChatGPT/Astra, and future agents should work from the same project rules and receive different work packages rather than different versions of the project's editorial identity.
 
-Current production content baseline reviewed by this documentation package: `main` at `763286a89fb5b5f7e30d5e65a868f751f071fd7f` before the WP-18 documentation branch. WP-15 and WP-16 are complete with no required implementation fixes, and WP-18 defines the canonical release/rollback workflow.
+Current production content baseline reviewed by this documentation package: `main` at `648e25ea7c1d7628f57c58d724b7e92ef391667d` before the WP-17 documentation branch. WP-15, WP-16, and WP-18 are complete. WP-17 repository/privacy verification is complete, with GA4 account-side receipt still in REVIEW; see `ANALYTICS_PRIVACY_VERIFICATION.md`.
