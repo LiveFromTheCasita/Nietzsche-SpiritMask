@@ -191,17 +191,18 @@ Status values: READY / IN PROGRESS / BLOCKED / REVIEW / COMPLETE.
 - Acceptance: code presence plus account-side receipt documented; privacy page reconciled.
 
 ### WP-18 — Vercel production/release workflow review
-- Status: READY
+- Status: COMPLETE
 - Priority: P1
 - Risk: Medium
 - Recommended environment: ChatGPT/Astra
 - Goal: document preview -> review -> merge -> production path and rollback expectations.
 - Acceptance: repeatable deployment checklist in repository docs.
+- Completion note: ChatGPT/Astra verified the repository-side deployment contract at baseline `763286a89fb5b5f7e30d5e65a868f751f071fd7f`, including the static-site architecture, `main` production-branch convention, and bounded `vercel.json` redirects. `docs/DEPLOYMENT_RUNBOOK.md` now defines branch/PR review, validation, merge, production verification, stop conditions, Git-revert rollback, emergency Vercel rollback, and release-record requirements. The connected Vercel tool did not expose a team/project inventory, so account-side project/deployment settings are explicitly deferred to the live WP-20 release gate rather than inferred.
 
 ## Phase 6 — Final integration
 
 ### WP-19 — Sitewide editorial integration review
-- Status: BLOCKED
+- Status: READY
 - Priority: P0
 - Risk: High
 - Recommended environment: Astra/ChatGPT
