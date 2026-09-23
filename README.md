@@ -34,13 +34,13 @@ Commit regenerated `search-index.json`, and commit `sitemap.xml` only when the g
 
 The pre-existing GA4 tag is retained. Custom events are `begin_reading`, `theme_view_change`, `primary_text_open`, `reading_step_complete`, `reading_path_complete`, and `reading_next_page`.
 
-An administrator still needs to verify receipt in GA4 Realtime/DebugView, choose key events, and inspect Search Console coverage and field performance. Presence of code is not proof that these services are receiving data. Review the descriptive privacy page against the actual account configuration before publishing.
+Repository-side WP-17 verification confirmed the GA4 property ID, all six custom event definitions, local-only reading progress, client-side search behavior, and that the descriptive privacy page matches the implementation. An administrator still needs to verify event receipt in GA4 Realtime/DebugView and choose any key events; presence of correct code is not proof of account-side receipt. See `docs/ANALYTICS_PRIVACY_VERIFICATION.md`.
 
 ## Editorial review
 
 The 25-theme program is complete. All theme pages now use the shared guided-reading architecture, with deliberate variation for special cases and notebook-heavy topics. Citation/translation audits, the sitewide Will to Power / Nachlass integrity review, the final theme-consistency review, Twilight of the Idols course QA, the historical-claim review, and the six-page companion-essay audit/revision program are also complete and independently reviewed.
 
-This does not amount to final scholarly certification of every claim. The sitewide search/sitemap/internal-link/canonical audit and accessibility audit are complete with no required fixes. Remaining defined work is concentrated in analytics/privacy verification, release workflow, the future book-expansion roadmap, and final sitewide integration/release review. Author identity and biography must be supplied by the owner; no credentials or named editorial responsibility have been invented.
+This does not amount to final scholarly certification of every claim. The sitewide search/sitemap/internal-link/canonical audit and accessibility audit are complete with no required fixes. Remaining defined work is concentrated in GA4 account-side verification, the future book-expansion roadmap, and final sitewide integration/release review. Author identity and biography must be supplied by the owner; no credentials or named editorial responsibility have been invented.
 
 ## Publication
 
