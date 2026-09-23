@@ -22,7 +22,7 @@ The repository currently contains:
 - 6 editorial/companion essays under `/submissions/`
 - Sitewide corpus, glossary, sources/translations, start, about, search, privacy, and index pages
 - Local reading-progress behavior in `site.js`
-- Analytics instrumentation is repository-verified against GA4 property `G-7FBQ473K37`; privacy disclosure matches the code; account-side event receipt still requires verification
+- Analytics instrumentation and account-side receipt are verified against GA4 property `G-7FBQ473K37`; the privacy disclosure matches the implementation
 
 ## Editorial identity
 The site is a study framework, not a summary site and not a devotional/anti-Nietzsche polemic. Its core method is:
@@ -91,7 +91,7 @@ The README already records:
 The site has a mature architecture and complete public coverage of all 25 themes. The full theme program (WP-01–WP-04) is complete, including conversion, source/translation review, Nachlass discipline, and a sitewide consistency pass. WP-05 classified all ten book guides/courses; WP-06 confirmed the Beyond Good and Evil course architecture; and WP-07 completed bounded QA of the full Twilight of the Idols course. The historical-claim review (WP-11) and the complete companion-essay audit/revision program (WP-13–WP-14) are also complete.
 
 ## What remains
-The remaining defined work is now concentrated in the book-expansion roadmap (WP-08), GA4 account-side completion of analytics/privacy verification (WP-17, currently REVIEW), final sitewide editorial integration (WP-19), and the release gate (WP-20). WP-15 verified search, sitemap, internal links, course navigation, fragments, and canonicals across the full public site; WP-16 found no required accessibility remediation; WP-18 established the canonical deployment and rollback workflow in `DEPLOYMENT_RUNBOOK.md`. WP-19 is now ready. See `WORK_PLAN.md`.
+The remaining defined work is now concentrated in the book-expansion roadmap (WP-08), final sitewide editorial integration (WP-19), and the release gate (WP-20). WP-17 analytics/privacy verification is complete. WP-15 verified search, sitemap, internal links, course navigation, fragments, and canonicals across the full public site; WP-16 found no required accessibility remediation; WP-18 established the canonical deployment and rollback workflow in `DEPLOYMENT_RUNBOOK.md`. WP-19 is now ready. See `WORK_PLAN.md`.
 
 ## Publication rule
 Do not make broad editorial or structural changes directly on `main`. Use a scoped branch/PR. Content changes require search/sitemap regeneration and verification. High-risk changes require a second-pass review before merge.

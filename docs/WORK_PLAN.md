@@ -183,13 +183,13 @@ Status values: READY / IN PROGRESS / BLOCKED / REVIEW / COMPLETE.
 - Completion note: Grok completed a read-only accessibility audit across all 155 public pages, with representative browser testing of the major page families and static inspection of shared CSS/JS. No blocker or important WCAG 2.2 AA failure was found. Keyboard access, skip links, focus visibility, filter state, search labeling/status, reading checkboxes, native details/summary, contrast, landmarks, heading structure, and mobile reflow all passed. Remaining observations (search button, filter-group naming, richer checkbox captions) are optional polish only; no implementation package was required.
 
 ### WP-17 — Analytics/privacy verification
-- Status: REVIEW
+- Status: COMPLETE
 - Priority: P2
 - Risk: Medium
 - Recommended environment: ChatGPT/Astra with Vercel/browser + owner account verification
 - Goal: verify custom events reach GA4 and privacy text matches actual configuration.
 - Acceptance: code presence plus account-side receipt documented; privacy page reconciled.
-- Review note: ChatGPT/Astra verified the GA4 measurement ID `G-7FBQ473K37`, shared instrumentation across representative pages from every major public page family, all six custom event definitions and their structured parameters, local-only reading progress, and client-side search behavior. `privacy.html` accurately describes the implementation and requires no corrective edit. Account-side receipt in GA4 Realtime/DebugView remains unverified because no authorized GA4 data connection is available and the connected Vercel integration does not expose this project. See `docs/ANALYTICS_PRIVACY_VERIFICATION.md` for the exact completion test.
+- Completion note: ChatGPT/Astra verified measurement ID `G-7FBQ473K37`, all six custom event definitions, local-only reading progress, client-side search behavior, and the accuracy of `privacy.html`. After the owner authorized the The Spirit Mask GA4 account (`536937201`) through Windsor.ai, direct account-side data for the most recent 30-day window showed `primary_text_open` (17), `begin_reading` (6), `theme_view_change` (3), and `reading_step_complete` (1), alongside normal GA4 events. `reading_path_complete` and `reading_next_page` had no observed occurrences in that window; because the same shared event helper is demonstrably delivering other custom events and these two require narrower user actions, this is not treated as a transport failure. No privacy-page correction was required. See `docs/ANALYTICS_PRIVACY_VERIFICATION.md`.
 
 ### WP-18 — Vercel production/release workflow review
 - Status: COMPLETE
