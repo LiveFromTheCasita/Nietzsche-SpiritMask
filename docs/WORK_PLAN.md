@@ -210,7 +210,7 @@ Status values: READY / IN PROGRESS / BLOCKED / REVIEW / COMPLETE.
 - Depends on: major theme, book, and source-audit packages
 - Goal: ensure the site reads as one publication.
 - Acceptance: voice, terminology, cross-links, chronology, translation practice, and source discipline are consistent.
-- Review note (2026-09-23): bounded corrections are prepared on `integrator/wp-19-editorial-integration`, based on `07e0416ea66f9e0fb103fa8ee2ea0b00d4256672`. See `WP19_INTEGRATION_REVIEW.md` for scope, audit reconciliation, source checks, and verification. Independent review is required before completion or merge.
+- Review note (2026-09-23): bounded corrections are prepared on `integrator/wp-19-editorial-integration`, based on `07e0416ea66f9e0fb103fa8ee2ea0b00d4256672`. See `WP19_INTEGRATION_REVIEW.md` for scope, audit reconciliation, source checks, and verification. Claude independently reviewed `9ede7a5` and returned PASS WITH MINOR ISSUES, with no merge blockers. The useful minor clarifications are incorporated; the package awaits merge and release verification.
 
 ### WP-20 — Release gate
 - Status: BLOCKED

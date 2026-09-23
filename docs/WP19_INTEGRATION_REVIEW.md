@@ -1,16 +1,16 @@
 # WP-19 editorial integration: correction and review record
 
-Date: 2026-09-23. Status: **REVIEW**, awaiting independent review before merge.
+Date: 2026-09-23. Status: **REVIEW**, independent review passed; minor follow-up complete, awaiting merge.
 
 - Repository: `LiveFromTheCasita/Nietzsche-SpiritMask`
 - Branch: `integrator/wp-19-editorial-integration`
 - Baseline: `07e0416ea66f9e0fb103fa8ee2ea0b00d4256672` (main, merge of PR #51)
 - Inputs: the WP-19 integration audit and the owner's supplied **WP-19 Claude Editorial Integration Audit**, both against this baseline. This record documents the reconciled correction scope, not blanket acceptance of either report.
-- Production has not been changed by this work. WP-20 remains blocked pending WP-19 review and the release gate.
+- Production has not been changed by this work. WP-20 remains blocked pending WP-19 completion and the release gate.
 
 ## What changed
 
-Fifteen public HTML files receive bounded changes. No course, reading selection, URL, section ID, progress key, preferred edition, byline, CSS, or JavaScript is changed.
+Eighteen public HTML files receive bounded changes, including three additional terminology-note pages in the review follow-up. No course, reading selection, URL, section ID, progress key, preferred edition, byline, CSS, or JavaScript is changed.
 
 - `about.html`: describe the first encounter, fuller route, work survey, and separate notebook material. Retain the declared Kaufmann orientation while requiring it to answer to textual evidence and competing explanations.
 - `glossary.html`: distinguish self-overcoming from giving a character style; identify notebook nihilism distinctions; remove the completed two-halves account of revaluation, the categorical exclusion of domination from power, and the unsupported claim that the last man has heard of God's death.
@@ -40,10 +40,10 @@ Fifteen public HTML files receive bounded changes. No course, reading selection,
 | C-09 | Accept the distinction between slave revolt, internalization, religious debt, and priestly interpretation. Also fix the first-encounter assignment/gloss mismatch. |
 | C-10 | Accept the specific connection-blurb corrections; no blanket rewrite of all connections. |
 | C-11 | Accept the bounded opening-sentence qualification. |
-| C-12 | Leave terminology variants unchanged. The existing notes identify Common's wording without asserting that Kaufmann uses a different term; wholesale normalization is unnecessary. |
+| C-12 | Initially left unchanged. On second review, remove the redundant Common “last man” clauses from death of God, revaluation, and nihilism to avoid implying a difference from the preferred edition. Retain the terminology variants in commentary; no wholesale normalization. |
 | C-13 | Narrow to unsupported historical/psychological verdicts in the Christianity framing and distinctions. Do not impose a new sitewide policy on labelled editorial evaluations. |
 | C-14 | Attribute the two overman essay blurbs as arguments. Preserve bylines authorized by the owner and the existing first-person argument in Beyond the Last Man; do not reopen the completed essay audit. |
-| C-15 | No change: “named” does not claim “first named,” and the earlier occurrence is already supplied. |
+| C-15 | Initially left unchanged because “named” need not mean “first named.” On second review, remove the possible uniqueness implication: describe a sustained account of the phrase instead. Avoid the proposed unsupported superlative “fullest.” |
 
 The integrator's separate findings on the overman footer, self-overcoming and power summaries, tragedy tagline, aphorism definition, and About architecture are included above.
 
@@ -67,8 +67,26 @@ Checks are bounded to the corrected claims; this is not sitewide scholarly certi
 - Baseline comparison: all IDs and primary-text links on changed pages preserved. Reading files, submissions, `start.html`, and `sources.html` are byte-identical. No route migration is needed.
 - Browser/preview inspection: completed on the Vercel branch preview for content commit `87007d4def9b811aa9a8b4f33a3b050af1b874e4`. Inspected the homepage, theme-index period view, BT comparison section, and the Christianity/suffering distinctions. Followed the overman next-theme link to Recurrence, Time, and Becoming. The period filter exposes the revised chronology note and sets `aria-pressed=true`. Screenshots showed readable text without clipping in the inspected desktop viewport. This was a representative desktop check, not a repeat of WP-16 accessibility or a mobile audit.
 - Preview: https://nietzsche-spirit-mask-git-in-cd69c9-livefromthecasitas-projects.vercel.app/ (Vercel check successful).
-- Draft review PR: https://github.com/LiveFromTheCasita/Nietzsche-SpiritMask/pull/52. The subsequent verification-record commit changes only this document; public-file bytes remain those inspected above.
+- Draft review PR: https://github.com/LiveFromTheCasita/Nietzsche-SpiritMask/pull/52. Commit `9ede7a5` added only the initial verification record. The separately recorded follow-up below adds minor public-text clarifications.
 
 ## Remaining gate
 
-Independent review should test both the editorial changes and these accept/narrow/reject decisions against the cited passages and project standards. WP-19 is not complete until that review is reconciled. Do not merge or deploy as part of the review; WP-20 must still verify the release conditions and production afterward.
+Independent review is reconciled; there are no substantive editorial blockers. The branch awaits the production release action. Merge is the production trigger, and WP-20 must verify release conditions, deployment identity, and production afterward. Mark WP-19 complete and update the production-state wording when the changes reach main.
+
+
+## Independent PR review and follow-up
+
+The owner supplied **WP-19 Claude PR Review**, against baseline `07e0416` and exact head `9ede7a543e16fa6ff81593acc6dbac342ba70879`. Verdict: **PASS WITH MINOR ISSUES**; Claude explicitly reported no merge blockers and no regressions. The review accepted the narrowed About, glossary, chronology, evaluation, and byline decisions. It independently checked the complete public-page diff, structural invariants, reproducible generated files, and the disputed primary-source claims, including all 83 BT quotations. It did not inspect the preview or independently verify Kaufmann wording.
+
+| Review finding | Follow-up |
+| --- | --- |
+| 1. First Genealogy reading stops before internalization | Added a direct link from the first card to the existing fuller-route bad-conscience group assigning II §§16–18. No assignment changed. |
+| 2. Common “last man” note | Removed the redundant clause in both death-of-God cards, revaluation, and the matching nihilism note. |
+| 3. Will-to-power “the chapter” wording | Reworded the two cards and the related connection to describe the sustained account without a first-use or unique-use implication. |
+| 4. “Compact” aphorism | Removed “compact”; retained the account of relative independence and neighbouring sections. |
+| 5. BT's “because they saw it” | No change. Both reviewers accept the attribution and the distinction supplied by the revised comparison section. |
+| 6. Christianity card | Explicitly state that opposition to antisemites does not cancel the anti-Jewish language. |
+
+The follow-up adds no quotation or primary-source assertion and changes no route, external link, ID, preferred edition, or byline. The independent review applies to `9ede7a5`; these small follow-up edits are the integrator's response and are not represented as a second Claude-approved commit.
+
+Follow-up validation: pending final build, focused integrity/link checks, and preview inspection.
