@@ -1,13 +1,13 @@
 # WP-08 — Book-guide expansion roadmap
 
-**Proposal for editorial approval · 2026-09-23**  
-Repository baseline: `55e616a94280de571760d0df0e891afbebdcd665` (`main`, after WP-20). This is a planning document. It does not authorize or implement new public courses.
+**Approved roadmap · 2026-09-23**  
+Repository baseline: `55e616a94280de571760d0df0e891afbebdcd665` (`main`, after WP-20). This is a planning document. It does not itself implement new public courses.
 
-## Decision proposed
+## Approved scope and sequence
 
-Keep the existing introductions intact. Add an **optional full-text course** for each of the seven books now taught through selected readings, one scoped book package at a time. A full-text course assigns the whole named published work in its own order, groups passages into manageable lessons, and gives representative passages close analysis. It need not comment separately on every aphorism. Preserve the current introductory route as the shorter path, including its saved reading progress and URLs.
+Keep the existing introductions intact. Add an **optional full-text course** for each of the seven books now taught through selected readings, one scoped book package at a time. A full-text course assigns the whole named published work in its own order, groups passages into manageable lessons, and gives representative passages close analysis. It need not comment separately on every aphorism. Preserve the current introductory content and URLs as the shorter path. The existing book lessons do not use the theme-route reading-progress mechanism; any new book-course progress feature requires its own separately reviewed scope.
 
-Approve the order below as an editorial queue, with a reassessment after the first book. It is an order for *building* courses, not a required reading order. A reader following publication history may instead proceed from *Human, All Too Human* through *Daybreak*, the original *Gay Science*, *Zarathustra*, and *Beyond Good and Evil*, returning to the 1887 additions at the proper point. Each full-text course follows its book's section or chapter order; any chronological route that moves a later preface must be labeled as an alternate. Future implementation packages and their scope require separate review.
+The owner approved the order below as an editorial queue, with a reassessment after the first book. It is an order for *building* courses, not a required reading order. A reader following publication history may instead proceed from *Human, All Too Human* through *Daybreak*, the original *Gay Science*, *Zarathustra*, and *Beyond Good and Evil*, returning to the 1887 additions at the proper point. Each full-text course follows its book's section or chapter order; any chronological route that moves a later preface must be labeled as an alternate. Future implementation packages and their scope require separate review.
 
 ## Current course inventory
 
@@ -28,7 +28,7 @@ The counts describe current guided sessions, not coverage of every printed secti
 
 “Whole published text covered” describes assigned reading, not an independent scholarly certification of every explanation. A selected introduction is complete in its own stated scope; the proposed full-text route is an additional depth option.
 
-## Proposed implementation queue
+## Approved implementation queue
 
 | Order | Book and bounded deliverable | Why here; main dependency or risk |
 | --- | --- | --- |
@@ -48,12 +48,12 @@ This order prioritizes a contained pilot and the existing *Gay Science* → *Zar
 2. Specify a realistic sequence of new lessons and exact reading assignments. Mark which introductory lessons can be linked or reused and where new analysis is needed. Full coverage means each in-scope passage has a place in an ordered assignment; it does not require one web page per section. Keep the short route available and avoid duplicate commentary where a cross-link suffices.
 3. Preserve the preferred Kaufmann or Hollingdale recommendation named in `sources.html`; label the linked free translator separately. Check edition-specific omissions, title variants, numbering, publication dates, and retrospective additions. Use short attributed quotations only when necessary for analysis, never complete passages from copyrighted editions.
 4. Give each new lesson a question, precise sections/chapters, interpretive stakes, a complication or test, and a transition to the next lesson. State troubling claims plainly. Compare early and later works without implying a settled single system. Check that lesson lengths are workable with the actual primary reading.
-5. Implement on its **own scoped branch/PR**, with source/translation review, `python3 scripts/build-index.py`, `node --check site.js`, relevant link and navigation checks, and changed-page browser inspection. Verify any reading-progress migration if an existing route's step order must change. Commit generated files only when their content changes; verify the `main` production deployment after merge under the release runbook. Do not manually deploy or alter Vercel settings as part of this roadmap.
+5. Implement on its **own scoped branch/PR**, with source/translation review, `python3 scripts/build-index.py`, `node --check site.js`, relevant link and navigation checks, and changed-page browser inspection. Preserve existing book URLs and lesson navigation. If a separate implementation changes a theme reading route or adds book-course progress, explicitly review progress behavior there. Commit generated files only when their content changes; verify the `main` production deployment after merge under the release runbook. Do not manually deploy or alter Vercel settings as part of this roadmap.
 
-The first package is a pilot gate. Before starting book 2, inspect its coverage matrix, source checks, lesson workload, navigation, preview, and reader experience; adjust the remaining units and order explicitly. The roadmap does not set a deadline or claim that the seven substantial courses are already staffed or approved for publication.
+The first package is a pilot gate. Before starting book 2 or any of the other six courses, inspect its coverage matrix, source checks, lesson workload, navigation, preview, and reader experience; adjust the remaining units and order explicitly. The roadmap does not set a deadline or claim that the seven substantial courses are already staffed or approved for publication.
 
-## Source notes and approval
+## Source notes and approval record
 
 The repository's [edition guide](../sources.html) is the authority for preferred editions and free alternatives. The linked Project Gutenberg texts independently expose the [25 numbered sections and later self-criticism](https://www.gutenberg.org/ebooks/51356), the [1887 additions to *The Joyful Wisdom*](https://www.gutenberg.org/ebooks/52881), and the [two](https://www.gutenberg.org/ebooks/51710) [free](https://www.gutenberg.org/ebooks/38226) *Untimely* volumes. These links establish text availability and edition boundaries; detailed passage/translator checks belong to each implementation package.
 
-**Approval requested:** accept the optional full-text course scope and the seven-book queue, including the pilot reassessment. WP-08 remains **REVIEW** until the owner accepts or revises this book-by-book roadmap. No public site content, generated files, or Vercel settings change in this proposal.
+**Owner approval (2026-09-23):** the owner approved the optional full-text scope and seven-book queue, directed that *The Birth of Tragedy* be the bounded pilot, and required reassessment before any of the other six courses begin. WP-08 is **COMPLETE** as a roadmap. No public site content, generated files, or Vercel settings change in this documentation closeout.
