@@ -203,13 +203,14 @@ Status values: READY / IN PROGRESS / BLOCKED / REVIEW / COMPLETE.
 ## Phase 6 — Final integration
 
 ### WP-19 — Sitewide editorial integration review
-- Status: READY
+- Status: REVIEW
 - Priority: P0
 - Risk: High
 - Recommended environment: Astra/ChatGPT
 - Depends on: major theme, book, and source-audit packages
 - Goal: ensure the site reads as one publication.
 - Acceptance: voice, terminology, cross-links, chronology, translation practice, and source discipline are consistent.
+- Review note (2026-09-23): bounded corrections are prepared on `integrator/wp-19-editorial-integration`, based on `07e0416ea66f9e0fb103fa8ee2ea0b00d4256672`. See `WP19_INTEGRATION_REVIEW.md` for scope, audit reconciliation, source checks, and verification. Independent review is required before completion or merge.
 
 ### WP-20 — Release gate
 - Status: BLOCKED
