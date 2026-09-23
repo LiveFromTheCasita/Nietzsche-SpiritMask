@@ -40,7 +40,7 @@ WP-17 is complete. Repository inspection confirmed the GA4 property ID, all six 
 
 The 25-theme program is complete. All theme pages now use the shared guided-reading architecture, with deliberate variation for special cases and notebook-heavy topics. Citation/translation audits, the sitewide Will to Power / Nachlass integrity review, the final theme-consistency review, Twilight of the Idols course QA, the historical-claim review, and the six-page companion-essay audit/revision program are also complete and independently reviewed.
 
-This does not amount to final scholarly certification of every claim. The sitewide search/sitemap/internal-link/canonical audit and accessibility audit are complete with no required fixes. The sitewide integration and release review (WP-19 and WP-20) are complete. The remaining defined work package is the future book-expansion roadmap (WP-08). Author identity and biography must be supplied by the owner; no credentials or named editorial responsibility have been invented.
+This does not amount to final scholarly certification of every claim. The sitewide search/sitemap/internal-link/canonical audit and accessibility audit are complete with no required fixes. The sitewide integration and release review (WP-19 and WP-20) are complete. WP-08's approved book-expansion roadmap is complete; a bounded Birth of Tragedy pilot is next, with the other six courses deferred until after its reassessment. Author identity and biography must be supplied by the owner; no credentials or named editorial responsibility have been invented.
 
 ## Publication
 
