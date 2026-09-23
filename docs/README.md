@@ -12,6 +12,6 @@ Read in this order before contributing:
 
 These files are model-independent. Claude, Grok, ChatGPT/Astra, and future agents should work from the same project rules and receive different work packages rather than different versions of the project's editorial identity.
 
-Current production content baseline reviewed by this documentation package: `main` at `07e0416ea66f9e0fb103fa8ee2ea0b00d4256672` (WP-19 baseline). WP-15, WP-16, WP-17, and WP-18 are complete. WP-17 includes direct GA4 account-side receipt verification; see `ANALYTICS_PRIVACY_VERIFICATION.md`.
+Current production content baseline reviewed by this documentation package: `3a72aec45e82ef9dde455240c87f4a843948a892` on `main` (WP-19 release, PR #52). Later documentation-only merges may advance `main` without changing public content. WP-15, WP-16, WP-17, WP-18, and WP-19 are complete. WP-17 includes direct GA4 account-side receipt verification; see `ANALYTICS_PRIVACY_VERIFICATION.md`.
 
-WP-19 corrections have passed independent review and await merge. See `WP19_INTEGRATION_REVIEW.md` for the reconciled scope and verification; WP-20 remains blocked.
+WP-19 corrections passed independent review, merged through PR #52, and are live. See `WP19_INTEGRATION_REVIEW.md` for the reconciled scope and `WP20_RELEASE_VERIFICATION.md` for successful production checks. WP-20 remains blocked on Vercel account-side verification: the connector requires re-authentication with access to `livefromthecasitas-projects`.
