@@ -50,8 +50,8 @@ The historical approval above is unchanged. This note records later decisions.
   - A human reading-time trial is still pending, so the pilot reassessment is not finished.
   - See [`BT_PILOT_CLOSEOUT.md`](BT_PILOT_CLOSEOUT.md).
 - **Changed order:** the owner placed dedicated guides for four Corpus works ahead of rows 2–7 of this queue: *Early Unpublished Essays*, *The Case of Wagner*, *Ecce Homo*, and *Nietzsche Contra Wagner*. This roadmap's inventory covered only the ten existing guides, so those four works were never part of it.
-- **Row 2:** the scope proposal for *The Gay Science* (PR #58) is preserved on an owner-priority hold.
-- **Rows 3–7:** these remain deferred behind the four guides and PR #58, in the order above unless the owner changes it.
+- **Row 2:** the scope proposal for *The Gay Science* merged through PR #58 on 2026-09-24 as documentation only. Its route and lessons remain on an owner-priority hold.
+- **Rows 3–7:** these remain deferred behind the four guides and the later reassessment, in the order above unless the owner changes it.
 
 ## Contract for each future book package
 
