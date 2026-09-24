@@ -254,7 +254,7 @@ The owner changed the development order. Future agents must follow this queue, n
 
    This is the **next editorial assignment**. It has not been drafted or started and requires its own bounded assignment.
 3. **Only afterward**, reconsider the optional full-text expansions for works that already have introductory courses.
-   - **PR #58** ("Scope The Gay Science optional full-text route", branch `integrator/gay-science-full-text-scope`) is on an **owner-priority hold** recorded in its discussion. Preserve it. Do not merge it, modify its branch, or begin its lessons.
+   - **PR #58** ("Scope The Gay Science optional full-text route", branch `integrator/gay-science-full-text-scope`) was on an **owner-priority hold** at this closeout. It merged later on 2026-09-24 as a documentation-only proposal. The owner-priority hold still applies to implementing its route or lessons; no Gay Science site pages were published by that merge.
    - The remaining WP-08 expansions stay deferred behind it: *Zarathustra*, *Beyond Good and Evil*, *Untimely Meditations*, *Daybreak*, *Human, All Too Human*.
 
 The original program completed the planning and QA work for the **ten existing book guides**. It did not give every Corpus entry a dedicated guide; the four works above have Corpus entries and theme-page coverage but no guide of their own.
