@@ -240,7 +240,7 @@ The WP-00–WP-20 program above is complete. It covered the ten existing book gu
 
 ### The Gay Science optional full-text route
 - Status: BLOCKED (owner-priority hold)
-- Scope proposal: PR #58, branch `integrator/gay-science-full-text-scope`. Preserve it unmerged. Do not modify its branch or begin its lessons until the owner reprioritizes it.
+- Scope proposal: merged documentation-only through PR #58 on 2026-09-24 (`docs/GS_FULL_TEXT_ROUTE_SCOPE.md`). No route or lessons were published. The implementation remains on hold until the owner reprioritizes it.
 
 ### Remaining optional full-text expansions
 - Status: deferred
