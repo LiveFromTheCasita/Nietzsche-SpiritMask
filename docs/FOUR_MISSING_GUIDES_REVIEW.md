@@ -10,10 +10,10 @@ The four existing Corpus anchors remain stable; their titles now link to the gui
 
 | Guide | Assigned material | Preferred edition and free alternative | Boundary to protect |
 | --- | --- | --- | --- |
-| Early Unpublished Essays | The complete “Homer’s Contest” (1872) and “On Truth and Lies in a Nonmoral Sense” (1873) | No single matching Kaufmann/Hollingdale edition recommended in `sources.html`; Mügge’s [1911 collection](https://www.gutenberg.org/ebooks/51548) is the free alternative | Two unpublished texts out of seven in the collection; Mügge calls the latter “On Truth and Falsity in Their Ultramoral Sense.” |
+| Early Unpublished Essays | The complete “Homer’s Contest” (1872) and “On Truth and Lies in a Nonmoral Sense” (1873) | No single matching Kaufmann/Hollingdale edition recommended in `sources.html`; Mügge’s [1911 collection](https://www.gutenberg.org/ebooks/51548) is the free alternative | Two unpublished texts out of seven essays, plus a translator’s preface; Mügge calls the latter “On Truth and Falsity in Their Ultramoral Sense.” |
 | The Case of Wagner | Preface, numbered sections, postscripts, Epilogue | Kaufmann in *Basic Writings*; Ludovici’s [combined volume](https://www.gutenberg.org/ebooks/25012) | Stop before the separately headed *Nietzsche Contra Wagner*; do not assign Ludovici’s prefaces as Nietzsche’s. |
-| Ecce Homo | Preface; three “Why I…” chapters; all book entries; “Why I Am a Fatality” | Kaufmann in *Basic Writings*; [Ludovici’s free prose](https://www.gutenberg.org/ebooks/52190) | The translator’s introduction, editorial note, and separately credited poetry are outside the prose route. Written 1888, published 1908. |
-| Nietzsche Contra Wagner | Its Preface and all author-selected chapters through its Epilogue | Kaufmann in *The Portable Nietzsche*; Ludovici’s [combined volume](https://www.gutenberg.org/ebooks/25012) | Authored selection from earlier writings, not a fresh continuous treatise. Stop before the editor’s separate “Selected Aphorisms” appendix. |
+| Ecce Homo | Preface; untitled opening page; three “Why I…” chapters; all book entries; “Why I Am a Destiny” | Kaufmann in *Basic Writings*; [Ludovici’s free prose](https://www.gutenberg.org/ebooks/52190) | Ludovici calls the final chapter “Why I Am a Fatality” and prints an older version of “Why I Am So Wise” §3. The translator’s introduction, editorial note, and separately credited poetry are outside the prose route. Written 1888, published 1908. |
+| Nietzsche Contra Wagner | Preface, all author-selected chapters including the Intermezzo, Epilogue, and closing poem “On the Poverty of the Richest Man” | Kaufmann in *The Portable Nietzsche* (check printing for Intermezzo and poem); Ludovici’s [combined volume](https://www.gutenberg.org/ebooks/25012) | Authored selection chiefly from earlier published writing, with an Intermezzo drawn from unpublished *Ecce Homo*. Ludovici omits the Intermezzo and poem. Stop before the separate “Selected Aphorisms” appendix, which contains Nietzsche’s 1878 notes selected for this English volume. |
 
 ## Editorial review points
 
@@ -28,3 +28,7 @@ The four existing Corpus anchors remain stable; their titles now link to the gui
 - `python3 scripts/build-index.py`: 191 search entries, 167 sitemap URLs (four new public pages).
 - `node --check site.js` and `node --check book-guide.js`: passed.
 - Local parser audit of the four new pages plus `corpus.html` and `sources.html`: no missing local targets/fragments, duplicate IDs, skipped heading levels, or mismatched new canonical links.
+
+## Independent review response (2026-09-24)
+
+Claude’s PR #61 review of `957dafa` identified eight required corrections. The follow-up commit addresses the omitted *Contra Wagner* material and edition gaps (R1–R2, R8), the early collection’s status and count (R3), *Ecce Homo* titles and variant §3 (R4–R5), visible step numbers (R6), and reciprocal links between neighboring book guides (R7). The scope remains four integrated guides, with no separate lesson chains. The exact contents of Kaufmann’s *Portable Nietzsche* printing were not checked; the route identifies the critical text’s Intermezzo and poem and asks readers to check their preferred printing. The ten book entries of *Ecce Homo* remain covered by two reading groups; a fuller per-entry map is an optional later expansion.
