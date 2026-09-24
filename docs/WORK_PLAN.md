@@ -234,9 +234,9 @@ The WP-00–WP-20 program above is complete. It covered the ten existing book gu
 - Closeout note (2026-09-24): technical validation is complete. The checks were repository checks, link and route audits, a production byte comparison, and real browser rendering at 320 px, 390 px, and desktop widths. No defect was found, and no public file changed. On 2026-09-24 the owner reported the real reader trial complete and directed pilot closure without submitting timings. The pilot is closed by owner decision; advertised ranges remain unvalidated estimates. The protocol, evidence, and remaining conditions are in [`BT_PILOT_CLOSEOUT.md`](BT_PILOT_CLOSEOUT.md).
 
 ### Dedicated guides for four Corpus entries
-- Status: READY. This is the next editorial assignment; it has not been started.
+- Status: REVIEW. Four dedicated guide hubs with integrated reading paths are drafted on a scoped branch; independent editorial and source review is required before merge.
 - Scope: guide or course treatment for *Early Unpublished Essays*, *The Case of Wagner*, *Ecce Homo*, and *Nietzsche Contra Wagner*.
-- Requires its own bounded assignment, scope, and review. It is not part of the Birth closeout.
+- Bounded package: four new `works/` pages, Corpus and source-guide links, and regenerated search/sitemap. No standalone lesson chains or full-text courses are claimed. Check `FOUR_MISSING_GUIDES_REVIEW.md` for boundaries and review points. This is separate from the Birth closeout.
 
 ### The Gay Science optional full-text route
 - Status: BLOCKED (owner-priority hold)
