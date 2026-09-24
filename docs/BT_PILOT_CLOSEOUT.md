@@ -196,7 +196,7 @@ Cross-page links into hub cards land with the target heading 42–43 px from the
 
 ## 9. Human reading-time trial (owner-reported complete; measurements unavailable)
 
-**Status (owner report, 2026-09-24): the real reader trial was completed.** No timings, phase breakdown, edition, device, or qualitative feedback were supplied to the integrator. The blank table remains a record template, not evidence of measured times. No change to the advertised ranges is supported by the available data.  The route's times (16–23 hours overall; 9–13½ hours for readers who finished the introduction; the per-station ranges) are **planning estimates**. They come from word counts at 90–130 words per minute plus guide time. They are not measured reading times, and no simulated or AI estimate substitutes for this trial.
+**Status (owner report, 2026-09-24): the real reader trial was completed.** No timings, phase breakdown, edition, device, or qualitative feedback were supplied to the integrator. The blank table remains a record template, not evidence of measured times. No change to the advertised ranges is supported by the available data. The route's times (16–23 hours overall; 9–13½ hours for readers who finished the introduction; the per-station ranges) are **planning estimates**. They come from word counts at 90–130 words per minute plus guide time. They are not measured reading times, and no simulated or AI estimate substitutes for this trial.
 
 **Trial assignments:**
 
