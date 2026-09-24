@@ -47,7 +47,7 @@ This order prioritizes a contained pilot and the existing *Gay Science* → *Zar
 The historical approval above is unchanged. This note records later decisions.
 - **Pilot:** *The Birth of Tragedy* full-text route shipped through PR #57 (`33c00c7`).
   - Its technical closeout is complete.
-  - A human reading-time trial is still pending, so the pilot reassessment is not finished.
+  - On 2026-09-24 the owner reported the real reader trial complete and closed the pilot without supplying timings. Advertised ranges remain unvalidated estimates.
   - See [`BT_PILOT_CLOSEOUT.md`](BT_PILOT_CLOSEOUT.md).
 - **Changed order:** the owner placed dedicated guides for four Corpus works ahead of rows 2–7 of this queue: *Early Unpublished Essays*, *The Case of Wagner*, *Ecce Homo*, and *Nietzsche Contra Wagner*. This roadmap's inventory covered only the ten existing guides, so those four works were never part of it.
 - **Row 2:** the scope proposal for *The Gay Science* merged through PR #58 on 2026-09-24 as documentation only. Its route and lessons remain on an owner-priority hold.
