@@ -228,10 +228,10 @@ Status values: READY / IN PROGRESS / BLOCKED / REVIEW / COMPLETE.
 The WP-00–WP-20 program above is complete. It covered the ten existing book guides. It did not give every Corpus entry a dedicated guide. The owner set the order below on 2026-09-24. Do not begin any item without an explicit bounded assignment.
 
 ### BT pilot — The Birth of Tragedy optional full-text route
-- Status: REVIEW
+- Status: COMPLETE
 - Scope: the WP-08 pilot. It adds nine full-text lessons, the 19-station hub route with its Foreword and §25 cards, a labelled chronological alternate, and additive continue links on the introduction.
 - Implementation: PR #57, merged at `33c00c76da036b9bfa616d81c099c29d9a3cb7fc`.
-- Closeout note (2026-09-24): technical validation is complete. The checks were repository checks, link and route audits, a production byte comparison, and real browser rendering at 320 px, 390 px, and desktop widths. No defect was found, and no public file changed. **An actual human reading-time trial is pending**, so the pilot is not closed. The protocol, evidence, and remaining conditions are in [`BT_PILOT_CLOSEOUT.md`](BT_PILOT_CLOSEOUT.md).
+- Closeout note (2026-09-24): technical validation is complete. The checks were repository checks, link and route audits, a production byte comparison, and real browser rendering at 320 px, 390 px, and desktop widths. No defect was found, and no public file changed. On 2026-09-24 the owner reported the real reader trial complete and directed pilot closure without submitting timings. The pilot is closed by owner decision; advertised ranges remain unvalidated estimates. The protocol, evidence, and remaining conditions are in [`BT_PILOT_CLOSEOUT.md`](BT_PILOT_CLOSEOUT.md).
 
 ### Dedicated guides for four Corpus entries
 - Status: READY. This is the next editorial assignment; it has not been started.
