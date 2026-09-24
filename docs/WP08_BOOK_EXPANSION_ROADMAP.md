@@ -42,6 +42,17 @@ The counts describe current guided sessions, not coverage of every printed secti
 
 This order prioritizes a contained pilot and the existing *Gay Science* → *Zarathustra* → *Beyond Good and Evil* bridge before the large middle-period aphorism corpora. Implementation may pause or change order after the pilot if workload or editorial review warrants it; record that decision in the work plan rather than silently changing the queue.
 
+### Post-pilot status and owner reprioritization (2026-09-24)
+
+The historical approval above is unchanged. This note records later decisions.
+- **Pilot:** *The Birth of Tragedy* full-text route shipped through PR #57 (`33c00c7`).
+  - Its technical closeout is complete.
+  - A human reading-time trial is still pending, so the pilot reassessment is not finished.
+  - See [`BT_PILOT_CLOSEOUT.md`](BT_PILOT_CLOSEOUT.md).
+- **Changed order:** the owner placed dedicated guides for four Corpus works ahead of rows 2–7 of this queue: *Early Unpublished Essays*, *The Case of Wagner*, *Ecce Homo*, and *Nietzsche Contra Wagner*. This roadmap's inventory covered only the ten existing guides, so those four works were never part of it.
+- **Row 2:** the scope proposal for *The Gay Science* (PR #58) is preserved on an owner-priority hold.
+- **Rows 3–7:** these remain deferred behind the four guides and PR #58, in the order above unless the owner changes it.
+
 ## Contract for each future book package
 
 1. Make a **coverage matrix before drafting**: every prefatory item, numbered section or chapter, poem/appendix within the chosen published work, and existing introductory lesson; distinguish Nietzsche's own text from translator/editor apparatus. Note any deliberate exclusions outside the book's boundaries. Start from the corresponding `works/` guide and `sources.html`, then verify against the preferred and credited free editions.

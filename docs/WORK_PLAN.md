@@ -102,6 +102,7 @@ Status values: READY / IN PROGRESS / BLOCKED / REVIEW / COMPLETE.
 - Goal: sequence future complete courses based on current coverage and dependencies.
 - Acceptance: approved book-by-book roadmap.
 - Completion note: the owner approved the [book-by-book roadmap](WP08_BOOK_EXPANSION_ROADMAP.md) on 2026-09-23. It inventories all ten guides and sequences seven optional full-text expansions, beginning with a bounded *Birth of Tragedy* pilot. Reassess after the pilot before starting any of the other six; each future course requires its own scoped implementation review. The roadmap closes planning only, without changing public lessons.
+- Later status (2026-09-24): the pilot was implemented through PR #57 (`33c00c7`). Its status and the owner's changed order are recorded under Phase 7 below.
 
 ## Phase 3 — Scholarly/source integrity
 
@@ -221,6 +222,30 @@ Status values: READY / IN PROGRESS / BLOCKED / REVIEW / COMPLETE.
 - Depends on: WP-19
 - Acceptance: tests pass, generated files current, preview inspected, critical audit findings resolved, production deployment verified.
 - Completion note (2026-09-23): PR #52's WP-19 content release (`3a72aec`) is READY in Vercel and passed representative production browser checks. The PR #53 docs-only deployment (`6bbb7c7`) was READY, attached to `thespiritmask.com`, and tracked `main` at account-check time. Account-side Git connection, retention, protection, and rollback controls were inspected. All deployment states have 30-day retention; Vercel Authentication uses Standard Protection. At account-check time, the Hobby account could instantly roll back only to the immediately previous production deployment (`3a72aec`, the same public content); each subsequent docs merge changes that immediate predecessor. The retained pre-WP-19 deployment (`07e0416`) is not an eligible Instant Rollback target; Git revert remains the preferred recovery path for WP-19 content. See `WP20_RELEASE_VERIFICATION.md` for deployment IDs, evidence, and limits.
+
+## Phase 7 — Book work after the original program (owner-prioritized)
+
+The WP-00–WP-20 program above is complete. It covered the ten existing book guides. It did not give every Corpus entry a dedicated guide. The owner set the order below on 2026-09-24. Do not begin any item without an explicit bounded assignment.
+
+### BT pilot — The Birth of Tragedy optional full-text route
+- Status: REVIEW
+- Scope: the WP-08 pilot. It adds nine full-text lessons, the 19-station hub route with its Foreword and §25 cards, a labelled chronological alternate, and additive continue links on the introduction.
+- Implementation: PR #57, merged at `33c00c76da036b9bfa616d81c099c29d9a3cb7fc`.
+- Closeout note (2026-09-24): technical validation is complete. The checks were repository checks, link and route audits, a production byte comparison, and real browser rendering at 320 px, 390 px, and desktop widths. No defect was found, and no public file changed. **An actual human reading-time trial is pending**, so the pilot is not closed. The protocol, evidence, and remaining conditions are in [`BT_PILOT_CLOSEOUT.md`](BT_PILOT_CLOSEOUT.md).
+
+### Dedicated guides for four Corpus entries
+- Status: READY. This is the next editorial assignment; it has not been started.
+- Scope: guide or course treatment for *Early Unpublished Essays*, *The Case of Wagner*, *Ecce Homo*, and *Nietzsche Contra Wagner*.
+- Requires its own bounded assignment, scope, and review. It is not part of the Birth closeout.
+
+### The Gay Science optional full-text route
+- Status: BLOCKED (owner-priority hold)
+- Scope proposal: PR #58, branch `integrator/gay-science-full-text-scope`. Preserve it unmerged. Do not modify its branch or begin its lessons until the owner reprioritizes it.
+
+### Remaining optional full-text expansions
+- Status: deferred
+- Scope: *Zarathustra*, *Beyond Good and Evil*, *Untimely Meditations*, *Daybreak*, and *Human, All Too Human*, in the WP-08 order unless the owner changes it.
+- Reconsider these only after the four dedicated guides.
 
 ## Parallelization guidance
 Safe current parallel work:
