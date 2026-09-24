@@ -5,8 +5,8 @@
 | Question | Answer |
 | --- | --- |
 | Technical validation | **Complete.** Repository checks, route and link checks, and production checks passed. Real browser rendering at 320 px, 390 px, and desktop widths found no defect. |
-| Human reading-time trial | **Pending.** No actual reader observations have been supplied. The protocol is in §9. |
-| Pilot closed? | **No.** The pilot stays open until the reader trial is recorded and the integrator and owner complete the reassessment in §10. |
+| Human reading-time trial | **Owner reports complete** (2026-09-24). No times or observations were supplied for the record; advertised ranges remain unvalidated. See §9. |
+| Pilot closed? | **Yes, by owner decision** (2026-09-24). Technical checks passed; the owner chose to move forward without recording or reviewing trial measurements. |
 
 This is the canonical closeout record for the WP-08 pilot. It records what shipped and separates the evidence reported earlier from the checks performed in this closeout. It also records the owner's change to the development order (§11). Future agents should update this file rather than start a parallel record.
 
@@ -46,7 +46,7 @@ The pilot deliberately adds no book-course progress tracking.
 | Desktop render | 1363 × 936, no overflow | 1440 × 900 on production, no overflow (§5) |
 | Phone-width render | **Not done**; static CSS review only | **Done**, with real browser rendering at 320 and 390 CSS px on production (§5) |
 | Production identity | Not recorded | Public files compared byte-for-byte with `33c00c7` (§6) |
-| Human reading time | Not done | **Still pending** (§9) |
+| Human reading time | Not done | **Owner reports trial complete; measurements not supplied** (§9, later follow-up) |
 
 The PR page also shows a Vercel bot "Ready" preview for the PR head and a completed automated code review. These were reported by GitHub; this closeout did not re-inspect that preview.
 
@@ -194,9 +194,9 @@ Cross-page links into hub cards land with the target heading 42–43 px from the
   Normalizing would touch several hundred characters of approved commentary, so it needs its own bounded task if wanted.
 - **Two fragment fallbacks land a short scroll from the section opening** (§18, §25; see §7).
 
-## 9. Human reading-time trial (pending)
+## 9. Human reading-time trial (owner-reported complete; measurements unavailable)
 
-**Status: pending.** No actual reader timings exist. The route's times (16–23 hours overall; 9–13½ hours for readers who finished the introduction; the per-station ranges) are **planning estimates**. They come from word counts at 90–130 words per minute plus guide time. They are not measured reading times, and no simulated or AI estimate substitutes for this trial.
+**Status (owner report, 2026-09-24): the real reader trial was completed.** No timings, phase breakdown, edition, device, or qualitative feedback were supplied to the integrator. The blank table remains a record template, not evidence of measured times. No change to the advertised ranges is supported by the available data.  The route's times (16–23 hours overall; 9–13½ hours for readers who finished the introduction; the per-station ranges) are **planning estimates**. They come from word counts at 90–130 words per minute plus guide time. They are not measured reading times, and no simulated or AI estimate substitutes for this trial.
 
 **Trial assignments:**
 
@@ -235,9 +235,7 @@ Add the rows here by PR, or give them to the integrator for recording. The route
 - Production serves exactly the merged repository content.
 - The account-side Vercel record now ties the READY production deployment and public domain to the PR #57 merge commit (§6).
 
-**Conditions before the pilot can be closed:**
-1. Record at least one actual reader trial for the short station and the dense lesson (§9).
-2. The integrator and owner review the timings and decide whether the dense lessons or the advertised ranges need adjustment.
+**Closure decision (owner, 2026-09-24):** the owner reported the real reader trial complete, directed that the pilot be marked done, and chose to continue without supplying measurements. Technical validation found no defects. The pilot is closed by owner decision; reading-time estimates have not been validated against recorded observations. Do not describe them as empirically confirmed. No lesson split or timing adjustment is justified from the evidence available.
 
 **Optional, not blocking:**
 - Spot-check on a physical phone and in a browser that renders text-fragment highlighting.
@@ -245,7 +243,7 @@ Add the rows here by PR, or give them to the integrator for recording. The route
 ## 11. Owner priority change (recorded 2026-09-24)
 
 The owner changed the development order. Future agents must follow this queue, not the earlier WP-08 sequence that followed the pilot:
-1. **Close out the Birth of Tragedy pilot.** Technical closeout: this record. The reader trial is still pending.
+1. **Birth of Tragedy pilot closed by owner decision (2026-09-24).** Technical closeout: this record. The owner reports the reader trial complete but supplied no measurements; advertised times remain estimates.
 2. **Give dedicated guide or course treatment** to the four Corpus entries that do not yet have a `works/` guide:
    - *Early Unpublished Essays*;
    - *The Case of Wagner*;
