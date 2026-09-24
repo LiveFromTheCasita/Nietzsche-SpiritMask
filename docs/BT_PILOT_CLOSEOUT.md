@@ -149,7 +149,9 @@ Three separate statements:
    - `search-index.json`, `sitemap.xml`, `styles.css`, `site.js`, `book-guide.js`.
 
    Response headers showed `server: Vercel` and `last-modified: Thu, 24 Sep 2026 11:37:25 GMT`, after the merge time. Production search, used by typing into the search field, returned the new lessons for "Socrates' Eye", "Aesthetic Hearer", and "full-text route".
-3. **Deployment metadata confirms the intended commit.** **Not established in this session.** Byte identity shows that production serves content equal to `33c00c7`. It is not deployment metadata. Confirming the deployment ID and commit association needs account-side Vercel access; do not change hosting settings to obtain it.
+3. **Deployment metadata in Claude's closeout session.** **Not established then.** Byte identity showed that production served content equal to `33c00c7`, but it was not deployment metadata. Confirming the deployment ID and commit association required account-side Vercel access; no hosting settings were changed to obtain it.
+
+**Integrator follow-up (2026-09-24):** an authenticated, read-only Vercel check subsequently confirmed that [deployment `dpl_CB6iZQzcipwKxMqxGmBm8Hgow7bN`](https://vercel.com/livefromthecasitas-projects/nietzsche-spirit-mask/CB6iZQzcipwKxMqxGmBm8Hgow7bN) is **READY**, targets **production**, came from Git on `main`, and identifies commit `33c00c76da036b9bfa616d81c099c29d9a3cb7fc` in `LiveFromTheCasita/Nietzsche-SpiritMask`. Its aliases include `thespiritmask.com` and `www.thespiritmask.com`, with `aliasError: null`. This resolves statement 3's account-access gap while preserving the distinction between Claude's earlier checks and the later integrator check. No Vercel setting was changed.
 
 **Route transitions.** Each transition was exercised by tapping the real link on production at 390 × 844 and checking the landing URL, the fragment, and the target position. 33 transitions passed:
 - **Printed order (20):** hub station 1 → A → Foreword card → R1 → B → R2 → C → R3 → R4 → D → R5 → E → R6 → F → G → H → I → R7 → §25 card → R8 → hub `#full-text-route` (Reading 8's retargeted link).
@@ -231,13 +233,13 @@ Add the rows here by PR, or give them to the integrator for recording. The route
 - The original eight-session introduction is intact and independently navigable.
 - Nothing in the pilot breaks at 320 or 390 CSS px in real Chromium rendering, including the densest lessons with every answer opened.
 - Production serves exactly the merged repository content.
+- The account-side Vercel record now ties the READY production deployment and public domain to the PR #57 merge commit (§6).
 
 **Conditions before the pilot can be closed:**
 1. Record at least one actual reader trial for the short station and the dense lesson (§9).
 2. The integrator and owner review the timings and decide whether the dense lessons or the advertised ranges need adjustment.
 
 **Optional, not blocking:**
-- Confirm the Vercel deployment metadata for `33c00c7`.
 - Spot-check on a physical phone and in a browser that renders text-fragment highlighting.
 
 ## 11. Owner priority change (recorded 2026-09-24)
