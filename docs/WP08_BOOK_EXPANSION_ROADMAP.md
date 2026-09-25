@@ -59,6 +59,8 @@ The historical approval above is unchanged. This note records later decisions.
 
 **Further 2026-09-25 update:** PR #65 expanded *The Case of Wagner* guide and merged after independent review. *Nietzsche Contra Wagner* and *Early Unpublished Essays* remain for editorial-depth revision before reassessing this optional course queue. No separate lesson chain was part of PR #65.
 
+**Latest 2026-09-25 update:** PR #67 expanded *Nietzsche Contra Wagner* around the origins and revisions of each selected passage and merged after independent review. Only *Early Unpublished Essays* remains for editorial-depth revision before reassessing this optional course queue. No separate lesson chain was part of PR #67.
+
 ## Contract for each future book package
 
 1. Make a **coverage matrix before drafting**: every prefatory item, numbered section or chapter, poem/appendix within the chosen published work, and existing introductory lesson; distinguish Nietzsche's own text from translator/editor apparatus. Note any deliberate exclusions outside the book's boundaries. Start from the corresponding `works/` guide and `sources.html`, then verify against the preferred and credited free editions.
