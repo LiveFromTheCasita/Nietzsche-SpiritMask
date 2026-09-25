@@ -55,6 +55,8 @@ The historical approval above is unchanged. This note records later decisions.
 
 **2026-09-25 status update:** PR #61 published the four previously missing guide pages. An editorial comparison found that they need deeper walkthroughs and passage notes before the optional full-text queue resumes. The bounded release is complete; the corrective guide-depth work is recorded as the next proposed editorial package in `WORK_PLAN.md`, after the owner's requested recordkeeping correction. The *Gay Science* implementation remains on hold, and rows 3–7 remain deferred. This update does not change the historically approved course sequence.
 
+**Later 2026-09-25 update:** PR #63 expanded the *Ecce Homo* book guide; the owner inspected the updated live page and judged it up to standard. The other three guide-depth revisions remain open before reassessing this optional course queue. No *Ecce Homo* lesson chain was added or required for the accepted guide repair.
+
 ## Contract for each future book package
 
 1. Make a **coverage matrix before drafting**: every prefatory item, numbered section or chapter, poem/appendix within the chosen published work, and existing introductory lesson; distinguish Nietzsche's own text from translator/editor apparatus. Note any deliberate exclusions outside the book's boundaries. Start from the corresponding `works/` guide and `sources.html`, then verify against the preferred and credited free editions.
