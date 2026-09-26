@@ -245,8 +245,20 @@ The WP-00–WP-20 program above is complete. It covered the ten existing book gu
 - Release: use scoped editorial PRs, source/translation review, generated-file checks, and changed-page browser inspection. Record the outcome in `FOUR_MISSING_GUIDES_REVIEW.md` and update this status after review and merge.
 
 ### The Gay Science optional full-text route
-- Status: BLOCKED (owner-priority hold)
-- Scope proposal: merged documentation-only through PR #58 on 2026-09-24 (`docs/GS_FULL_TEXT_ROUTE_SCOPE.md`). No route or lessons were published. The implementation remains on hold until the owner reprioritizes it.
+- Status: IN PROGRESS. Phase 1 is in REVIEW; the full course is not complete and not published.
+- Scope proposal: merged documentation-only through PR #58 on 2026-09-24 (`docs/GS_FULL_TEXT_ROUTE_SCOPE.md`). No route or lessons were published.
+- Owner decision (2026-09-25): the owner lifted the priority hold for a bounded first phase only, after the four guide repairs. This does not approve publication of the 35-station course without review.
+- Phase 1 package:
+  - Branch: `claude/gay-science-full-text-phase-1`, based on `66b55f624042e876200c78a5947ed62c9d272bc2`.
+  - Contents:
+    - a route audit against the complete free text, [`GS_FULL_TEXT_PHASE1_AUDIT.md`](GS_FULL_TEXT_PHASE1_AUDIT.md);
+    - three unlisted, `noindex` trial lessons: station 2, Book I §§1–3; station 19, Book III §§242–275; station 29, Book V §§357–359.
+  - Unchanged: the hub, the ten-session introduction, its Next links, `start.html`, and the generated files.
+  - Findings:
+    - All boundaries and paratext check out.
+    - The audit recommends no regrouping, but wider estimates for stations 9, 26, 29, and 33, and a contingent split of station 29.
+- Gate: editorial sign-off on the audit and trial lessons, plus at least one timed reader trial, before bulk drafting. The recommended next batch is stations 1 and 3–7 (prelude and Book I), with station 18 as a second miniature trial.
+- Do not advertise the route on the hub until the owner chooses whole-route or labelled partial publication.
 
 ### Remaining optional full-text expansions
 - Status: deferred pending owner reassessment
