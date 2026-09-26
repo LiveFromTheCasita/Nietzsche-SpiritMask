@@ -59,7 +59,9 @@ The historical approval above is unchanged. This note records later decisions.
 
 **Further 2026-09-25 update:** PR #65 expanded *The Case of Wagner* guide and merged after independent review. *Nietzsche Contra Wagner* and *Early Unpublished Essays* remain for editorial-depth revision before reassessing this optional course queue. No separate lesson chain was part of PR #65.
 
-**Latest 2026-09-25 update:** PR #67 expanded *Nietzsche Contra Wagner* around the origins and revisions of each selected passage and merged after independent review. Only *Early Unpublished Essays* remains for editorial-depth revision before reassessing this optional course queue. No separate lesson chain was part of PR #67.
+**PR #67 status (2026-09-25):** PR #67 expanded *Nietzsche Contra Wagner* around the origins and revisions of each selected passage and merged after independent review. At that point only *Early Unpublished Essays* remained for editorial-depth revision before reassessing this optional course queue. No separate lesson chain was part of PR #67.
+
+**Guide-depth closeout (2026-09-25):** PR #69 expanded *Early Unpublished Essays* with a seven-stage path covering both complete assigned essays, separate walkthroughs, passage notes, and edition guidance. It merged at `6afa10a2091c838cd9ad46bab23856e9a1979831` after independent review. All four guide-depth revisions are now complete; none required a separate lesson chain. The *Gay Science* full-text route remains on the owner's priority hold, and rows 3–7 remain deferred. Completion of the four guides opens the planned reassessment, not automatic implementation of the optional course queue. See `FOUR_MISSING_GUIDES_REVIEW.md` and `WORK_PLAN.md`.
 
 ## Contract for each future book package
 
