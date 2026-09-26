@@ -257,7 +257,7 @@ The WP-00–WP-20 program above is complete. It covered the ten existing book gu
   - Findings:
     - All boundaries and paratext check out.
     - The audit recommends no regrouping, but wider estimates for stations 9, 26, 29, and 33, and a contingent split of station 29.
-- Gate: editorial review of each batch. By owner decision (2026-09-25), a timed reader trial is not required before drafting; all time ranges are labelled editorial estimates, not measured times. The present grouping stays unless later editorial evidence warrants a change. The Kaufmann comparison and real-device checks remain open. The next batch is stations 1, 3, 4, and 18, in a separate draft PR.
+- Gate: editorial review of each batch. By owner decision (2026-09-25), a timed reader trial is not required before drafting; all time ranges are labelled editorial estimates, not measured times. The present grouping stays unless later editorial evidence warrants a change. The Kaufmann comparison and real-device checks remain open. Batch 2 (stations 1, 3, 4, and 18) is drafted on `claude/gay-science-full-text-batch-2`, a separate draft PR stacked on phase 1, and is in REVIEW; see [`GS_FULL_TEXT_BATCH_2.md`](GS_FULL_TEXT_BATCH_2.md). Seven of 35 stations are now drafted, none published.
 - Do not advertise the route on the hub until the owner chooses whole-route or labelled partial publication.
 
 ### Remaining optional full-text expansions
