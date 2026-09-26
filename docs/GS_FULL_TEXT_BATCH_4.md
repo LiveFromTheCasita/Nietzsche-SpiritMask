@@ -16,7 +16,7 @@ All three are unlisted, carry `noindex,follow`, and show the "Review draft" noti
 
 | St. | Assignment | File | Estimate | Design notes |
 | ---: | --- | --- | --- | --- |
-| 8 | Book II §§57–75 | `readings/gay-science-full-sections-57-75.html` | 60–80 min | All 19 sections are placed in groups labelled as this guide's own. Reads §§59, 60, and 68 as accounts of how images of women are made (concealment, distance, the ideal that men create). States plainly the run of generalizations about women in §§63–67, 71, 72, 74, and 75, including §67's "cow" and §72's "masculine mothers". States §73's saintly cruelty plainly. The difficulty asks whether the book's account of projection applies to its own generalizations. Links the book guide's Book II theme and `themes/women-and-gender.html#gs-59-75`. |
+| 8 | Book II §§57–75 | `readings/gay-science-full-sections-57-75.html` | 60–80 min | All 19 sections are placed in groups labelled as this guide's own. Reads §§59, 60, and 68 as accounts of how images of women are made (concealment, distance, the ideal that men create). States plainly the claims about women in §§63–67, 72, 74, and 75, including §67's "cow" and §72's "masculine mothers". It separates their kinds: general statements (§§64, 66, 72), type sketches (§§65, 67, 74), a question (§63), and reported sayings (§75). §71 is grouped on its own as social criticism of women's education, which also generalizes about wives. States §73's saintly cruelty plainly. The difficulty asks whether the book's account of projection applies to its own generalizations. Links the book guide's Book II theme and `themes/women-and-gender.html#gs-59-75`. |
 | 9 | Book II §§76–84 | `readings/gay-science-full-sections-76-84.html` | 75–95 min | Uses the phase-1 audit's proposed widening (the scope said 70–90), because this is the heaviest station on the route by word count. Suggests a sitting break after §80. Treats §84's history of poetry as a hypothesis and keeps its etymologies open. Compares §80 with *The Birth of Tragedy* without forcing agreement. Does not name the author of the *Iphigenia* in §80, because the section does not. The difficulty is a book of verse arguing against the authority of verse. |
 | 10 | Book II §§85–98 | `readings/gay-science-full-sections-85-98.html` | 65–85 min | Suggests a sitting break after §92. States plainly §86's contempt for "commonplace souls" and its account of the theatre as a narcotic. Reads §87 as a portrait of an unnamed musician. Notes that Nietzsche later made him Wagner in *Nietzsche Contra Wagner* ("Where I Admire"), and links that guide's note, without reading the identification back into 1882. Treats §95's explanation of Chamfort by revenge and "blood" as P and H. The difficulty sets §98's "independence of soul" against station 5's §23 on the Caesar. |
 
@@ -76,3 +76,13 @@ The hub, the introduction, its Next links, and `start.html` are unchanged.
 - **Drafting status.**
   - Drafted: stations 1–10, 17–19, and 29 (14 of 35).
   - Not yet drafted: stations 11–16, 20–28, and 30–35.
+
+## Review follow-up (2026-09-26)
+
+- **Station 8.** The grouping and lead-in no longer call nine sections "generalizations about women".
+  - Eight sections (§§63–67, 72, 74, 75) are now described by kind: general statements, type sketches, a question, and reported sayings.
+  - §71 has its own group as social criticism of women's education.
+  - The difficulty, the writing prompt, and the page description follow the same distinction.
+- **Footer dates.** The three batch-4 pages said "Review draft, September 25, 2026". That date was a leftover in the page template, not the drafting date: these pages were drafted and committed on September 26. They now say September 26, 2026. The build script now takes the draft date instead of a fixed one.
+  - The four batch-3 pages (stations 5–7 and 17) have the same leftover date, although they were also drafted on September 26. They are outside this follow-up and have not been changed; see PR #74.
+- Station 9 keeps its 75–95 minute editorial estimate.
