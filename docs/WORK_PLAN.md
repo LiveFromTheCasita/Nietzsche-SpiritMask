@@ -234,13 +234,13 @@ The WP-00–WP-20 program above is complete. It covered the ten existing book gu
 - Closeout note (2026-09-24): technical validation is complete. The checks were repository checks, link and route audits, a production byte comparison, and real browser rendering at 320 px, 390 px, and desktop widths. No defect was found, and no public file changed. On 2026-09-24 the owner reported the real reader trial complete and directed pilot closure without submitting timings. The pilot is closed by owner decision; advertised ranges remain unvalidated estimates. The protocol, evidence, and remaining conditions are in [`BT_PILOT_CLOSEOUT.md`](BT_PILOT_CLOSEOUT.md).
 
 ### Dedicated guides for four Corpus entries
-- Status: COMPLETE for the bounded publication package. PR #61 merged at `0689bc8339d52e8682b338fa473da2cc424bef0c`; the four guide pages are live. The bounded source/navigation review passed, but editorial-depth revision remains open below.
+- Status: COMPLETE for the bounded publication package. PR #61 merged at `0689bc8339d52e8682b338fa473da2cc424bef0c`; the four guide pages are live. The bounded source/navigation review passed; their later editorial-depth revisions are complete below.
 - Scope: guide or course treatment for *Early Unpublished Essays*, *The Case of Wagner*, *Ecce Homo*, and *Nietzsche Contra Wagner*.
 - Bounded package: four new `works/` pages, Corpus and source-guide links, and regenerated search/sitemap. No standalone lesson chains or full-text courses are claimed. Check `FOUR_MISSING_GUIDES_REVIEW.md` for boundaries and review points. This is separate from the Birth closeout.
 
 ### Editorial-depth revision for the four published guides
-- Status: IN PROGRESS. The *Ecce Homo* guide was revised in PR #63, merged at `cda35e64b71b1073dbfd7df6a1fe287e3e647299`, and the owner reviewed the live page and judged it up to standard. *The Case of Wagner* was revised in PR #65, merged at `1bc39ff9a49a984d5faf8a387eca09e0e655e7e9`; *Nietzsche Contra Wagner* was revised in PR #67, merged at `60bb715b9c8bff755cd8ac2f9282fb96f8c3f22d`. Both passed independent editorial and structural review; Vercel reports successful deployments, but direct post-merge live inspection has not been recorded. Only *Early Unpublished Essays* remains open; see `FOUR_MISSING_GUIDES_REVIEW.md`.
-- Scope: expand the published guide pages to give readers substantial, work-specific explanation and close-reading help. Revise the remaining guide proportionately, treating the two essays as distinct works. Preserve the published URL, correct source boundaries, translation guidance, and existing reading path unless a reviewed improvement requires a change.
+- Status: COMPLETE. *Ecce Homo* was revised in PR #63 (`cda35e64b71b1073dbfd7df6a1fe287e3e647299`), *The Case of Wagner* in PR #65 (`1bc39ff9a49a984d5faf8a387eca09e0e655e7e9`), *Nietzsche Contra Wagner* in PR #67 (`60bb715b9c8bff755cd8ac2f9282fb96f8c3f22d`), and *Early Unpublished Essays* in PR #69 (`6afa10a2091c838cd9ad46bab23856e9a1979831`). All passed independent editorial review before merge. The owner reviewed the revised *Ecce Homo* live page and judged it up to standard; Vercel reports successful deployments for the other three, whose post-merge live pages were not independently rendered in these reviews. See `FOUR_MISSING_GUIDES_REVIEW.md`.
+- Scope: expand the four published guides to give readers substantial, work-specific explanation and close-reading help. The two early essays received distinct, proportionate treatment; the published URLs, source boundaries, and translation guidance were preserved.
 - Acceptance: compare each revised page with the established book-guide exemplars for a clear route, a walkthrough of the work, precise passage notes, interpretive tensions, and useful connections. Map *Ecce Homo*'s book-by-book retrospection and *Nietzsche Contra Wagner*'s excerpt origins; give the two early essays and *The Case of Wagner* appropriate close treatment. Do not impose a uniform word or lesson count, and do not advertise a separate full-text course without building one.
 - Release: use scoped editorial PRs, source/translation review, generated-file checks, and changed-page browser inspection. Record the outcome in `FOUR_MISSING_GUIDES_REVIEW.md` and update this status after review and merge.
 
@@ -249,9 +249,9 @@ The WP-00–WP-20 program above is complete. It covered the ten existing book gu
 - Scope proposal: merged documentation-only through PR #58 on 2026-09-24 (`docs/GS_FULL_TEXT_ROUTE_SCOPE.md`). No route or lessons were published. The implementation remains on hold until the owner reprioritizes it.
 
 ### Remaining optional full-text expansions
-- Status: deferred
+- Status: deferred pending owner reassessment
 - Scope: *Zarathustra*, *Beyond Good and Evil*, *Untimely Meditations*, *Daybreak*, and *Human, All Too Human*, in the WP-08 order unless the owner changes it.
-- Reconsider these after the four published guides receive the editorial-depth revision and the owner reassesses the queue.
+- The four guide revisions are complete. Reconsider these packages only when the owner reassesses the queue; their implementation is not automatically authorized by the guide closeout.
 
 ## Parallelization guidance
 Safe current parallel work:
