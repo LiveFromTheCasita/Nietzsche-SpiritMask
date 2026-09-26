@@ -45,9 +45,23 @@ The hub, the introduction, its Next links, and `start.html` are unchanged.
 
 ## Still open
 
-- **Kaufmann comparison.** Not done, because Kaufmann's text was unavailable. Sensitive places in this batch: §23's "effeminacy"; §24's "feminine" and "masculine"; §40's "superior race" and "race-culture"; and §48's "distress."
+- **Kaufmann comparison.** Not done, because Kaufmann's text was unavailable. Sensitive places in this batch: §24's "feminine" and "masculine", and §48's "distress." §23's "effeminacy" and §40's "race" wording have since been checked against the German (see below).
 - **Devices.** Not checked on a physical phone, and text-fragment highlighting not checked.
 - **Reading times.** None has been measured.
 - **Drafting status.**
   - Drafted: stations 1–7, 17–19, and 29 (11 of 35).
   - Not yet drafted: stations 8–16, 20–28, and 30–35.
+
+## Review follow-up (2026-09-26)
+
+**German text used.** Book I of *Die fröhliche Wissenschaft* as published by Projekt Gutenberg-DE (projekt-gutenberg.org). That edition's source text is not identified on the page. It is not the critical Colli–Montinari edition (KGW/eKGWB): the eKGWB site could not be reached from this environment. The readings below were checked against this text, and they should be confirmed against KGW before publication.
+
+- **Station 5, §23.** Common's "effeminacy" translates *Erschlaffung* (slackening, enervation). The page now identifies the gendered English as Common's translation choice, not Nietzsche's exact word.
+- **Station 6, §40.**
+  - Common's "fruit of protracted race-culture" expands *die Frucht langer Zeiten* ("the fruit of long ages").
+  - The German does speak of *der höheren Rasse* and of *Geburts-Adel*.
+  - The page keeps the claim of inherited rank. It replaces "hereditary, not ethnic" with the narrower observation that the passage does not name a particular ethnic people.
+- **Station 7, §48.**
+  - `?` now marks the tentative lead-in ("Perhaps there is nothing …"; German *Vielleicht*) and the guess that the remedy "perhaps" sounds too cruel (*vielleicht klingt diess Recept schon zu grausam*).
+  - The final statement is unhedged in both languages (*Das Recept gegen "die Noth" lautet: Noth*), and is marked V only.
+  - The repeated "there" in the §51 suggested answer is removed.
