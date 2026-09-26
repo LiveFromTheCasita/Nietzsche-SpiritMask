@@ -17,12 +17,12 @@ All three are unlisted, carry `noindex,follow`, and show the "Review draft" noti
 | St. | Assignment | File | Estimate | Design notes |
 | ---: | --- | --- | --- | --- |
 | 11 | Book II §§99–103 | `readings/gay-science-full-sections-99-103.html` | 55–75 min | Suggests a sitting break after §99, which is about 1,400 words. In §99, separates what Schopenhauer could teach from what "enchants" his followers. Reads Wagner as the section's named Schopenhauerian, with the historical frame stated: Wagner was alive in 1882, and the break came by 1878. States plainly the ranking of "barbarians" and higher civilizations. Reads the sentence on Wagner's hatred of the Jews in two steps: it names the hatred as a failure of justice, and its reason, "the inventors of Christianity", is double-edged; the question is left open until Book III. Notes that the closing quotation is from Nietzsche's own *Richard Wagner in Bayreuth*. In §103, the Goethe/Beethoven contrast is checked against Goethe's letter to Zelter, and the political preference for melody and the old regime is stated plainly. The difficulty asks whether §99's claim that an artist's philosophy matters little survives §99's own account of Wagner and §103. |
-| 12 | Book II §§104–107 | `readings/gay-science-full-sections-104-107.html` | 45–65 min | Marks §104's three hedges and its psychological claim that tone reaches thought. Identifies "the foremost German statesman" as Bismarck, labelled as the guide's inference because the section names no one. Treats §105 as a comic national generalization. Reads §106 as a dialogue and does not assign the innovator's view to Nietzsche. Reads §107 (Reading 2) briefly as the end of Book II's warnings about art. It notes *Redlichkeit* and *Schein*, compares *The Birth of Tragedy* §§5 and 24, and links §107's last sentence to §275 (station 19). The difficulty asks how the book can distrust art's persuasion and still thank art for illusion. |
+| 12 | Book II §§104–107 | `readings/gay-science-full-sections-104-107.html` | 45–65 min | Marks §104's hedges ("perhaps" at three points, "probable", and "I believe"), separates them from its flat certainties ("It is certain", "one thing I know all the surer"), and marks its psychological claim that tone reaches thought. Identifies "the foremost German statesman" as Bismarck, labelled as the guide's inference because the section names no one. Treats §105 as a comic national generalization. Reads §106 as a dialogue and does not assign the innovator's view to Nietzsche. Reads §107 (Reading 2) briefly as the end of Book II's warnings about art. It notes *Redlichkeit* and *Schein*, compares *The Birth of Tragedy* §§5 and 24, and links §107's last sentence to §275 (station 19). The difficulty asks how the book can distrust art's persuasion and still thank art for illusion. |
 | 13 | Book III §§108–116 | `readings/gay-science-full-sections-108-116.html` | 55–75 min | Suggests a sitting break after §110. Reads §108 (Reading 4) and §§110 and 116 (Reading 3) briefly, as links in the sequence. Gives §109's warnings, and its chaos, necessity, and undeified nature, the fullest reading. Reads §§111–113 as conjectural histories and marks them H. Corrects a misleading translation in §114. Leaves open whether §115's errors should be deducted. The difficulty asks whether §109 can describe the world without breaking its own warning. |
 
 **Marking.** `?` marks only Nietzsche's own hedge, as defined at station 2. In this batch that includes:
 - §99: "would probably have said" (*vielleicht*) and "perhaps very unfortunate";
-- §104: *Vielleicht* once and *vielleicht* twice, plus one *wahrscheinlich* ("probable");
+- §104: "Perhaps" at three points (*Vielleicht*, *vielleicht* twice), "probable" (*wahrscheinlich*), and "I believe" (*Ich glaube*). Its flat "It is certain" (*Sicher ist*) and "one thing I know all the surer" (*Eines weiss ich um so sicherer*) are not marked;
 - §108: the caves (*vielleicht*);
 - §112: "probably" (*wahrscheinlich*).
 
@@ -59,7 +59,8 @@ The hub, the ten-session introduction, its Next links, and `start.html` are unch
 | §103 | "untamed man" | *der "ungebändigte Mensch"* | Matches Goethe's letter to Zelter of 2 September 1812, *eine ganz ungebändigte Persönlichkeit* (see below) |
 | §103 | "a democratic impropriety" | *eine demokratische Unart* | Checked |
 | §104 | "foremost German statesman", "imperial mouth-piece" | *des ersten deutschen Staatsmannes*, *sein kaiserliches Sprachrohr* | The section names no one; the Bismarck identification is labelled as the guide's inference |
-| §104 | three "perhaps", one "probable" | *Vielleicht*/*vielleicht* ×3, *wahrscheinlich* | Marked `?` |
+| §104 | "Perhaps" (three points), "probable", "I believe" | *Vielleicht*/*vielleicht*, *wahrscheinlich*, *Ich glaube* | Marked `?` |
+| §104 | "It is certain", "one thing I know all the surer" | *Sicher ist*, *Eines weiss ich um so sicherer* | Not hedges; not marked `?` |
 | §106 | "who could refute a tone?", "merely annihilated,—not refuted" | *wer vermöchte einen Ton zu widerlegen?*, *vernichtet, – nicht widerlegt* | Matches |
 | §107 | "honesty", "the good-will to illusion", "still endurable" | *Redlichkeit*, *den guten Willen zum Scheine*, *immer noch erträglich* | *Redlichkeit* and *Schein* are noted |
 | §108 | "God is dead", "perhaps" | *Gott ist todt*, *vielleicht* | Marked `?`. This is the book's first "God is dead" in Common's text. |
@@ -71,6 +72,11 @@ The hub, the ten-session introduction, its Next links, and `start.html` are unch
 | §116 | "Morality is the herd-instinct in the individual" | *Moralität ist Heerden-Instinct im Einzelnen* | Matches |
 
 **Outside source.** Station 11 says that Goethe's letter to Carl Friedrich Zelter of 2 September 1812 calls Beethoven *eine ganz ungebändigte Persönlichkeit*. This was checked against the published text of the letter as quoted by the Goethe-Gesellschaft Erfurt, not against a critical edition of Goethe's letters.
+
+## Review follow-up (2026-09-26)
+
+- **§104's hedges (station 12).** The page and this record had said that §104 hedges "three times", while listing three "perhaps" clauses and a "probable". The section also says "I believe" (*Ich glaube*) of the medieval sound of German. The exact count is removed. The page now names each hedge by its wording, marks the "I believe" claim H and `?`, and separates the hedges from the section's flat certainties, which carry no `?`.
+- **Station 11.** A missing period after *der ungebändigte Mensch* was added.
 
 ## Checks
 
