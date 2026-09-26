@@ -14,7 +14,7 @@ All four are unlisted, `noindex,follow`, and carry the "Review draft" notice. Th
 
 | St. | Assignment | File | Estimate | Design notes |
 | ---: | --- | --- | --- | --- |
-| 1 | Verse prelude, poems 1–63 | `readings/gay-science-full-prelude.html` | 45–60 min | Asks only "who speaks, and to whom?"; station 2 keeps the full P/H/V/? habit, which settles open decision 3 in the phase-1 audit. The page states plainly where the poems stop joking: rank and the crowd, war (poem 41), women (poems 19, 22, 50), and the closing refusal of pity (poem 63). Petre is credited for poems 19 and 63 only where the edition credits her; the rest are attributed to Cohn and Petre jointly. |
+| 1 | Verse prelude, poems 1–63 | `readings/gay-science-full-prelude.html` | 45–60 min | Asks only "who speaks, and to whom?"; station 2 keeps the full P/H/V/? habit, which settles open decision 3 in the phase-1 audit. The page states plainly where the poems stop joking: rank and the crowd, war (poem 41), stock generalizations about women (poems 22 and 50; poem 19 is treated separately, since its accidental seducer is a man whose careless word strikes a woman), and the closing refusal of pity (poem 63). Petre is credited for poems 19 and 63 only where the edition credits her; the rest are attributed to Cohn and Petre jointly. |
 | 3 | Book I §§4–12 | `readings/gay-science-full-sections-4-12.html` | 55–75 min | §12 overlaps Reading 1 and is read briefly, as the end of a sequence. The page offers Reading 1 as an optional checkpoint and warns that Reading 1's own Next link leads to Reading 2, not back to the route. It states §10's hereditary and caste claims plainly. Its difficulty is §7's missing histories against §§4 and 10. |
 | 4 | Book I §§13–20 | `readings/gay-science-full-sections-13-20.html` | 50–70 min | Covers §13's psychology of power (kept distinct from the later will-to-power doctrine), §14's friendship exception, and §18's ancient slavery, stated without deciding the tone. It states the sexual sneer at the end of §13 plainly, and gives the gendered pronouns of §14. |
 | 18 | Book III §§202–241 | `readings/gay-science-full-sections-202-241.html` | 45–65 min | The second miniature station. All 40 sections are placed in this guide's labelled groups. Its difficulty applies §220 (victims versus spectators) to the run's own judgments of the poor (§206) and of women (§§221, 227). |
@@ -44,3 +44,9 @@ The route is still not on the hub. The introduction, its Next links, and `start.
 - **Physical-phone check and text-fragment highlighting.** Neither was done. The layout checks used emulation against a local server. Headless Chromium applies the page-anchor fallback, not the highlight.
 - **Reading times.** None has been measured. They are editorial estimates.
 - **Next drafting.** Stations 5–7 would complete Book I, and station 17 would complete the miniatures. Neither is started.
+
+## Review follow-up (2026-09-26)
+
+- **Station 1.** Poem 19 is now described separately. Its accidental seducer is the man whose “empty word” strikes a woman; the poem does not portray women as seducers. The concerns about poems 22 and 50 stand.
+- **Station 4, §18.** The discussion and the answer now separate two claims. The ancient slave is absent from modern sentiment. Yet “there is perhaps too much of this kind of slavishness in each of us.” The phrase “modern people lack both” is removed.
+- **The `?` mark.** It is now used only for Nietzsche’s own hedge, as defined at station 2. §7 (an open question) and §19 (a rhetorical question) no longer carry it. §18’s “perhaps” does.
