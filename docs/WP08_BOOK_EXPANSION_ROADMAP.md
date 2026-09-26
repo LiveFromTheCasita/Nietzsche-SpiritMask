@@ -63,6 +63,8 @@ The historical approval above is unchanged. This note records later decisions.
 
 **Guide-depth closeout (2026-09-25):** PR #69 expanded *Early Unpublished Essays* with a seven-stage path covering both complete assigned essays, separate walkthroughs, passage notes, and edition guidance. It merged at `6afa10a2091c838cd9ad46bab23856e9a1979831` after independent review. All four guide-depth revisions are now complete; none required a separate lesson chain. The *Gay Science* full-text route remains on the owner's priority hold, and rows 3–7 remain deferred. Completion of the four guides opens the planned reassessment, not automatic implementation of the optional course queue. See `FOUR_MISSING_GUIDES_REVIEW.md` and `WORK_PLAN.md`.
 
+**Owner live-depth check (2026-09-25):** The owner inspected the three remaining repaired guide pages and reported that all three looked quite substantial, after previously judging the revised *Ecce Homo* live page up to standard. This closes the owner's original concern about sparse book guides. It does not lift the priority hold on the *Gay Science* route or authorize rows 3–7; the optional full-text queue still awaits the owner's decision.
+
 ## Contract for each future book package
 
 1. Make a **coverage matrix before drafting**: every prefatory item, numbered section or chapter, poem/appendix within the chosen published work, and existing introductory lesson; distinguish Nietzsche's own text from translator/editor apparatus. Note any deliberate exclusions outside the book's boundaries. Start from the corresponding `works/` guide and `sources.html`, then verify against the preferred and credited free editions.
