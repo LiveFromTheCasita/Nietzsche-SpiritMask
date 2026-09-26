@@ -257,7 +257,7 @@ The WP-00–WP-20 program above is complete. It covered the ten existing book gu
   - Findings:
     - All boundaries and paratext check out.
     - The audit recommends no regrouping, but wider estimates for stations 9, 26, 29, and 33, and a contingent split of station 29.
-- Gate: editorial sign-off on the audit and trial lessons, plus at least one timed reader trial, before bulk drafting. The recommended next batch is stations 1 and 3–7 (prelude and Book I), with station 18 as a second miniature trial.
+- Gate: editorial review of each batch. By owner decision (2026-09-25), a timed reader trial is not required before drafting; all time ranges are labelled editorial estimates, not measured times. The present grouping stays unless later editorial evidence warrants a change. The Kaufmann comparison and real-device checks remain open. The next batch is stations 1, 3, 4, and 18, in a separate draft PR.
 - Do not advertise the route on the hub until the owner chooses whole-route or labelled partial publication.
 
 ### Remaining optional full-text expansions

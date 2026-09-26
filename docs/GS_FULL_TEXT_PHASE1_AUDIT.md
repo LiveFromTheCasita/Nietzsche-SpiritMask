@@ -12,6 +12,8 @@
 
 The scope document's baseline (`33c00c7`) is historical. This audit uses current `main`.
 
+**Owner decision (2026-09-25, later the same day):** a human timed-reading trial is no longer required before further drafting. All lesson time ranges are **editorial estimates, not measured reading times**, and must be labelled as such. The present station grouping stays unless later editorial evidence warrants a change. The Kaufmann comparison, a physical-phone check, and a text-fragment highlighting check remain open.
+
 ## 1. Method and source used
 
 **Source file.** Every boundary was checked against the linked free edition, Project Gutenberg #52881: *The Joyful Wisdom*, with prose translated by Thomas Common and poetry by Paul V. Cohn and Maude D. Petre (Foulis, 1910).
@@ -126,7 +128,7 @@ The scope's ranges track this word model closely at almost every station. They a
 
 ### Recommended changes
 
-The station boundaries hold up against the text. This audit recommends **no regrouping** before the reader trial. It recommends five narrower changes.
+The station boundaries hold up against the text. This audit recommends **no regrouping**. It recommends five narrower changes.
 
 1. **Widen the estimates for four dense stations and mark a sitting break in each.** The text, not the word count, is the reason:
 
@@ -139,8 +141,8 @@ The station boundaries hold up against the text. This audit recommends **no regr
 
    This adds about 25–40 minutes to the route.
 
-   **If the reader trial shows station 29 still running long,** split it into two stations, §§357–358 (2,661 words) and §§359–365 (2,662 words; this second station absorbs station 30). §359 opens a new topic, revenge on intellect, so the break has a textual basis.
-2. **Keep stations 17–19 as three.** §§164–275 hold 112 aphorisms in 3,852 words. Merging to two stations would ask for about 56 separate judgments per sitting. The trial lesson for station 19 uses a sampling-and-grouping method, as the scope intended. **Station 18 (§§202–241) should be trialled in the next batch:** it has no famous passage, so it is the hardest test of that method.
+   **Station 29 keeps its present grouping,** with the sitting break after §357. A possible split, into §§357–358 (2,661 words) and §§359–365 (2,662 words, absorbing station 30), is recorded only as an option. Adopt it only if later editorial evidence warrants a change; it is not waiting on a timed trial. §359 opens a new topic, revenge on intellect, so such a break would have a textual basis.
+2. **Keep stations 17–19 as three.** §§164–275 hold 112 aphorisms in 3,852 words. Merging to two stations would ask for about 56 separate judgments per sitting. The trial lesson for station 19 uses a sampling-and-grouping method, as the scope intended. **Station 18 (§§202–241) should be drafted in the next batch:** it has no famous passage, so it is the hardest test of that method.
 3. **Keep the checkpoint map, and advertise the double checkpoint's time.** Every checkpoint except Reading 3 sits at the earliest station at which both of its lesson's sections have been read. Reading 3 is the exception, and deliberately so:
    - Its sections, §§110 and 116, are both complete after **station 13**. Station 14 is therefore not the earliest possible checkpoint for Reading 3 alone.
    - The scope offers Readings 3 and 4 together after **station 14**. That way, a reader who follows Reading 3's own Next link to `start.html` has already reached §125, which Reading 4 assigns (§108 is in station 13).
@@ -263,12 +265,7 @@ Tools: Python 3.11.15, Node 22.22.2, Chromium through Playwright 1.56.0 (headles
 
 ## 7. What a real reader must still test
 
-- **Timing.** Ask at least one reader to time each trial station in their usual edition, using the phases in `BT_PILOT_CLOSEOUT.md` §9:
-  - primary reading;
-  - guide and rereading;
-  - questions and writing.
-
-  Compare the results with the estimates: station 2, 55–75 minutes; station 19, 40–60; station 29, 75–100 (widened in this audit from the scope's 65–85). The priority question is whether station 19's 34 miniatures take longer than its 928 words suggest. No simulated or AI estimate substitutes for this.
+- **Timing (optional, not a gate).** By owner decision, a timed trial is no longer required before drafting continues. The estimates remain unmeasured: station 2, 55–75 minutes; station 19, 40–60; station 29, 75–100 (widened in this audit from the scope's 65–85). If a reader later times a station, record it using the phases in `BT_PILOT_CLOSEOUT.md` §9. No simulated or AI estimate is a measured time.
 - **Kaufmann comparison.** A reader using Kaufmann should report any paraphrase in the trial lessons that does not survive the change of translation.
 - **Devices and fragments.**
   - A check on a physical phone.
@@ -281,24 +278,22 @@ Tools: Python 3.11.15, Node 22.22.2, Chromium through Playwright 1.56.0 (headles
 
 ## 8. Unresolved decisions for the owner or editor
 
-1. **Accept or reject the §3 changes.** These are the widened estimates for stations 9, 26, 29, and 33 with sitting breaks, and the contingent split of station 29.
+1. **Accept or reject the §3 changes.** These are the widened estimates for stations 9, 26, 29, and 33 with sitting breaks. The station 29 split stays an unadopted option.
 2. **Choose the publication form:**
    - publish the route only when all 35 stations exist; or
    - publish a clearly labelled partial route by book, for example the prelude and Book I first.
 
    The scope forbids advertising coverage that has not been supplied. A partial route would therefore list only the drafted stations.
 3. **Choose whether station 1 or station 2 introduces the marking habit.** The trial puts it at station 2, the first prose station. Station 1, the poems, could introduce a lighter version.
-4. **Supply reader timings** for the three trial stations before the estimates are published.
+4. **Reader timings: resolved by owner decision.** They are not required. All published ranges must be labelled as editorial estimates.
 
 ## 9. Recommended next bounded batch
 
-After editorial sign-off on this phase and at least one timed reading, draft **Batch 2: the prelude and the rest of Book I, stations 1 and 3–7**. That is five new lessons plus the prelude, about 16,000 words of primary text.
-
-In the same batch, draft **station 18** as the second miniature trial.
+The owner has since set the next batch as **stations 1, 3, 4, and 18**, in a separate draft PR: the prelude, Book I §§4–20, and the second miniature station. Stations 5–7 follow in a later batch.
 
 Add Reading 1's single additive return link, pointing to station 4, only if the owner chooses the partial-publication form. Otherwise leave every introductory page unchanged until the route is published.
 
-Pause after Book I to recalibrate the estimates against the trial data, as the scope requires.
+Pause for editorial review after that batch. Any recalibration of estimates rests on editorial evidence, not on a required timed trial.
 
 **Sources:**
 - [site edition policy](../sources.html#gay-science)
