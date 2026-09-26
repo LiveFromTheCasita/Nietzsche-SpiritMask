@@ -80,3 +80,7 @@ On the final PR head, the regenerated search index contained 191 entries with on
 ## Editorial-depth package closeout (2026-09-25)
 
 All four guide-depth revisions are complete: *Ecce Homo* (PR #63), *The Case of Wagner* (PR #65), *Nietzsche Contra Wagner* (PR #67), and *Early Unpublished Essays* (PR #69). The earlier PR #61 publication review established source and navigation boundaries, while these later PRs supplied the deeper walkthroughs and passage notes the owner requested. No separate lesson chains were required or advertised. The next optional full-text course package, including the scoped *Gay Science* proposal, remains on the owner's priority hold pending reassessment under `WP08_BOOK_EXPANSION_ROADMAP.md`; closing these guides does not approve that implementation.
+
+## Owner live-depth assessment (2026-09-25)
+
+After the four repairs merged, the owner revisited the three guides not previously judged live: *The Case of Wagner*, *Nietzsche Contra Wagner*, and *Early Unpublished Essays*. The owner reported that “all three pages look quite substantial.” Earlier, the owner inspected *Ecce Homo* live and judged it up to the book-guide standard. This is the owner's assessment of the pages' depth and presentation; it is separate from the independent text/source reviews above and does not claim a new citation audit, timed reader trial, or integration-reviewer browser rendering. The optional *Gay Science* route remains on hold until the owner explicitly reprioritizes it.
