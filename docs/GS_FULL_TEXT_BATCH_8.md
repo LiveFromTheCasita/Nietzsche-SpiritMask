@@ -68,7 +68,7 @@ All three are unlisted, carry `noindex,follow`, and show the "Review draft" noti
 | §329 | "an Indian savagery, a savagery peculiar to the Indian blood" | *eine indianerhafte, dem Indianer-Blute eigenthümliche Wildheit* | Stated plainly |
 | §330 | Tacitus | *quando etiam sapientibus gloriae cupido novissima exuitur* | Identified with *Histories* IV.6, where the order is *cupido gloriae* |
 | §332 | "There has perhaps been", "my poor arguments" | *Es hat wohl*, *auch meine schlechten Argumente* | Hedge marked; "even my bad arguments" noted |
-| §333 | Spinoza's Latin; "I believe" | same; *ich meine* | Identified; hedges marked where *vielleicht* |
+| §333 | Spinoza's Latin; "I believe" | same; *ich meine* | Identified as *Tractatus Politicus* I, §4; hedges marked where *vielleicht* |
 | §335 | "like a woman who loves him who commands", "become what we are", "honesty" | *wie ein Weib, das Den liebt, der befiehlt*, *Die werden, die wir sind*, *Redlichkeit* | Stated plainly; noted |
 | §337 | "Humanity" (in quotation marks) | *"Menschlichkeit"* | The quotation marks are Nietzsche's |
 | §338 | "religion of compassion", "Live in concealment", "fellowship in joy" | *Religion des Mitleidens*, *Lebe im Verborgenen*, *Mitfreude* | Noted |
@@ -79,13 +79,17 @@ All three are unlisted, carry `noindex,follow`, and show the "Review draft" noti
 
 **Outside sources.**
 - **§342 and *Zarathustra*.** The German of §342 was compared word by word with the opening of the *Zarathustra* Prologue (Project Gutenberg #7205). They agree at 97% of words. Apart from spelling, the differences are *den See Urmi und gieng* → *den See seiner Heimat und ging* and one dropped *wieder*. The page says "nearly word for word" and names the lake.
-- **§333 Spinoza.** The sentence *Sedulo curavi, humanas actiones non ridere, non lugere, neque detestari, sed intelligere* was confirmed as the *Tractatus Politicus* through a secondary citation (Language Log). The chapter and section were **not** verified, and the page gives none.
+- **§333 Spinoza.** Verified in the primary Latin text of the *Tractatus Politicus*, chapter I, paragraph 4 ([ILIESI edition](https://www.iliesi.cnr.it/spinoza/tp/tp_xhtml.html), after Gebhardt, *Opera* III, p. 274): *sedulo curavi, humanas actiones non ridere, non lugere, neque detestari, sed intelligere*. The page cites the chapter and paragraph and links the text. Nietzsche's version drops the object, *humanas actiones*.
 - **§330 Tacitus.** Checked against The Latin Library's text of *Histories* IV.6: *quando etiam sapientibus cupido gloriae novissima exuitur*.
 - **§340 *Phaedo* and Jowett.** The last words and Jowett's introductory comment were checked in Jowett's translation (Project Gutenberg #1658). Jowett calls the request "a puzzle to after ages". He reads it chiefly as an ironic remembrance of a trifling religious duty, but allows that Socrates may have meant he "was now restored to health". The page paraphrases this.
 - **§340 and *Twilight*.** *Twilight of the Idols*, "The Problem of Socrates", in the free translation (Project Gutenberg #52263), gives the last words as "To live—means to be ill a long while". Common's added "long" in §340 may reflect that later formulation. This is a possibility only, and the page does not assert it.
 - **§338 Epicurus.** *Lathe biōsas* is identified as the guide's; no edition was checked.
 - **§339 and §342, 1887 preface.** Preface §4, "Perhaps truth is a woman…", and §1, "Incipit tragœdia … incipit parodia", were checked in the free edition. The page presents both as the 1887 retrospective.
 - **Dates.** *Zarathustra* is dated 1883 and *Beyond Good and Evil* 1886, as elsewhere on the site.
+
+## Review follow-up (2026-09-27)
+
+- **§333 (station 24).** The page now cites Spinoza's *Tractatus Politicus* chapter I, paragraph 4. It quotes the full Latin clause and links the primary Latin text (ILIESI, after Gebhardt III, p. 274). The statement that the chapter was unverified is removed, here and on the page.
 
 ## Checks
 
@@ -110,7 +114,6 @@ All three are unlisted, carry `noindex,follow`, and show the "Review draft" noti
   - §340's "long sickness";
   - §341's title.
 - **KGW.** Not available here. Confirm the German readings above, especially §324's *wahrer* and §340's *eine Krankheit*.
-- **Spinoza.** Confirm the chapter and section of the *Tractatus Politicus* before publication.
 - **Devices.** Not checked on a physical phone, and text-fragment highlighting not checked.
 - **Reading times.** None has been measured.
 - **Drafting status.**
