@@ -101,7 +101,7 @@ The hub, the ten-session introduction, its Next links, and `start.html` are unch
 - **§99 and Book III's judgments of Christianity.** Station 11 deliberately leaves open how to read "their greatest exploit". The stations on Book III's sections about Christianity should return to it.
 - **Devices.** Not checked on a physical phone, and text-fragment highlighting not checked.
 - **Reading times.** None has been measured.
-- **Batch-3 footer dates.** They still say September 25, although those pages were drafted on September 26 (see batch 4's follow-up).
+- **Batch-3 footer dates.** They still say September 25, although those pages were drafted on September 26 (see batch 4's follow-up). Corrected on PR #82; see `GS_FULL_TEXT_BATCH_11.md`.
 - **Drafting status.**
   - Drafted: stations 1–13, 17–19, and 29 (17 of 35).
   - Not yet drafted: stations 14–16, 20–28, and 30–35.

@@ -41,13 +41,12 @@ All three are unlisted, carry `noindex,follow`, and show the "Review draft" noti
 - §382: "more courageous perhaps than prudent," "it would seem" (*will es uns scheinen*), and "perhaps the great seriousness only commences";
 - Preface §1: "Perhaps more than one preface" and "has perhaps already come" (*vielleicht*);
 - Preface §2: "perhaps the sickly thinkers preponderate" (*vielleicht*), and the physician passage, framed as a question the author asks himself and a suspicion, with *sagen wir* ("let us say"), which Common renders "namely";
-- Preface §3: "almost tempted to ask" (*fast zu fragen versucht*);
+- Preface §3: "almost tempted to ask" (*fast zu fragen versucht*), and "I doubt whether such pain 'improves' us" (*Ich zweifle*; marked in the review follow-up). The contrasting assertion, "but I know that it deepens us" (*aber ich weiss*), is left unmarked;
 - Preface §4: "Perhaps truth is a woman …" and "Perhaps her name is Baubo" (*Vielleicht*, twice).
 
 Not marked, with reasons:
 - §377's *nicht wahr?* is rhetorical.
 - Preface §1's *wer weiss* is a rhetorical question.
-- Preface §3's "I doubt whether such pain 'improves' us; but I know that it deepens us" is a stated doubt set against a knowledge claim, not a softened claim. The page keeps the two apart. **Flag for review** if the owner wants it marked.
 - §381's "perhaps adventure" and §382's "perhaps should no longer look at them" are hedges, but the pages do not discuss those sentences.
 - The songs are not marked with `?`; they are read for voice.
 
@@ -79,7 +78,7 @@ Not marked, with reasons:
 
 ## Source and translation checks
 
-**Quotations.** Prose quotations are Common's. Verse quotations follow the free edition's translations: Petre for "In the South" and the Mistral song, which the edition credits by footnote; Cohn and Petre jointly for the other twelve songs and the motto. No song is assigned to Cohn alone. No Kaufmann wording is quoted or attributed.
+**Quotations.** Prose quotations are Common's. Verse quotations follow the free edition's translations: Petre for "In the South" and the Mistral song, which the edition credits by footnote; Cohn and Petre jointly for the other twelve songs, as the title page credits the poetry generally. The edition does not identify the title-page motto's individual translator, and station 35 names none. No song is assigned to Cohn alone. No Kaufmann wording is quoted or attributed.
 
 **German text used.** Projekt Gutenberg-DE for Book V §§377–383, the songs, the motto, and the preface. That edition's source text is not identified, and it is not KGW/eKGWB.
 
@@ -158,7 +157,7 @@ These are open and must be settled before any publication. None has been done in
    - Hub placement (scope: after the ten-session introduction, before "If you have 40 minutes"), and the hub list anchors `#full-station-1` … `#full-station-35`.
    - The ten additive return links on the introductory pages. The scope calls for them, but the owner has deferred them.
    - The station 1 ↔ 35 early-preface link.
-3. **Batch-3 footer dates.** Stations 5, 6, 7, and 17 still say "Review draft, September 25, 2026", but they were drafted on September 26 (see batches 4–5). Correct them before publication. More generally, every footer currently says "Review draft, [date]"; publication needs a release wording and date.
+3. **Batch-3 footer dates.** Corrected on this branch in the review follow-up (see below). More generally, every footer currently says "Review draft, [date]"; publication needs a release wording and date.
 4. **Review-draft markings.** Remove the `noindex,follow` meta, the "Review draft" notices, the "(proposed)" station labels, and the "(review draft)" footers. Then regenerate `search-index.json` and `sitemap.xml`.
 5. **Kaufmann comparison.** Not done for any station. Sensitive places in this batch include §377's slavery and race vocabulary, the songs' translations, and Preface §§2–4.
 6. **KGW confirmation** of the German readings (all batches), including the §377 *eitel Macht* reading and "The Fool's Dilemma"'s broken-off word.
@@ -169,6 +168,13 @@ These are open and must be settled before any publication. None has been done in
 
 ## Still open (editorial)
 
-- Preface §3's "I doubt …" is left unmarked (see Marking).
-- §374's *wohl* (batch 10) is still left unmarked.
-- Station 34 marks no hedges and reads the songs for voice; confirm this approach.
+- None outstanding from the owner's review. §374's rhetorical *wohl* (batch 10) stays unmarked, and station 34 reads the songs for voice, both confirmed by the owner.
+
+## Review follow-up (2026-09-27)
+
+The owner's corrections were made on top of this branch, not on earlier branches, so that the stacked draft PRs need no reconciliation.
+
+- **Station 35, motto credit.** The page no longer attributes the motto to Cohn and Petre jointly. It now says that the free edition credits Cohn and Petre for its poetry generally, on the title page, but does not identify the title-page motto's individual translator, and names no translator for it. The Quotations note above is corrected to match.
+- **Station 35, Preface §3.** Nietzsche's doubt that pain "improves" us (*Ich zweifle, ob ein solcher Schmerz "verbessert"*) now carries the route's `?` mark. His contrasting assertion, "but I know that it deepens us" (*aber ich weiss, dass er uns vertieft*), stays unmarked; the page and its answer key say so.
+- **Batch-3 footer dates (stations 5, 6, 7, and 17).** The footers of `gay-science-full-sections-21-23.html`, `-24-40.html`, `-41-56.html`, and `-164-201.html` now say "September 26, 2026". The pages were first committed in `1613fd3`, dated 2026-09-26 07:39 −04:00 (September 26). The old date, September 25, was a leftover from the page template, as batch 4's follow-up recorded. They are corrected here, on #82, rather than on batch 3's branch (PR #74), because a commit on #74 would have to be carried up through every PR stacked above it. Only the date changed. The other pages dated September 25 (stations 1–4, 18, 19, and 29) were first committed on September 25 (`8e3b57e` and `90f50a3`), so their dates are correct.
+- **Unchanged, as instructed:** §374's rhetorical *wohl* stays unmarked; station 34 keeps its approach of reading the songs for their distinct speakers without `?` marks throughout; and the optional station 1 ↔ 35 preface link stays. All reading times remain editorial estimates; no timed trial is required.
