@@ -17,7 +17,7 @@ All three are unlisted, carry `noindex,follow`, and show the "Review draft" noti
 | St. | Assignment | File | Estimate | Design notes |
 | ---: | --- | --- | --- | --- |
 | 14 | Book III §§117–125 | `readings/gay-science-full-sections-117-125.html` | 50–70 min | Suggests a sitting break after §122. Reads §§117–124 as a history of the madman's audience and does not repeat Reading 4's close reading of §125. States plainly §119's type sketch of "those women" (kept distinct from a general statement, as at station 8) and §120's treatment of "Equality of men" as a dogma. Reads §122 as Christianity's own moral scepticism, not a simple attack, with a pointer to §357 (station 29). Marks the Leo X judgment in §123 as the section's reconstruction of an unspoken thought. For §125 it adds the narrator's frame, the §124/§125 echo *zu Schiff gegangen*, and the shift from "we" to "they". The difficulty asks whether the book's own "we" stands in the market-place. |
-| 15 | Book III §§126–143 | `readings/gay-science-full-sections-126-143.html` | 55–75 min | Suggests a sitting break after §134. Asks, for each judgment, who speaks, what kind of claim it is, and what evidence it offers, and says when a section offers none. States §128's contempt for "the many" plainly across religions. Reads §§130–134 as verdicts, correcting §132's "reason" (*Gründe*). For §§135–141 it separates claims about a religious feeling, a God, a founder, and "the Jews" as a people. It states the derogatory generalizations plainly, gives a labelled historical note (1882, organized political antisemitism; §99's charge against Wagner), and offers the prophets and Job as tests, labelled as this guide's. It identifies §141's unattributed quotation. On §143 it warns against reading *Zarathustra* into "supermen" and later political use into "undermen". The difficulty returns to §99's "greatest exploit", as the batch-5 record asked. |
+| 15 | Book III §§126–143 | `readings/gay-science-full-sections-126-143.html` | 55–75 min | Suggests a sitting break after §134. Asks, for each judgment, who speaks, what kind of claim it is, and what evidence it offers, and says when a section offers none. States §128's contempt for "the many" plainly across religions. Reads §§130–134 as verdicts, correcting §132's "reason" (*Gründe*). For §§135–141 it separates claims about a religious feeling, a God, a founder, and "the Jews" as a people. It states the derogatory generalizations plainly, gives a labelled historical note (1882, organized political antisemitism, sourced to the 1880–81 Antisemites' Petition; §99's charge against Wagner), and offers Amos 5:11, 5:24 and Job 9:22–24 as tests, labelled as this guide's and limited to what they can show. It identifies §141's unattributed quotation. On §143 it warns against reading *Zarathustra* into "supermen" and later political use into "undermen". The difficulty returns to §99's "greatest exploit", as the batch-5 record asked. |
 | 16 | Book III §§144–163 | `readings/gay-science-full-sections-144-163.html` | 45–65 min | Suggests a sitting break after §149. Names the assumptions behind the short histories of religion, diet, and nations. States plainly §149's "blood of German barbarians" and "need of slavery", noting that the German does not say whose need. Checks §146's etymology against Ulfilas. Links §151 to §108's shadow, §152 to §114's *Erlebnisse* and §125's madman, and §153 to Horace and to §342's "Incipit Tragœdia". §§154–163 are introduced with the miniature method of stations 17–19. The difficulty sets §143's and §149's praise of individuals against §149's "need of slavery". |
 
 **Marking.** `?` marks only Nietzsche's own hedge, as defined at station 2. In this batch that includes:
@@ -25,7 +25,7 @@ All three are unlisted, carry `noindex,follow`, and show the "Review draft" noti
 - §121: "error might be among the conditions of life" (*könnte*);
 - §134: "Perhaps the modern, European discontentedness" (*Vielleicht*);
 - §139: the closing question (*vielleicht*), which Common prints as an exclamation;
-- §143: "has perhaps been the greatest danger" (*vielleicht*);
+- §143: "has perhaps been hitherto regarded" (*das galt wohl bisher*) and "has perhaps been the greatest danger" (*vielleicht*). Both of the section's large historical judgments are hedged, and both are marked;
 - §149: "perhaps also Empedocles" (*vielleicht*).
 
 ## Checkpoint
@@ -41,6 +41,7 @@ All three are unlisted, carry `noindex,follow`, and show the "Review draft" noti
 - Stations 14 → 15 → 16 link in sequence.
 - Station 16's Continue links to station 17.
 - Station 17's "not yet drafted" note for station 16 is replaced by a link.
+- Station 19's stale statement that station 17 is not yet drafted is removed (review follow-up).
 
 The hub, the ten-session introduction, its Next links, and `start.html` are unchanged.
 
@@ -69,6 +70,7 @@ The hub, the ten-session introduction, its Next links, and `start.html` are unch
 | §139 | "Have they perhaps become Jews!" | *Sind sie es vielleicht geworden?* | The German is a hedged question; marked `?` |
 | §140 | "being a Jew" | *als Jude* | Common makes the causal reading explicit; the German is terser but allows it. Stated plainly either way |
 | §141 | "If I love thee, what does it concern thee?" | *"Wenn ich dich liebe, was geht's dich an?"* | Unattributed in both; identified as adapted from Goethe (below) |
+| §143 | "has perhaps been hitherto regarded", "has perhaps been the greatest danger" | *das galt wohl bisher*, *war vielleicht* | Both marked `?` (added in review follow-up) |
 | §143 | "supermen", "undermen" | *Uebermenschen*, *Untermenschen* | *Uebermenschen* occurs nowhere else in the book's German text used here. The page warns against reading *Zarathustra* (1883) or later political use back into either word |
 | §146 | "It might still be possible" | *Es wäre immer noch möglich* | A hope, not a prediction |
 | §147 | "savage tribes" | *wilde Völkerschaften* | The colonial vocabulary of the time; noted |
@@ -83,7 +85,15 @@ The hub, the ten-session introduction, its Next links, and `start.html` are unch
 - **§146.** Ulfilas's Gothic Galatians 2:14 was checked in the Wulfila Project text: *þiudisko* renders *ethnikōs* and *þiudos* renders *ta ethnē*. The page says that this supports a link to "the nations", not that *Deutsche* originally meant "heathen". The claim about the Tartars was not checked, and the page says so.
 - **§153.** Horace, *Ars Poetica* (five acts; no god unless the knot is worthy of a deliverer), was checked against the Project Gutenberg Latin text (ebook #9175).
 - **§129.** The saying attributed to Luther was not traced, and the page says so.
-- **Historical note (station 15).** The page says that the book appeared in 1882, while organized political antisemitism was gaining ground in Germany. The note is labelled as the guide's context, and no specific event or source is cited for it.
+- **Historical note (station 15).** The note is labelled as the guide's context. It supports its claim about organized political antisemitism with a direct source: the [Antisemites' Petition of 1880–81](https://germanhistorydocs.org/en/forging-an-empire-bismarckian-germany-1866-1890/ghdi:document-1801) in German History in Documents and Images (English translation credited there to Richard S. Levy, 1991). The page reports what the GHDI page states: the demands to limit Jewish immigration and exclude Jews from positions of authority, about 265,000 signatures, and presentation to Bismarck in April 1881. It says that the book does not mention the petition and does not claim that §§135–141 respond to it. The GHDI page also names Bernhard Förster among the organizers. Förster later married Nietzsche's sister (1885), but the page leaves this out, since it would suggest a connection to the 1882 text that has not been established.
+- **Tests of §135 (station 15).** Amos 5:11 and 5:24, and Job 9:22–24, were checked in the King James Version (Project Gutenberg ebook #10) and are paraphrased, not quoted. The page limits what they show. Amos tests the suggestion that concern for harm done to people is absent from the tradition. Job complicates a broad claim that the tradition explains all suffering as punishment or passes over undeserved suffering. Neither disproves §135's narrower comparison with Greek tragedy as an art, and the page says so.
+
+## Review follow-up (2026-09-26)
+
+- **§143 (station 15).** The page had said the individual ideal "was long regarded" as monstrous, and marked only the later "perhaps". It now quotes Common's "has perhaps been hitherto regarded", notes the German *das galt wohl bisher*, and marks both hedges `?`.
+- **Historical note (station 15).** The note is kept and now cites the Antisemites' Petition of 1880–81 (GHDI) directly, without implying that the book responds to it.
+- **Tests of §135 (station 15).** "The prophets, or the Book of Job" is narrowed to Amos 5:11 and 5:24, and Job 9:22–24. The page states what each can test and says that neither disproves the narrower comparison with Greek tragedy as an art.
+- **Station 19.** The stale statement that station 17 is not yet drafted is removed.
 
 ## Checks
 
@@ -107,8 +117,7 @@ The hub, the ten-session introduction, its Next links, and `start.html` are unch
   - §143's "supermen" and "undermen";
   - §152's "events".
 - **KGW.** The German readings above should be confirmed against KGW, especially *verjüdeln* (§135) and *als Jude* (§140).
-- **Editorial judgment on station 15.** Review the historical note and the suggested tests (the prophets, Job) for balance and placement.
-- **Station 19's stale note.** Station 19 still says that station 17 "is not yet drafted in this review", although batch 3 drafted it. It is outside this package and is unchanged.
+- **Editorial judgment on station 15.** The sourced historical note and the narrowed tests (Amos, Job) are ready for editorial review of balance and placement.
 - **Devices.** Not checked on a physical phone, and text-fragment highlighting not checked.
 - **Reading times.** None has been measured.
 - **Drafting status.**
