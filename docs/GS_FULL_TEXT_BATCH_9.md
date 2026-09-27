@@ -29,7 +29,7 @@ All three are unlisted, carry `noindex,follow`, and show the "Review draft" noti
 | St. | File | Estimate | Design notes |
 | ---: | --- | --- | --- |
 | 26 | `readings/gay-science-full-sections-343-347.html` | 75–100 min | Opens with a bold notice, "This station begins the 1887 addition". The notice names what the expanded edition added and dates Book V after *Zarathustra* and *Beyond Good and Evil*, alongside the *Genealogy*. Presents the Turenne epigraph in French, with a translation labelled as the guide's. Reads §§343–344 briefly, leaving Reading 8's full analysis to that lesson. It contrasts §343's dawn with §125's madman, and notes *unsre längste Lüge* and the Greek πολύτροποι. Gives most of its time to §345 (its origin-and-worth rule; the aside on "high-spirited women", *Weiblein*, stated plainly; Paul Rée given as a biographical reading only), to §346's *Nihilismus* question, and to §347's hedge followed by a flat assertion. The difficulty asks whether §347's free spirit can do without the belief that §344 finds under science. |
-| 27 | `readings/gay-science-full-sections-348-353.html` | 55–75 min | Tests each explanation by descent, class, or nation against §345. States plainly §348's passage on Jewish scholars: its praise, its explanation by trade and descent, and the stereotype "the crooked nose". Notes that "the past of his race" renders *Volk*. States plainly §349's "consumptive Spinoza" and "English Darwinism", and §350's ranking of North and South. Notes that §349 is the book's only "will to power" (*Willen zur Macht*), warns against reading the posthumous notebook compilation into it, and notes that "the will to live" renders *der Wille des Lebens*. Notes §352's aside about women and its translation choice. Sets §353 against §319. The difficulty asks whether an origin settles a worth. |
+| 27 | `readings/gay-science-full-sections-348-353.html` | 55–75 min | Tests each explanation by descent, class, or nation against §345. States plainly §348's passage on Jewish scholars: its praise, its explanation by trade and descent, and the stereotype "the crooked nose". Notes that "the past of his race" renders *Volk*. States plainly §349's "consumptive Spinoza" and "English Darwinism", and §350's ranking of North and South. Notes that §349 is the book's only "will to power" (*Willen zur Macht*), warns against reading the posthumous notebook compilation into it, and notes that "the will to live" renders *der Wille des Lebens*. States §352's aside about women plainly and leaves open whether it spares them or judges them more harshly. Sets §353 against §319. The difficulty asks whether an origin settles a worth. |
 | 28 | `readings/gay-science-full-sections-354-356.html` | 60–80 min | Reads §354 for communication and command, "those commanding and those obeying", and marks its hedges (*vielleicht ausschweifenden Vermuthung*). Reading 9 keeps its full analysis. Gives equal time to §355 (knowledge as the familiar; its questions marked as questions) and §356 (roles, actors, a society in the old sense, *hölzernes Eisen*). The difficulty asks whether the book can communicate what §354 says consciousness cannot. |
 
 **Marking.** `?` marks only Nietzsche's own hedge, as defined at station 2. In this batch that includes:
@@ -37,7 +37,7 @@ All three are unlisted, carry `noindex,follow`, and show the "Review draft" noti
 - §344: "might be a concealed Will to Death" (*könnte*);
 - §347: "perhaps it could be inferred" (*Woraus vielleicht abzunehmen wäre*), followed by the unhedged "And in truth it has been so" (*Und so ist es in Wahrheit gewesen*), which is marked H;
 - §349: "probably" (*wahrscheinlich*);
-- §351: "probably" (*wahrscheinlich*). Common's later "perhaps" in §351 has no *vielleicht* in the German text used here and is not marked;
+- §351: "probably" (*wahrscheinlich*) and "perhaps be the latest to acknowledge" (*wohl*). Both are marked;
 - §354: "its perhaps extravagant supposition" (*vielleicht ausschweifenden Vermuthung*) and "perhaps precisely the most fatal stupidity" (*vielleicht*);
 - §356: "perhaps the most honest" (*vielleicht*).
 
@@ -74,8 +74,8 @@ All three are unlisted, carry `noindex,follow`, and show the "Review draft" noti
 | §348 | "the past of his race", "race and class antipathy", "the crooked nose", "déraisonnable race" | *der Vergangenheit seines Volks*, *Rassen- und Classen-Widerwille*, *die krummen Nasen*, *deraisonnable Rasse* | **"Race" renders *Volk* in the first phrase.** Noted; stated plainly |
 | §349 | "the consumptive Spinoza", "the will to power, which is just the will to live" | *der schwindsüchtige Spinoza*, *dem Willen zur Macht, der eben der Wille des Lebens ist* | The book's only "will to power"; *Wille des Lebens* is not *Wille zum Leben* |
 | §350 | "most certainly", "the sheep, the ass, the goose" | *ganz gewiss*, *dem Schaf, dem Esel, der Gans* | Flat claim noted |
-| §351 | "probably", "perhaps" | *wahrscheinlich*; no *vielleicht* | Only the first is marked |
-| §352 | "(and by no means of European females!)" | *(und nicht einmal von den Europäerinnen!)* | **Literally "and not even of the European women"; Common chooses one reading.** Noted |
+| §351 | "probably", "perhaps" | *wahrscheinlich*; *Auch werden wohl sie* | Both marked `?` (corrected in review follow-up) |
+| §352 | "(and by no means of European females!)" | *(und nicht einmal von den Europäerinnen!)* | **Literally "and not even of the European women".** The aside leaves women out of the example but does not settle whether it spares them or judges them more harshly; neither does Common's wording. Left open on the page |
 | §353 | "Moravians" | *Herrenhuter* | Noted |
 | §354 | "perhaps extravagant supposition", "conjecture", "perspectivism" | *vielleicht ausschweifenden Vermuthung*, *Vermuthung*, *Perspektivismus* | Hedges marked |
 | §356 | "male Europeans", "perhaps the most honest", "wooden iron" | *männlichen Europäern*, *vielleicht ehrlichste*, *hölzernem Eisen* | Noted |
@@ -88,6 +88,11 @@ All three are unlisted, carry `noindex,follow`, and show the "Review draft" noti
 - The dates of *Zarathustra* (1883–85), *Beyond Good and Evil* (1886), and the *Genealogy* (1887), consistent with station 29 and the rest of the site.
 
 The Turenne anecdote's source was not checked, and the page says so.
+
+## Review follow-up (2026-09-27)
+
+- **§351 (station 27).** Common's second "perhaps" corresponds to the German *wohl* (*Auch werden wohl sie gerade am spätesten daran glauben lernen*). It is Nietzsche's own hedge and is now marked `?`, alongside the earlier "probably" (*wahrscheinlich*). The earlier statement that §351 hedges only once was wrong.
+- **§352 (station 27).** The page no longer says that Common's wording chooses the reading that spares women. The aside excludes women from the example but does not settle whether it judges them more or less harshly, and the page and this record now leave that open.
 
 ## Review follow-up to batch 8 (PR #79, `2d2f427`)
 
@@ -115,7 +120,7 @@ The Turenne anecdote's source was not checked, and the page says so.
   - §349's "will to live";
   - §352's aside;
   - §354's "perspectivism".
-- **KGW.** Not available here. Confirm the readings above, including the Greek of §344 (garbled in the German text used) and whether §351 has a second hedge.
+- **KGW.** Not available here. Confirm the readings above, including the Greek of §344 (garbled in the German text used).
 - **Devices.** Not checked on a physical phone, and text-fragment highlighting not checked.
 - **Reading times.** None has been measured.
 - **Drafting status.**
