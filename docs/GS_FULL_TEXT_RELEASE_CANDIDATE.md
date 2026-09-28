@@ -80,11 +80,17 @@ This branch shows the complete 35-station route as it would appear at publicatio
 | Canonical and indexing | Every route page, the hub, `start.html`, and the ten introductory lessons have self-canonical URLs; none carries `noindex` |
 | Layout at 320 × 640 and 390 × 844 (touch emulation) and 1440 × 900 | 35 stations, `start.html`, and the other nine introductory lessons: no horizontal overflow, every `<details>` toggles, no JavaScript errors, all internal links return 200. The hub: no overflow, all 35 `#full-station-N` anchors present, no missing in-page fragments, no JavaScript errors. |
 
-## Unverified comparisons (Kaufmann and KGW)
+## Independent release review (2026-09-27)
 
-Kaufmann's translation and the KGW/eKGWB critical text were not available in this environment. No comparison with either has been made, and none should be read as passed. Quotations follow Common and the free edition's verse translators. German readings follow the Projekt Gutenberg-DE text, whose source edition is not identified. The consequential places are these.
+The candidate branch at `a509cd7` was compared with `main` at `66b55f6`: its combined diff is scoped to this route, its records, nine introductory return links, and generated search/sitemap files. An independent static check found 35 correctly ordered station links with reciprocal navigation, the nine return links pointing to the stations after their checkpoints, no return link on Reading 3, no draft/noindex marker on a route page, and no broken local link or fragment among 12,182 links on 203 HTML pages. The index contains 226 entries and the sitemap 202 URLs. `build-index.py`, the two JavaScript syntax checks, and `git diff --check` passed. This review did not repeat the earlier 2,130-quotation check or render the protected preview.
 
-**Where the route's interpretation turns on a German reading that needs KGW confirmation:**
+**Verdict:** the combined route and navigation pass the independent static review. Publication remains on hold for the owner's candidate review, preview/physical-device checks, and a decision about the uncompleted Kaufmann comparison and fuller German collation. The two exact German transcription corrections below are included on this draft branch; no part of the stack has merged.
+
+## Targeted eKGWB checks and remaining comparisons
+
+Kaufmann's translation remains unavailable: no comparison with it has been made. In the final review, a targeted comparison with the eKGWB critical German text confirmed the wording and context at §§135, 140, 143, 276, 285, 324, 340, 344 (the Greek), 348–349, 351–352, 361, 373, 375, and 377; Preface §§2–3; the 1882 and 1887 mottos; and selected lines in the appended songs. This is a bounded check, not a full critical-text collation. It corrected two exact German transcriptions: station 35 now has *eignen* rather than *eigenen* in the 1887 motto, and station 34 has *besch…* rather than *besch……* in “The Fool's Dilemma.” Quotations still follow Common and the free edition's verse translators. German readings elsewhere follow the Projekt Gutenberg-DE text, whose source edition is not identified.
+
+**German points prioritized for checking (a full collation remains open):**
 - §135's *verjüdeln* and §140's *als Jude* (station 15);
 - §143's hedges and "supermen/undermen" (station 15);
 - §276's *irgendwann einmal*, and the claim that *ewige Wiederkunft* occurs only in §285 within Books I–IV (station 20);
@@ -100,6 +106,8 @@ Kaufmann's translation and the KGW/eKGWB critical text were not available in thi
 - the songs' German, especially "The Fool's Dilemma"'s broken-off word, "Sils-Maria"'s *Freundin*, and the Mistral song's *Fröhlich – unsre Wissenschaft* and *Huren* (station 34);
 - the motto's caption *Ueber meiner Hausthür*, and the Emerson motto labelled "1882" (station 35);
 - Preface §2's *sagen wir* and §3's *Ich zweifle* (station 35).
+
+The songs beyond the sampled lines and German readings outside this priority list still need direct critical-text review. These checks do not establish agreement with Kaufmann's preferred translation.
 
 **Where Kaufmann's rendering could change what a reader sees:**
 - The women passages: §§24, 59–75, 339, 345, 352, 361–363, 368, and Preface §§3–4.
@@ -118,7 +126,7 @@ The Vercel preview for each push builds successfully (commit status "success"), 
 
 Every branch in the stack is based on the one below it, and `main` (`66b55f6`) is an ancestor of all of them. When the owner approves publication, use one of two orders. Do not squash or rebase individual stacked PRs, because either would force every PR above them to be reconciled.
 
-**Recommended: merge bottom-up, with merge commits.** After each merge, retarget the next PR's base to `main` before merging it (GitHub does this automatically if the merged head branch is deleted).
+**Archival alternative: merge bottom-up, with merge commits.** After each merge, retarget the next PR's base to `main` before merging it (GitHub does this automatically if the merged head branch is deleted).
 
 1. #72, phase 1 (`claude/gay-science-full-text-phase-1`)
 2. #73, batch 2
@@ -135,12 +143,12 @@ Every branch in the stack is based on the one below it, and `main` (`66b55f6`) i
 
 Until step 12, every step leaves `main` with unlisted `noindex` review drafts that the hub does not advertise. The route goes public only with step 12, after which the site should be deployed and the live pages checked.
 
-**Alternative: one merge.** Retarget only the release-candidate PR to `main` and merge it. Its branch contains every commit in the stack. Then close #72–#82 as superseded, noting the merge commit. This publishes the same result in one step, but the individual review PRs are closed rather than merged.
+**Recommended for publication: one merge.** Retarget only the release-candidate PR to `main` and merge it. Its branch contains every commit in the stack. Then close #72–#82 as superseded, noting the merge commit. This publishes the same result in one step; the individual review PRs are closed rather than merged.
 
 ## Still open before publication
 
 1. The owner's publication review of this candidate: hub wording, the return links, the "Revised" date, and the route list's glosses.
-2. The Kaufmann and KGW comparisons above.
+2. The Kaufmann comparison and any German collation beyond the targeted eKGWB checks above.
 3. A physical-phone check, and a check that text-fragment highlighting works in a real browser. Headless Chromium applies only the page-anchor fallback.
 4. Opening the protected preview (requires Vercel sign-in).
 5. Measured reading times: none. The owner has ruled that no timed trial is required.
