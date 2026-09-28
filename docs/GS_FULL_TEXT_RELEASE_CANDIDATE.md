@@ -15,7 +15,7 @@ This branch shows the complete 35-station route as it would appear at publicatio
 **Hub (`works/gay-science.html`).**
 - The "Optional full-text route" section (`#full-text-route`) sits after the ten-session "Guided reading path" and before "If you have 40 minutes", as the scope specified.
 - It explains that the route assigns every part once, and keeps the two publication stages apart: stations 1–25 cover 1882, stations 26–35 cover 1887.
-- It explains why the preface comes last, and offers the optional printed-order start at station 35.
+- It explains why the preface comes last, and offers the optional printed-order start at station 35: read the preface, return to station 1, and save station 35's comparisons and final writing task until after station 34.
 - It gives the total editorial estimate: 33–45 hours from the stations' own ranges (1,995–2,705 minutes), plus about 9–12 hours if every checkpoint is taken.
 - It explains how navigation and checkpoints work, and that the route does not track progress.
 - It names the editions and translators. Petre is credited only where the edition credits her.

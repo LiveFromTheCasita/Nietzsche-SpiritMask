@@ -245,7 +245,7 @@ The WP-00–WP-20 program above is complete. It covered the ten existing book gu
 - Release: use scoped editorial PRs, source/translation review, generated-file checks, and changed-page browser inspection. Record the outcome in `FOUR_MISSING_GUIDES_REVIEW.md` and update this status after review and merge.
 
 ### The Gay Science optional full-text route
-- Status: DRAFTED, AWAITING COMPLETE-ROUTE EDITORIAL REVIEW. All 35 of 35 stations are drafted in stacked draft PRs (#72–#81 and batch 11). The route is not published, not merged, not on the hub, and not complete as a release.
+- Status: RELEASE CANDIDATE, AWAITING OWNER PUBLICATION REVIEW. All 35 of 35 stations are drafted in stacked draft PRs #72–#82. Draft PR #83 adds the hub route list, introductory return links, indexing, and final release presentation. No PR in the stack is merged; the route is not on the public hub or deployed. See [`GS_FULL_TEXT_RELEASE_CANDIDATE.md`](GS_FULL_TEXT_RELEASE_CANDIDATE.md).
 - Scope proposal: merged documentation-only through PR #58 on 2026-09-24 (`docs/GS_FULL_TEXT_ROUTE_SCOPE.md`). No route or lessons were published.
 - Owner decision (2026-09-25): the owner lifted the priority hold for a bounded first phase only, after the four guide repairs. This does not approve publication of the 35-station course without review.
 - Phase 1 package:
