@@ -1,8 +1,10 @@
-# The Gay Science full-text route: release candidate
+# The Gay Science full-text route: release and closeout
 
-**Status (2026-09-27):** This is a release candidate for the owner's publication review. It is a draft PR and is not merged, and nothing is deployed.
+**Published 2026-09-28:** The owner approved the desktop preview of the hub and station 35. PR #83 was retargeted to `main` and merged at `66642e6914a01637e219e0db0ca2408b41a1e5fa`, including the full 25-commit stack. PRs #72–#82 were closed as superseded with links to #83. Vercel reported production status `success` for the merge commit. The public hub lists all 35 stations and the printed-order preface option; public stations 1 and 35 opened through hub links. The site was checked in a text browser, and the owner inspected the protected desktop preview. No physical-phone or real-browser text-fragment highlighting pass is claimed.
 
-This branch shows the complete 35-station route as it would appear at publication. It is stacked on the corrected batch 11 (PR #82, `f63e05a`). Everything below applies only if the owner approves publication.
+The Kaufmann comparison and full German critical-text collation remain editorial follow-ups. Targeted eKGWB checks and two German transcription corrections were made before merge, as recorded below. The pages disclose the absent Kaufmann comparison. Reading times remain editorial estimates. The September 27 page footer date records the last editorial revision; publication occurred September 28.
+
+The sections below retain the pre-release review record, including the draft-state checklist and proposed merge alternatives, as history. At the time of that review, the candidate branch was stacked on corrected batch 11 (PR #82, `f63e05a`).
 
 | Item | Value |
 | --- | --- |
@@ -145,7 +147,7 @@ Until step 12, every step leaves `main` with unlisted `noindex` review drafts th
 
 **Recommended for publication: one merge.** Retarget only the release-candidate PR to `main` and merge it. Its branch contains every commit in the stack. Then close #72–#82 as superseded, noting the merge commit. This publishes the same result in one step; the individual review PRs are closed rather than merged.
 
-## Still open before publication
+## Pre-release checklist (historical; current disposition above)
 
 1. The owner's publication review of this candidate: hub wording, the return links, the "Revised" date, and the route list's glosses.
 2. The Kaufmann comparison and any German collation beyond the targeted eKGWB checks above.
